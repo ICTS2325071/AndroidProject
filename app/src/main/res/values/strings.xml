@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TeamateApplication</string>
+
+    <string name="teamate_title">TEAMATE</string>
+
+    <string name="teamate_subtitle">Tap to continue</string>
+</resources>
