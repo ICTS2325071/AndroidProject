@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- res/drawable/top_border.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="@android:color/transparent"/> <!-- Sfondo trasparente -->
+        <stroke android:width="2dp" android:color="#FF0000" /> <!-- Colore e larghezza del bordo -->
+        <padding
+            android:top="2dp" />
+    </shape>
+
+
+</selector>

@@ -4,4 +4,28 @@
     <string name="teamate_title">TEAMATE</string>
 
     <string name="teamate_subtitle">Tap to continue</string>
+
+    <string name="string_welcome">Welcome</string>
+
+    <string name="string_email">E-mail:</string>
+
+    <string name="string_password">Password:</string>
+
+    <string name="string_edit_password">Hai dimenticato la password? Recupera</string>
+
+    <string name="string_login">Accedi</string>
+
+    <string name="string_errore1">Errore: devi riempire tutti i campi!</string>
+
+    <string name="string_errore2">Errore: username o password non corretti, riprova!</string>
+
+    <string name="string_successo">Successo: il login è avvenuto con successo!</string>
+
+    <string name="string_nome">Inserisci il tuo nome</string>
+
+    <string name="string_cognome">Inserisci il tuo cognome</string>
+
+    <string name="string_avanti">Avanti</string>
+
+    <string name="string_home">HOME</string>
 </resources>
