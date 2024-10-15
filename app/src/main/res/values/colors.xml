@@ -6,4 +6,5 @@
     <color name="light_blue">#03C7F9</color>
     <color name="medium_high_blue">#2868E0</color>
     <color name="medium_low_blue">#43A7DD</color>
+    <color name="opacity_blue">#679AEC</color>
 </resources>

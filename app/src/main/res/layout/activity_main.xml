@@ -9,8 +9,8 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageviewLogo"
-        style="@style/imageView_logo"
+        android:id="@+id/imageview_logo"
+        style="@style/CustomImageViewLogo"
         android:layout_width="200sp"
         android:layout_height="200sp"
         android:layout_marginTop="100dp"
@@ -19,8 +19,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewTeamate"
-        style="@style/textView_title"
+        android:id="@+id/textView_teamate"
+        style="@style/CustomTextViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="330dp"
@@ -29,8 +29,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewSubtitle"
-        style="@style/textView_subTitle"
+        android:id="@+id/textView_subtitle"
+        style="@style/CustomTextViewSubTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300dp"

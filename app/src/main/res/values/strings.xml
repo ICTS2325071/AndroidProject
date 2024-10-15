@@ -27,5 +27,9 @@
 
     <string name="string_avanti">Avanti</string>
 
-    <string name="string_home">HOME</string>
+    <string name="string_home_title">HOME</string>
+
+    <string name="string_statistics">STATISTICS</string>
+
+    <string name="string_home">Home</string>
 </resources>
