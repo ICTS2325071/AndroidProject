@@ -33,5 +33,9 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:background">@color/dark_blue</item>
     </style>
+
+    <style name="button_statistics">
+        <item name="android:backgroundTint">@color/med</item>
+    </style>
     
 </resources>
