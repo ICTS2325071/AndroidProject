@@ -32,4 +32,10 @@
     <string name="string_statistics">STATISTICS</string>
 
     <string name="string_home">Home</string>
+
+    <string name="string_favourites">Favourites</string>
+
+    <string name="string_settings">Settings</string>
+
+    <string name="string_title_scrollView">Breaking news</string>
 </resources>

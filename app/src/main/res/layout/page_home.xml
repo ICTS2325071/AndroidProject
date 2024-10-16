@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/medium_high_blue">
@@ -22,11 +23,43 @@
         android:id="@+id/button_statistics"
         style="@style/CustomButtonStatistics"
         android:layout_width="348sp"
-        android:layout_height="51sp"
-        android:layout_marginTop="100dp"
+        android:layout_height="75sp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_home" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        style="@style/CustomHorizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="329sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_title_image"
+        style="@style/CustomFireImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/horizontalScrollView"
+        app:layout_constraintTop_toTopOf="@+id/horizontalScrollView" />
+
+    <TextView
+        android:id="@+id/textView_title_scrollView"
+        style="@style/CustomTextViewScrollView"
+        android:layout_width="257sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_title_image"
+        app:layout_constraintTop_toTopOf="@+id/horizontalScrollView" />
 
     <TextView
         android:id="@+id/textView_menu"
@@ -43,27 +76,54 @@
     <Button
         android:id="@+id/button_menu_home"
         style="@style/CustomButtonMenuHome"
-        android:layout_width="46sp"
-        android:layout_height="57sp"
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:layout_marginStart="5dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
-        app:layout_constraintStart_toStartOf="@+id/textView_menu"
-        app:layout_constraintTop_toTopOf="@+id/textView_menu" />
+        app:layout_constraintStart_toStartOf="@+id/textView_menu" />
+
+    <TextView
+        android:id="@+id/textView_home_image"
+        style="@style/CustomHomeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/button_menu_home"
+        app:layout_constraintStart_toStartOf="@+id/button_menu_home"
+        app:layout_constraintTop_toTopOf="@+id/button_menu_home" />
 
     <Button
         android:id="@+id/button_menu_favourites"
-        android:layout_width="46sp"
-        android:layout_height="57sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
-        app:layout_constraintEnd_toStartOf="@+id/button_menu_settings"
-        app:layout_constraintStart_toEndOf="@+id/button_menu_home"
-        app:layout_constraintTop_toTopOf="@+id/textView_menu" />
-
-    <Button
-        android:id="@+id/button_menu_settings"
-        android:layout_width="46sp"
+        style="@style/CustomButtonMenuFavourites"
+        android:layout_width="wrap_content"
         android:layout_height="57sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
         app:layout_constraintEnd_toEndOf="@+id/textView_menu"
-        app:layout_constraintTop_toTopOf="@+id/textView_menu" />
+        app:layout_constraintStart_toStartOf="@+id/textView_menu" />
+
+    <TextView
+        android:id="@+id/textView_favourites_image"
+        style="@style/CustomStarImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/button_menu_favourites"
+        app:layout_constraintStart_toStartOf="@+id/button_menu_favourites"
+        app:layout_constraintTop_toTopOf="@+id/button_menu_favourites" />
+
+    <Button
+        android:id="@+id/button_menu_settings"
+        style="@style/CustomButtonMenuSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="57sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
+        app:layout_constraintEnd_toEndOf="@+id/textView_menu" />
+
+    <TextView
+        android:id="@+id/textView_settings_image"
+        style="@style/CustomSettingsImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/button_menu_settings"
+        app:layout_constraintStart_toStartOf="@+id/button_menu_settings"
+        app:layout_constraintTop_toTopOf="@+id/button_menu_settings" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
