@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/medium_high_blue">
+
+    <TextView
+        android:id="@+id/textViewLoginTitle"
+        style="@style/textView_HomeLogin"
+        android:layout_width="374sp"
+        android:layout_height="75sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bottomBackground"
+        style="@style/CustomTextViewLogin"
+        android:layout_width="0dp"
+        android:layout_height="520sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewtitlelogin"
+        style="@style/textView_LoginWith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottomBackground" />
+
+    <Button
+        android:id="@+id/button_one"
+        style="@style/CustomButtonEmail"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtitlelogin" />
+
+    <TextView
+        android:id="@+id/button_img"
+        style="@style/CustomButtonImg"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_one"
+        app:layout_constraintStart_toStartOf="@+id/button_one"
+        app:layout_constraintTop_toTopOf="@+id/button_one" />
+
+    <Button
+        android:id="@+id/button_apple"
+        style="@style/CustomButtonApple"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_one" />
+
+    <TextView
+        android:id="@+id/button_img2"
+        style="@style/CustomButtonImg2"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_apple"
+        app:layout_constraintStart_toStartOf="@+id/button_apple"
+        app:layout_constraintTop_toTopOf="@+id/button_apple" />
+
+    <Button
+        android:id="@+id/button_facebook"
+        style="@style/CustomButtonFacebook"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_apple" />
+
+
+    <TextView
+        android:id="@+id/button_img3"
+        style="@style/CustomButtonImg3"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_facebook"
+        app:layout_constraintStart_toStartOf="@+id/button_facebook"
+        app:layout_constraintTop_toTopOf="@+id/button_facebook" />
+
+    <Button
+        android:id="@+id/button_google"
+        style="@style/CustomButtonGoogle"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_facebook" />
+
+    <TextView
+        android:id="@+id/button_img4"
+        style="@style/CustomButtonImg4"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_google"
+        app:layout_constraintStart_toStartOf="@+id/button_google"
+        app:layout_constraintTop_toTopOf="@+id/button_google" />
+
+    <TextView
+        android:id="@+id/textViewAccount"
+        style="@style/textView_last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_google" />
+
+    <TextView
+        android:id="@+id/textViewRegistrati"
+        style="@style/textView_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewAccount"
+        app:layout_constraintTop_toBottomOf="@+id/button_google" />
+    "
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

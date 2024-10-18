@@ -107,4 +107,107 @@
         <item name="android:textSize">11sp</item>
         <item name="android:textAlignment">center</item>
     </style>
+
+    //posse
+
+    <style name="imageView_logo">
+        <item name="android:background">@drawable/img</item>
+    </style>
+
+    <style name="textView_title">
+        <item name="android:text">@string/teamate_title</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textView_subTitle">
+        <item name="android:text">@string/teamate_subtitle</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textView_HomeLogin">
+        <item name="android:text">@string/title</item>
+        <item name="android:background">@color/dark_blue</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textView_LoginWith">
+        <item name="android:text">@string/titlelogin</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomButtonEmail">
+        <item name="android:text">@string/button_one</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">#1F4FA3</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomButtonApple">
+        <item name="android:text">@string/button_apple</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">#1F4FA3</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextViewLogin">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="CustomButtonFacebook">
+        <item name="android:text">@string/button_facebook</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">#1F4FA3</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomButtonGoogle">
+        <item name="android:text">@string/button_google</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">#1F4FA3</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomButtonImg">
+        <item name="android:background">@drawable/email</item>
+    </style>
+
+    <style name="CustomButtonImg2">
+        <item name="android:background">@drawable/apple</item>
+    </style>
+
+    <style name="CustomButtonImg3">
+        <item name="android:background">@drawable/facebook</item>
+    </style>
+
+    <style name="CustomButtonImg4">
+        <item name="android:background">@drawable/google</item>
+    </style>
+
+    <style name="textView_last">
+        <item name="android:text">@string/last_title</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textView_reg">
+        <item name="android:text">@string/last_registrati</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
