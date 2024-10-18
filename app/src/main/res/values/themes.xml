@@ -90,11 +90,21 @@
         <item name="android:background">@drawable/fire</item>
     </style>
 
-    <style name="CustomTextViewScrollView">
+    <style name="CustomTextViewTitleScrollView">
         <item name="android:text">@string/string_title_scrollView</item>
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="CustomImageButtonScrollView">
+        <item name="android:background">@drawable/six_kings_slam</item>
+    </style>
+
+    <style name="CustomTextViewScrollView">
+        <item name="android:text">@string/string_text_scrollView</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
 </resources>
