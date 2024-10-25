@@ -144,7 +144,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewAccount"
         app:layout_constraintTop_toBottomOf="@+id/button_google" />
-    "
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

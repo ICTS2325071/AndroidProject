@@ -7,8 +7,9 @@
 
     <style name="Theme.TeamateApplication" parent="Base.Theme.TeamateApplication" />
 
+    //temi pagina di avvio
     <style name="CustomImageViewLogo">
-        <item name="android:background">@drawable/img</item>
+        <item name="android:background">@drawable/logo_app</item>
     </style>
 
     <style name="CustomTextViewTitle">
@@ -108,24 +109,24 @@
         <item name="android:textAlignment">center</item>
     </style>
 
-    //posse
-
-    <style name="imageView_logo">
-        <item name="android:background">@drawable/img</item>
+    <style name="CustomContainerTextViewStatistics">
+        <item name="android:background">@color/dark_blue</item>
     </style>
 
-    <style name="textView_title">
-        <item name="android:text">@string/teamate_title</item>
-        <item name="android:textSize">48sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="textView_subTitle">
-        <item name="android:text">@string/teamate_subtitle</item>
-        <item name="android:textSize">20sp</item>
+    <style name="CustomTextViewStatistics">
+        <item name="android:text">@string/string_statistics</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
     </style>
+
+    <style name="CustomTennisImage">
+        <item name="android:background">@drawable/tennis</item>
+    </style>
+
+    //posse
 
     <style name="textView_HomeLogin">
         <item name="android:text">@string/title</item>
