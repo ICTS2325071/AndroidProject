@@ -38,4 +38,27 @@
     <string name="last_registrati">Registrati</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="phone_email_username">Accedi con telefono/email/username</string>
+
+    <string name="enter">Entra con telefono, email o username</string>
+
+    <string name="password">Inserisci la password</string>
+
+    <string name="back">BACK</string>
+
+    <string name="login">LOGIN</string>
+
+    <string name="accedi_apple">Accedi con Apple</string>
+
+    <string name="enter_apple">Entra con Apple</string>
+
+    <string name="accedi_google">Accedi con Google</string>
+
+    <string name="enter_google">Entra con Google</string>
+
+    <string name="accedi_facebook">Accedi con Facebook</string>
+
+    <string name="enter_facebook">Entra con Facebook</string>
+
 </resources>

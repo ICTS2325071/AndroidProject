@@ -211,4 +211,89 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="phone_email_user_">
+        <item name="android:text">@string/phone_email_username</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="enter_phone_">
+    <item name="android:text">@string/enter</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">@color/dark_blue</item>
+    <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="enter_password_">
+        <item name="android:text">@string/password</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="right_back">
+        <item name="android:text">@string/back</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="backImg">
+        <item name="android:background">@drawable/back</item>
+    </style>
+
+    <style name="left_login">
+        <item name="android:text">@string/login</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="loginImg">
+        <item name="android:background">@drawable/login</item>
+    </style>
+
+    <style name="accedi_apple">
+        <item name="android:text">@string/accedi_apple</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="enter_apple_">
+        <item name="android:text">@string/enter_apple</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="accedi_google">
+        <item name="android:text">@string/accedi_google</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="enter_google_">
+        <item name="android:text">@string/enter_google</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="accedi_facebook">
+        <item name="android:text">@string/accedi_facebook</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="enter_facebook_">
+        <item name="android:text">@string/enter_facebook</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
