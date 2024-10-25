@@ -4,10 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".google"
     android:background="@color/medium_high_blue">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textViewLoginTitle"
         style="@style/textView_HomeLogin"
@@ -19,6 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/bottomBackground"
@@ -32,30 +31,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageViewGoogle"
+        android:id="@+id/imageViewIcon"
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:src="@drawable/google"
-        android:layout_marginLeft="50sp"
+        android:src="@drawable/email"
+        android:layout_marginStart="50sp"
         android:layout_marginTop="235sp"/>
 
     <TextView
-        android:id="@+id/google"
-        style="@style/accedi_google"
+        android:id="@+id/phone_email_username"
+        style="@style/phone_email_user_"
         android:layout_width="199dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="130sp"
+        android:layout_marginStart="130sp"
         android:layout_marginTop="235sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bottomBackground" />
 
     <TextView
-        android:id="@+id/enter_google"
-        style="@style/enter_google_"
+        android:id="@+id/enter"
+        style="@style/enter_phone_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110sp"
+        android:layout_marginStart="40sp"
         android:layout_marginTop="400sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -64,7 +63,7 @@
         android:layout_width="335sp"
         android:layout_height="40sp"
         android:padding="12dp"
-        android:layout_marginLeft="42sp"
+        android:layout_marginStart="42sp"
         android:layout_marginTop="440sp"
         android:background="@color/opacity_blue"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +74,7 @@
         style="@style/enter_password_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110sp"
+        android:layout_marginStart="110sp"
         android:layout_marginTop="550sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -140,10 +139,5 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
-
-
-
-
-
 
 </FrameLayout>

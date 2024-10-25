@@ -19,6 +19,8 @@
 
     <string name="string_text_scrollView">Sarà Jannik Sinner contro Carlos Alcaraz la finale per il primo posto al Six Kings Slam, mentre Novak Djokovic sfiderà Rafa Nadal nella finale per il terzo posto, in programma entrambe sabato 19 ottobre</string>
 
+    <string name="string_placeholder_editText_search">search tennis player</string>
+
     //posse
 
     <string name="title">Login To Teamate</string>

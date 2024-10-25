@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".facebook"
-    android:background="@color/medium_high_blue">>
+    tools:context=".Google"
+    android:background="@color/medium_high_blue">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -20,7 +20,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/bottomBackground"
         style="@style/CustomTextViewLogin"
@@ -33,16 +32,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageViewFacebook"
+        android:id="@+id/imageViewGoogle"
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:src="@drawable/facebook"
+        android:src="@drawable/google"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="235sp"/>
 
     <TextView
-        android:id="@+id/facebook"
-        style="@style/accedi_facebook"
+        android:id="@+id/google"
+        style="@style/accedi_google"
         android:layout_width="199dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="130sp"
@@ -52,8 +51,8 @@
         app:layout_constraintTop_toTopOf="@+id/bottomBackground" />
 
     <TextView
-        android:id="@+id/enter_facebook"
-        style="@style/enter_facebook_"
+        android:id="@+id/enter_google"
+        style="@style/enter_google_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="110sp"
@@ -141,6 +140,10 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
+
+
+
+
 
 
 </FrameLayout>

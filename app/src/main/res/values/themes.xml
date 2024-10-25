@@ -44,23 +44,18 @@
         <item name="android:background">@color/opacity_blue</item>
     </style>
 
-    <style name="CustomButtonMenuHome">
-        <item name="android:backgroundTint">@color/opacity_blue</item>
-        <item name="android:text">@string/string_home </item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">bottom</item>
-        <item name="android:textSize">15sp</item>
+    <style name="CustomHomeImageBlue">
+        <item name="android:background">@drawable/home_blue</item>
     </style>
 
-    <style name="CustomHomeImage">
-        <item name="android:background">@drawable/home</item>
+    <style name="CustomHomeImageWhite">
+        <item name="android:background">@drawable/home_white</item>
     </style>
 
-    <style name="CustomButtonMenuFavourites">
-        <item name="android:backgroundTint">@color/opacity_blue</item>
-        <item name="android:text">@string/string_favourites</item>
+    <style name="CustomTextViewHomeMenu">
+        <item name="android:text">@string/string_home</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">bottom</item>
         <item name="android:textSize">15sp</item>
@@ -70,10 +65,10 @@
         <item name="android:background">@drawable/star</item>
     </style>
 
-    <style name="CustomButtonMenuSettings">
-        <item name="android:backgroundTint">@color/opacity_blue</item>
-        <item name="android:text">@string/string_settings</item>
+    <style name="CustomTextViewFavouritesMenu">
+        <item name="android:text">@string/string_favourites</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">bottom</item>
         <item name="android:textSize">15sp</item>
@@ -82,7 +77,16 @@
     <style name="CustomSettingsImage">
         <item name="android:background">@drawable/settings</item>
     </style>
-    
+
+    <style name="CustomTextViewMenuSettings">
+        <item name="android:text">@string/string_settings</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
     <style name="CustomHorizontalScrollView">
         <item name="android:background">@color/white</item>
     </style>
@@ -124,6 +128,17 @@
 
     <style name="CustomTennisImage">
         <item name="android:background">@drawable/tennis</item>
+    </style>
+
+    <style name="CustomEditTextSearch">
+        <item name="android:hint">@string/string_placeholder_editText_search</item>
+        <item name="android:textColorHint">@color/opacity_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="CustomSearchImage">
+        <item name="android:background">@drawable/search</item>
     </style>
 
     //posse

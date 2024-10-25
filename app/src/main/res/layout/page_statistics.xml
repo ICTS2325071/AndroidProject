@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/medium_high_blue">
+
+    <TextView
+        android:id="@+id/textView_container_statistics"
+        style="@style/CustomContainerTextViewStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_title_image_statistics"
+        style="@style/CustomTennisImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_container_statistics"
+        app:layout_constraintStart_toStartOf="@+id/textView_container_statistics"
+        app:layout_constraintTop_toTopOf="@+id/textView_container_statistics" />
+
+    <TextView
+        android:id="@+id/textView_statistics"
+        style="@style/CustomTextViewStatistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="110dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_container_statistics"
+        app:layout_constraintEnd_toEndOf="@+id/textView_container_statistics"
+        app:layout_constraintTop_toTopOf="@+id/textView_container_statistics" />
+
+    <EditText
+        android:id="@+id/editText_search"
+        style="@style/CustomEditTextSearch"
+        android:layout_width="330sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_container_statistics" />
+
+    <ImageView
+        android:id="@+id/imageView_search"
+        style="@style/CustomSearchImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText_search"
+        app:layout_constraintStart_toStartOf="@+id/editText_search"
+        app:layout_constraintTop_toTopOf="@+id/editText_search" />
+
+    <TextView
+        android:id="@+id/textView_menu"
+        style="@style/CustomTextViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="73sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
+        app:layout_constraintStart_toStartOf="@+id/textView_menu"
+        app:layout_constraintTop_toTopOf="@+id/textView_menu">
+
+        <ImageView
+            android:id="@+id/imageView_home"
+            style="@style/CustomHomeImageWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView_home_menu"
+            style="@style/CustomTextViewHomeMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/textView_menu">
+
+        <ImageView
+            android:id="@+id/imageView_favourites"
+            style="@style/CustomStarImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView_favourites_menu"
+            style="@style/CustomTextViewFavouritesMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
+        app:layout_constraintEnd_toEndOf="@+id/textView_menu"
+        app:layout_constraintTop_toTopOf="@+id/textView_menu">
+
+        <ImageView
+            android:id="@+id/imageView_settings"
+            style="@style/CustomSettingsImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView_settings_menu"
+            style="@style/CustomTextViewMenuSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

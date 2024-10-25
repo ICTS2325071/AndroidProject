@@ -1,4 +1,4 @@
 package com.example.teamateapplication
 
-class Statistics {
+class StatisticsPage {
 }
