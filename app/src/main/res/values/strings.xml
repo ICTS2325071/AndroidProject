@@ -53,15 +53,15 @@
 
     <string name="accedi_apple">Accedi con Apple</string>
 
-    <string name="enter_apple">Entra con Apple</string>
+    <string name="enter_apple">Inserisci il tuo Id Apple</string>
 
     <string name="accedi_google">Accedi con Google</string>
 
-    <string name="enter_google">Entra con Google</string>
+    <string name="enter_google">Inserisci la tua email di Google</string>
 
     <string name="accedi_facebook">Accedi con Facebook</string>
 
-    <string name="enter_facebook">Entra con Facebook</string>
+    <string name="enter_facebook">Inserisci la tua mail di Facebook</string>
 
     <string name="register">Registrati su Teamate</string>
 
