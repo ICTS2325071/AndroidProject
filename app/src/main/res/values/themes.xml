@@ -164,7 +164,7 @@
         <item name="android:text">@string/button_one</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">#1F4FA3</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -172,7 +172,7 @@
         <item name="android:text">@string/button_apple</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">#1F4FA3</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -184,7 +184,7 @@
         <item name="android:text">@string/button_facebook</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">#1F4FA3</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -192,12 +192,12 @@
         <item name="android:text">@string/button_google</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">#1F4FA3</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="CustomButtonImg">
-        <item name="android:background">@drawable/email</item>
+        <item name="android:background">@drawable/email_opacity</item>
     </style>
 
     <style name="CustomButtonImg2">
@@ -235,21 +235,21 @@
 
     <style name="enter_phone_">
     <item name="android:text">@string/enter</item>
-    <item name="android:textSize">20sp</item>
+    <item name="android:textSize">16sp</item>
     <item name="android:textColor">@color/dark_blue</item>
     <item name="android:textStyle">bold</item>
     </style>
 
     <style name="enter_password_">
         <item name="android:text">@string/password</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="right_back">
         <item name="android:text">@string/back</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -260,7 +260,7 @@
 
     <style name="left_login">
         <item name="android:text">@string/login</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -278,7 +278,7 @@
 
     <style name="enter_apple_">
         <item name="android:text">@string/enter_apple</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -292,7 +292,7 @@
 
     <style name="enter_google_">
         <item name="android:text">@string/enter_google</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -306,7 +306,7 @@
 
     <style name="enter_facebook_">
         <item name="android:text">@string/enter_facebook</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>

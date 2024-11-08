@@ -34,8 +34,8 @@
         android:id="@+id/imageViewIcon"
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:src="@drawable/email"
-        android:layout_marginStart="50sp"
+        android:src="@drawable/email_dark"
+        android:layout_marginLeft="80sp"
         android:layout_marginTop="235sp"/>
 
     <TextView
@@ -43,7 +43,7 @@
         style="@style/phone_email_user_"
         android:layout_width="199dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130sp"
+        android:layout_marginLeft="145sp"
         android:layout_marginTop="235sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +54,7 @@
         style="@style/enter_phone_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40sp"
+        android:layout_marginLeft="70sp"
         android:layout_marginTop="400sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -74,7 +74,7 @@
         style="@style/enter_password_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="110sp"
+        android:layout_marginLeft="125sp"
         android:layout_marginTop="550sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
