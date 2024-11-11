@@ -342,4 +342,12 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="enter_passw_">
+        <item name="android:text">@string/enter_pass</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
 </resources>

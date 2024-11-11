@@ -67,8 +67,11 @@
 
     <string name="registrati">Registrazione</string>
 
-    <string name="enter_user">Username</string>
+    <string name="enter_user">Inserisci Username</string>
 
-    <string name="enter_email">Email</string>
+    <string name="enter_email">Inserisci Email</string>
+
+    <string name="enter_pass">Inserisci Password</string>
+
 
 </resources>
