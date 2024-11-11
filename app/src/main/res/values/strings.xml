@@ -73,5 +73,16 @@
 
     <string name="enter_pass">Inserisci Password</string>
 
+    <string name="button_impo">Impostazioni</string>
+
+    <string name="button_notifiche">Notifiche</string>
+
+    <string name="button_account">Account</string>
+
+    <string name="button_preferiti">Preferiti</string>
+
+    <string name="button_elimina">Elimina Account</string>
+
+
 
 </resources>

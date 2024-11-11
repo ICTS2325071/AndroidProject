@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/medium_high_blue">
@@ -8,11 +9,115 @@
     <TextView
         android:id="@+id/bottomBackground"
         style="@style/CustomTextViewLogin"
-        android:layout_width="250sp"
+        android:layout_width="260sp"
         android:layout_height="730sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_impo"
+        style="@style/CustomButtonImpostazioni"
+        android:layout_width="220sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="20dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/impostazioniImg"
+        style="@style/impostazioniImg"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toStartOf="@+id/bottomBackground"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button_notifiche"
+        style="@style/CustomButtonNotifiche"
+        android:layout_width="220sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="24dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_impo"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/NotificheImg"
+        style="@style/NotificheImg"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_notifiche"
+        app:layout_constraintEnd_toEndOf="@+id/button_impo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_impo" />
+
+
+    <Button
+        android:id="@+id/button_account"
+        style="@style/CustomButtonAccount"
+        android:layout_width="220sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="440dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Account_img"
+        style="@style/Account_Img."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_account"  app:layout_constraintEnd_toEndOf="@+id/button_impo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_impo" />
+    />
+
+
+    <Button
+        android:id="@+id/button_preferiti"
+        style="@style/CustomButtonPreferiti"
+        android:layout_width="220sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="292dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Preferitimg"
+        style="@style/Preferitimg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <Button
+        android:id="@+id/button_elimina"
+        style="@style/CustomButtonElimina"
+        android:layout_width="220sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/EliminaImg"
+        style="@style/EliminaImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="595dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
