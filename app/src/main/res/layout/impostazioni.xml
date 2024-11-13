@@ -16,46 +16,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_impo"
-        style="@style/CustomButtonImpostazioni"
+    <TextView
+        android:id="@+id/title_impo"
+        style="@style/textView_Impo"
         android:layout_width="220sp"
         android:layout_height="40sp"
-        android:layout_marginStart="20dp"
-        android:background="@color/white"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/impostazioniImg"
-        style="@style/impostazioniImg"
-        android:layout_width="35sp"
-        android:layout_height="35sp"
-        android:layout_marginStart="24dp"
-        app:layout_constraintStart_toStartOf="@+id/bottomBackground"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottomBackground"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button_notifiche"
         style="@style/CustomButtonNotifiche"
         android:layout_width="220sp"
         android:layout_height="40sp"
-        android:layout_marginStart="24dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_impo"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+
+    <ImageView
         android:id="@+id/NotificheImg"
         style="@style/NotificheImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/button_notifiche"
-        app:layout_constraintEnd_toEndOf="@+id/button_impo"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button_impo" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <Button
@@ -63,22 +55,19 @@
         style="@style/CustomButtonAccount"
         android:layout_width="220sp"
         android:layout_height="40sp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="440dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_notifiche" />
 
-    <TextView
+    <ImageView
         android:id="@+id/Account_img"
         style="@style/Account_Img."
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="5dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_account"  app:layout_constraintEnd_toEndOf="@+id/button_impo"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button_impo" />
-    />
+        app:layout_constraintBottom_toBottomOf="@+id/button_account"
+        app:layout_constraintStart_toStartOf="@+id/button_account" />
 
 
     <Button
@@ -86,19 +75,20 @@
         style="@style/CustomButtonPreferiti"
         android:layout_width="220sp"
         android:layout_height="40sp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="292dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_account" />
 
-    <TextView
+    <ImageView
         android:id="@+id/Preferitimg"
         style="@style/Preferitimg."
         android:layout_width="35sp"
         android:layout_height="35sp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="399dp" />
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_preferiti"
+        app:layout_constraintStart_toStartOf="@+id/button_preferiti" />
+
 
     <Button
         android:id="@+id/button_elimina"
@@ -106,18 +96,18 @@
         android:layout_width="220sp"
         android:layout_height="40sp"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="96dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_preferiti" />
 
-    <TextView
+    <ImageView
         android:id="@+id/EliminaImg"
         style="@style/EliminaImg."
         android:layout_width="35sp"
         android:layout_height="35sp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="595dp" />
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_elimina"
+        app:layout_constraintStart_toStartOf="@+id/button_elimina" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

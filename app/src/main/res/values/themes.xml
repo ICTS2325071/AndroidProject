@@ -353,11 +353,10 @@
         <item name="android:background">@drawable/impostazione</item>
     </style>
 
-    <style name="CustomButtonImpostazioni">
-        <item name="android:text">@string/button_impo</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="backgroundTint">@color/white</item>
+    <style name="textView_Impo">
+        <item name="android:text">@string/title_impo</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -408,4 +407,31 @@
         <item name="backgroundTint">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="textView_preferiti">
+            <item name="android:text">@string/title_prefe</item>
+            <item name="android:background">@color/dark_blue</item>
+            <item name="android:textAlignment">center</item>
+            <item name="android:gravity">center_vertical</item>
+            <item name="android:textSize">32sp</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+    <style name="CustomButtonSinner">
+        <item name="android:text">@string/button_sinner</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SinnerImg.">
+        <item name="android:background">@drawable/Sinner</item>
+    </style>
+
+    <style name="ItaImg.">
+        <item name="android:background">@drawable/italia</item>
+    </style>
+
 </resources>

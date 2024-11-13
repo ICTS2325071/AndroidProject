@@ -73,7 +73,7 @@
 
     <string name="enter_pass">Inserisci Password</string>
 
-    <string name="button_impo">Impostazioni</string>
+    <string name="title_impo">Impostazioni</string>
 
     <string name="button_notifiche">Notifiche</string>
 
@@ -83,6 +83,8 @@
 
     <string name="button_elimina">Elimina Account</string>
 
+    <string name="title_prefe">Preferiti</string>
 
+    <string name="button_sinner">1.JANNICK SINNER</string>
 
 </resources>

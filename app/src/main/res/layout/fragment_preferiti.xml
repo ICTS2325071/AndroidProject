@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".preferiti"
+    android:background="@color/medium_high_blue">>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView_preferiti"
+        style="@style/textView_preferiti"
+        android:layout_width="374sp"
+        android:layout_height="75sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/SinnerImg"
+        style="@style/SinnerImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ItaliaImg"
+        style="@style/ItaImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_sinner"
+        style="@style/CustomButtonSinner"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
+
+
+</FrameLayout>
