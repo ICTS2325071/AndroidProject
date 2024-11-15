@@ -434,4 +434,94 @@
         <item name="android:background">@drawable/italia</item>
     </style>
 
+    <style name="CustomButtonZverev">
+        <item name="android:text">@string/button_zverev</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ZverevImg.">
+        <item name="android:background">@drawable/Zverev</item>
+    </style>
+
+    <style name="GerImg.">
+        <item name="android:background">@drawable/germania</item>
+    </style>
+
+    <style name="CustomButtonAlcaraz">
+        <item name="android:text">@string/button_alcaraz</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AlcarazImg.">
+        <item name="android:background">@drawable/Alcaraz</item>
+    </style>
+
+    <style name="SpaImg.">
+        <item name="android:background">@drawable/Spagna</item>
+    </style>
+
+    <style name="CustomButtonMedvedev">
+        <item name="android:text">@string/button_medvedev</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MedvedevImg.">
+        <item name="android:background">@drawable/Medvedev</item>
+    </style>
+
+    <style name="RussImg.">
+        <item name="android:background">@drawable/russia</item>
+    </style>
+
+    <style name="CustomButtonFritz">
+        <item name="android:text">@string/button_fritz</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FritzImg.">
+        <item name="android:background">@drawable/Fritz</item>
+    </style>
+
+    <style name="UsaImg.">
+        <item name="android:background">@drawable/usa</item>
+    </style>
+
+    <style name="textView_account">
+        <item name="android:text">@string/title_account</item>
+        <item name="android:background">@color/dark_blue</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomButtonUser">
+        <item name="android:text">@string/button_changeuser</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomButtonPss">
+        <item name="android:text">@string/button_changepss</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

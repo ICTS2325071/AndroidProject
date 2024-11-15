@@ -87,4 +87,18 @@
 
     <string name="button_sinner">1.JANNICK SINNER</string>
 
+    <string name="button_zverev">2. ALEXANDER ZVEREV </string>
+
+    <string name="button_alcaraz">3. CARLOS ALCARAZ </string>
+
+    <string name="button_medvedev">4. DANIIL MEDVEDEV </string>
+
+    <string name="button_fritz">5. TAYLOR FRITZ </string>
+
+    <string name="title_account"> Account  </string>
+
+    <string name="button_changeuser">Cambia Username  </string>
+
+    <string name="button_changepss">Cambia Password  </string>
+
 </resources>
