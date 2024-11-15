@@ -360,13 +360,17 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="CustomSettings">
+        <item name="android:background">@drawable/baseline_settings_24</item>
+    </style>
+
     <style name="NotificheImg">
         <item name="android:background">@drawable/notifiche</item>
     </style>
 
     <style name="CustomButtonNotifiche">
         <item name="android:text">@string/button_notifiche</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="backgroundTint">@color/white</item>
         <item name="android:textStyle">bold</item>
@@ -378,7 +382,7 @@
 
     <style name="CustomButtonAccount">
         <item name="android:text">@string/button_account</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="backgroundTint">@color/white</item>
         <item name="android:textStyle">bold</item>
@@ -390,7 +394,7 @@
 
     <style name="CustomButtonPreferiti">
         <item name="android:text">@string/button_preferiti</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="backgroundTint">@color/white</item>
         <item name="android:textStyle">bold</item>
@@ -402,7 +406,7 @@
 
     <style name="CustomButtonElimina">
         <item name="android:text">@string/button_elimina</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="backgroundTint">@color/white</item>
         <item name="android:textStyle">bold</item>

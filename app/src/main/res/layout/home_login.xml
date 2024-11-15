@@ -49,11 +49,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewtitlelogin" />
 
-    <TextView
+    <ImageView
         android:id="@+id/button_img"
         style="@style/CustomButtonImg"
-        android:layout_width="35sp"
-        android:layout_height="35sp"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
         android:layout_marginStart="5dp"
         app:layout_constraintBottom_toBottomOf="@+id/button_one"
         app:layout_constraintStart_toStartOf="@+id/button_one"
@@ -70,11 +70,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_one" />
 
-    <TextView
+    <ImageView
         android:id="@+id/button_img2"
         style="@style/CustomButtonImg2"
-        android:layout_width="35sp"
-        android:layout_height="35sp"
+        android:layout_width="25sp"
+        android:layout_height="30sp"
         android:layout_marginStart="5dp"
         app:layout_constraintBottom_toBottomOf="@+id/button_apple"
         app:layout_constraintStart_toStartOf="@+id/button_apple"
@@ -92,11 +92,11 @@
         app:layout_constraintTop_toBottomOf="@+id/button_apple" />
 
 
-    <TextView
+    <ImageView
         android:id="@+id/button_img3"
         style="@style/CustomButtonImg3"
-        android:layout_width="35sp"
-        android:layout_height="35sp"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
         android:layout_marginStart="5dp"
         app:layout_constraintBottom_toBottomOf="@+id/button_facebook"
         app:layout_constraintStart_toStartOf="@+id/button_facebook"
@@ -113,11 +113,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_facebook" />
 
-    <TextView
+    <ImageView
         android:id="@+id/button_img4"
         style="@style/CustomButtonImg4"
-        android:layout_width="35sp"
-        android:layout_height="35sp"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
         android:layout_marginStart="5dp"
         app:layout_constraintBottom_toBottomOf="@+id/button_google"
         app:layout_constraintStart_toStartOf="@+id/button_google"
