@@ -13,228 +13,207 @@
         style="@style/textView_preferiti"
         android:layout_width="374sp"
         android:layout_height="75sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="20sp" />
 
     <Button
         android:id="@+id/button_sinner"
         style="@style/CustomButtonSinner"
         android:layout_width="350sp"
         android:layout_height="65sp"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
+        android:layout_marginTop="150sp"
+        android:layout_marginStart="40sp" />
 
     <ImageView
         android:id="@+id/SinnerImg"
         style="@style/SinnerImg."
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="110dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="160sp" />
 
     <ImageView
         android:id="@+id/ItaliaImg"
         style="@style/ItaImg."
         android:layout_width="35sp"
         android:layout_height="35sp"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="115dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="165sp" />
 
     <Button
         android:id="@+id/button_zverev"
         style="@style/CustomButtonZverev"
         android:layout_width="350sp"
         android:layout_height="65sp"
-        android:layout_marginTop="200dp"
-        android:layout_marginLeft="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
+        android:layout_marginTop="250sp"
+        android:layout_marginStart="40sp" />
 
     <ImageView
         android:id="@+id/ZverevImg"
         style="@style/ZverevImg."
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="210dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="260sp" />
 
     <ImageView
         android:id="@+id/GerImg"
         style="@style/GerImg."
         android:layout_width="35sp"
         android:layout_height="35sp"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="215dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="265sp" />
 
     <Button
         android:id="@+id/button_alcaraz"
         style="@style/CustomButtonAlcaraz"
         android:layout_width="350sp"
         android:layout_height="65sp"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
+        android:layout_marginTop="350sp"
+        android:layout_marginStart="40sp" />
 
     <ImageView
         android:id="@+id/AlcarazImg"
         style="@style/AlcarazImg."
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="310dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="360sp" />
 
     <ImageView
         android:id="@+id/SpaImg"
         style="@style/SpaImg."
         android:layout_width="35sp"
         android:layout_height="35sp"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="315dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button_medvedv"
-        style="@style/CustomButtonMedvedev"
-        android:layout_width="350sp"
-        android:layout_height="65sp"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
-
-    <ImageView
-        android:id="@+id/MedvedevImg"
-        style="@style/MedvedevImg."
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="410dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/RussImg"
-        style="@style/RussImg."
-        android:layout_width="35sp"
-        android:layout_height="35sp"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="415dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="365sp" />
 
     <Button
         android:id="@+id/button_fritz"
         style="@style/CustomButtonFritz"
         android:layout_width="350sp"
         android:layout_height="65sp"
-        android:layout_marginTop="500dp"
-        android:layout_marginLeft="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
+        android:layout_marginTop="450sp"
+        android:layout_marginStart="40sp" />
 
     <ImageView
         android:id="@+id/FritzImg"
         style="@style/FritzImg."
         android:layout_width="50sp"
         android:layout_height="50sp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="510dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="460sp" />
 
     <ImageView
         android:id="@+id/UsaImg"
         style="@style/UsaImg."
         android:layout_width="35sp"
         android:layout_height="35sp"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="515dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="465sp" />
 
-    <TextView
-        android:id="@+id/textView_menu"
-        style="@style/CustomTextViewMenu"
+    <Button
+        android:id="@+id/button_medvedv"
+        style="@style/CustomButtonMedvedev"
+        android:layout_width="350sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="550sp"
+        android:layout_marginStart="40sp" />
+
+    <ImageView
+        android:id="@+id/MedvedevImg"
+        style="@style/MedvedevImg."
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="560sp" />
+
+    <ImageView
+        android:id="@+id/RussImg"
+        style="@style/RussImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="320sp"
+        android:layout_marginTop="565sp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/horizontal_layout_menu_bottom"
+        style="@style/CustomLayoutMenuBottom"
         android:layout_width="match_parent"
-        android:layout_height="73sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="660dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_height="70sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="645sp"
+        android:gravity="center">
 
-    <ImageView
-        android:id="@+id/imageView_home"
-        style="@style/CustomHomeImageWhite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="670dp"
-        android:layout_marginStart="50dp"/>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView_home_menu"
-        style="@style/CustomTextViewHomeMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="705dp"
-        android:layout_marginStart="45dp"/>
+            <ImageView
+                android:id="@+id/imageView_home"
+                style="@style/CustomHomeImageWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-    <ImageView
-        android:id="@+id/imageView_favourites"
-        style="@style/CustomStarImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="670dp"
-        android:layout_marginStart="188dp"/>
+            <TextView
+                android:id="@+id/textView_home_menu"
+                style="@style/CustomTextViewHomeMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/textView_favourites_menu"
-        style="@style/CustomTextViewFavouritesMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="705dp"
-        android:layout_marginStart="170dp"/>
+        </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView_settings"
-        style="@style/CustomSettingsImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="670dp"
-        android:layout_marginStart="322dp"/>
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="88sp">
 
-    <TextView
-        android:id="@+id/textView_settings_menu"
-        style="@style/CustomTextViewMenuSettings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="705dp"
-        android:layout_marginStart="310dp"/>
+            <ImageView
+                android:id="@+id/imageView_favourites"
+                style="@style/CustomStarImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_favourites_menu"
+                style="@style/CustomTextViewFavouritesMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="75sp">
+
+            <ImageView
+                android:id="@+id/imageView_settings"
+                style="@style/CustomSettingsImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_settings_menu"
+                style="@style/CustomTextViewMenuSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 
 

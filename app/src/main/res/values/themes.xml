@@ -40,7 +40,7 @@
         <item name="android:text">@string/string_statistics</item>
     </style>
 
-    <style name="CustomTextViewMenu">
+    <style name="CustomLayoutMenuBottom">
         <item name="android:background">@color/opacity_blue</item>
     </style>
 

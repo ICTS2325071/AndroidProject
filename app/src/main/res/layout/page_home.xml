@@ -35,7 +35,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView_menu"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_layout_menu_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -59,8 +59,8 @@
         app:layout_constraintStart_toStartOf="@+id/horizontalScrollView"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
-    <TextView
-        android:id="@+id/textView_title_image"
+    <ImageView
+        android:id="@+id/imageView_title_image"
         style="@style/CustomFireImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,72 +76,86 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/textView_title_image"
+        app:layout_constraintStart_toEndOf="@+id/imageView_title_image"
         app:layout_constraintTop_toTopOf="@+id/horizontalScrollView" />
 
-    <TextView
-        android:id="@+id/textView_menu"
-        style="@style/CustomTextViewMenu"
+    <LinearLayout
+        android:id="@+id/horizontal_layout_menu_bottom"
+        style="@style/CustomLayoutMenuBottom"
         android:layout_width="match_parent"
-        android:layout_height="73sp"
+        android:layout_height="70sp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center">
 
-    <Button
-        android:id="@+id/button_menu_home"
-        style="@style/CustomButtonMenuHome"
-        android:layout_width="100sp"
-        android:layout_height="60sp"
-        android:layout_marginStart="5dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
-        app:layout_constraintStart_toStartOf="@+id/textView_menu" />
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView_home_image"
-        style="@style/CustomHomeImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@+id/button_menu_home"
-        app:layout_constraintStart_toStartOf="@+id/button_menu_home"
-        app:layout_constraintTop_toTopOf="@+id/button_menu_home" />
+            <ImageView
+                android:id="@+id/imageView_home"
+                style="@style/CustomHomeImageWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/button_menu_favourites"
-        style="@style/CustomButtonMenuFavourites"
-        android:layout_width="wrap_content"
-        android:layout_height="57sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
-        app:layout_constraintEnd_toEndOf="@+id/textView_menu"
-        app:layout_constraintStart_toStartOf="@+id/textView_menu" />
+            <TextView
+                android:id="@+id/textView_home_menu"
+                style="@style/CustomTextViewHomeMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-    <TextView
-        android:id="@+id/textView_favourites_image"
-        style="@style/CustomStarImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@+id/button_menu_favourites"
-        app:layout_constraintStart_toStartOf="@+id/button_menu_favourites"
-        app:layout_constraintTop_toTopOf="@+id/button_menu_favourites" />
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/button_menu_settings"
-        style="@style/CustomButtonMenuSettings"
-        android:layout_width="wrap_content"
-        android:layout_height="57sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView_menu"
-        app:layout_constraintEnd_toEndOf="@+id/textView_menu" />
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="88sp">
 
-    <TextView
-        android:id="@+id/textView_settings_image"
-        style="@style/CustomSettingsImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="@+id/button_menu_settings"
-        app:layout_constraintStart_toStartOf="@+id/button_menu_settings"
-        app:layout_constraintTop_toTopOf="@+id/button_menu_settings" />
+            <ImageView
+                android:id="@+id/imageView_favourites"
+                style="@style/CustomStarImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_favourites_menu"
+                style="@style/CustomTextViewFavouritesMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="75sp">
+
+            <ImageView
+                android:id="@+id/imageView_settings"
+                style="@style/CustomSettingsImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_settings_menu"
+                style="@style/CustomTextViewMenuSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
