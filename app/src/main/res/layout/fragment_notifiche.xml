@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notifiche"
+    android:background="@color/medium_high_blue">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/bottomBackground"
+        style="@style/CustomTextViewLogin"
+        android:layout_width="414sp"
+        android:layout_height="60sp" />
+
+    <TextView
+        android:id="@+id/title_notifiche"
+        style="@style/title_notifiche"
+        android:layout_width="414sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="15sp"/>
+
+    <TextView
+        android:id="@+id/not"
+        style="@style/CustomNot"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/Not_img"
+        style="@style/NotImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="250dp"/>
+
+    <ImageView
+        android:id="@+id/SitImg_"
+        style="@style/SitImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:id="@+id/Inizio_notifiche"
+        style="@style/CustomInizio"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/Not_img"
+        style="@style/NotImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="250dp"/>
+
+    <ImageView
+        android:id="@+id/SitImg_"
+        style="@style/SitImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:id="@+id/Fine_notifiche"
+        style="@style/CustomFine"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/Not_img"
+        style="@style/NotImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="250dp"/>
+
+    <ImageView
+        android:id="@+id/SitImg_"
+        style="@style/SitImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:id="@+id/Fine_set"
+        style="@style/CustomSet"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/Not_img"
+        style="@style/NotImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="250dp"/>
+
+    <ImageView
+        android:id="@+id/SitImg_"
+        style="@style/SitImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="300dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

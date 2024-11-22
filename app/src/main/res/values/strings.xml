@@ -105,4 +105,18 @@
 
     <string name="new_password"> Inserisci nuova Password</string>
 
+    <string name="old_username"> Inserisci vecchio Username</string>
+
+    <string name="new_username"> Inserisci nuovo Username</string>
+
+    <string name="title_not"> NOTIFICHE </string>
+
+    <string name="not"> Mostra Notifiche </string>
+
+    <string name="Inizio_notifiche"> Notifiche Inizio Match </string>
+
+    <string name="Fine_notifiche"> Notifiche Fine Match </string>
+
+    <string name="Fine_Set"> Notifiche Fine Set </string>
+
 </resources>

@@ -16,9 +16,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        />
 
 
     <TextView
@@ -27,10 +25,7 @@
         android:layout_width="414sp"
         android:layout_height="520sp"
         android:layout_marginTop="215sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+       />
 
     <ImageView
         android:id="@+id/imageViewFacebook"
@@ -47,9 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="140sp"
         android:layout_marginTop="245sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bottomBackground" />
+       />
 
     <TextView
         android:id="@+id/enter_facebook"
@@ -57,9 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="90sp"
-        android:layout_marginTop="400sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginTop="400sp" />
 
     <EditText
         android:layout_width="335sp"
@@ -67,9 +58,7 @@
         android:padding="12dp"
         android:layout_marginLeft="42sp"
         android:layout_marginTop="440sp"
-        android:background="@color/opacity_blue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:background="@color/opacity_blue" />
 
     <TextView
         android:id="@+id/password"
@@ -78,8 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="125sp"
         android:layout_marginTop="550sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        />
 
     <EditText
         android:layout_width="335sp"
@@ -88,8 +76,7 @@
         android:layout_marginStart="42sp"
         android:layout_marginTop="590sp"
         android:background="@color/opacity_blue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+       />
 
 
     <LinearLayout
@@ -105,9 +92,7 @@
             style="@style/backImg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+             />
 
         <TextView
             android:id="@+id/back"

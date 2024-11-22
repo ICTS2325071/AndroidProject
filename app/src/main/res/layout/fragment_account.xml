@@ -16,10 +16,7 @@
         android:layout_height="75sp"
         android:layout_marginStart="20sp"
         android:layout_marginTop="10sp"
-        android:layout_marginEnd="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginEnd="20sp" />
 
     <TextView
         android:id="@+id/bottomBackground"
@@ -36,10 +33,7 @@
             android:layout_width="200sp"
             android:layout_height="65sp"
             android:layout_marginTop="300sp"
-            android:layout_marginLeft="100sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
+            android:layout_marginLeft="100sp" />
 
         <Button
             android:id="@+id/button_changepss"
@@ -47,19 +41,16 @@
             android:layout_width="200sp"
             android:layout_height="65sp"
             android:layout_marginTop="500sp"
-            android:layout_marginLeft="100sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" /
+            android:layout_marginLeft="100sp"/>
 
-    <LinearLayout
-    android:id="@+id/horizontal_layout_menu_bottom"
-    style="@style/CustomLayoutMenuBottom"
-    android:layout_width="match_parent"
-    android:layout_height="70sp"
-       android:layout_marginTop="655sp"
-    android:layout_marginStart="10sp"
-    android:layout_marginEnd="20sp"/>
+        <LinearLayout
+        android:id="@+id/horizontal_layout_menu_bottom"
+        style="@style/CustomLayoutMenuBottom"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="655sp"
+        android:layout_marginStart="10sp"
+         android:layout_marginEnd="20sp"/>
 
     <!--HOME-->
         <ImageView

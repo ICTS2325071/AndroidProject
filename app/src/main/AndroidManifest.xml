@@ -15,6 +15,9 @@
         android:theme="@style/Theme.TeamateApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Username"
+            android:exported="false" />
+        <activity
             android:name=".password"
             android:exported="false" />
         <activity
