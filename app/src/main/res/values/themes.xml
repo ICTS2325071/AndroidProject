@@ -528,4 +528,34 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="textview_password">
+        <item name="android:text">@string/button_changepss</item>
+        <item name="android:background">@color/dark_blue</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="cambia_password">
+        <item name="android:text">@string/button_changepss</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="old_password">
+        <item name="android:text">@string/old_password</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="new_password">
+        <item name="android:text">@string/new_password</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

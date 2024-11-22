@@ -14,9 +14,9 @@
         style="@style/textView_account"
         android:layout_width="374sp"
         android:layout_height="75sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,11 +26,7 @@
         style="@style/CustomTextViewLogin"
         android:layout_width="414sp"
         android:layout_height="520sp"
-        android:layout_marginTop="215sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="215sp" />
 
     <!-- FARE DUE ACTIVITY PER I DUE PULSANTI -->
 
@@ -39,8 +35,8 @@
             style="@style/CustomButtonUser"
             android:layout_width="200sp"
             android:layout_height="65sp"
-            android:layout_marginTop="300dp"
-            android:layout_marginLeft="100dp"
+            android:layout_marginTop="300sp"
+            android:layout_marginLeft="100sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
@@ -50,77 +46,69 @@
             style="@style/CustomButtonPss"
             android:layout_width="200sp"
             android:layout_height="65sp"
-            android:layout_marginTop="500dp"
-            android:layout_marginLeft="100dp"
+            android:layout_marginTop="500sp"
+            android:layout_marginLeft="100sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" />
+            app:layout_constraintTop_toBottomOf="@+id/textView_preferiti" /
 
+    <LinearLayout
+    android:id="@+id/horizontal_layout_menu_bottom"
+    style="@style/CustomLayoutMenuBottom"
+    android:layout_width="match_parent"
+    android:layout_height="70sp"
+       android:layout_marginTop="655sp"
+    android:layout_marginStart="10sp"
+    android:layout_marginEnd="20sp"/>
 
-        <TextView
-            android:id="@+id/textView_menu"
-            style="@style/CustomTextViewMenu"
-            android:layout_width="match_parent"
-            android:layout_height="73sp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="660dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
+    <!--HOME-->
         <ImageView
             android:id="@+id/imageView_home"
             style="@style/CustomHomeImageWhite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="670dp"
-            android:layout_marginStart="50dp"/>
+            android:layout_marginTop="670sp"
+            android:layout_marginStart="70sp" />
 
         <TextView
             android:id="@+id/textView_home_menu"
             style="@style/CustomTextViewHomeMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="705dp"
-            android:layout_marginStart="45dp"/>
+            android:layout_marginTop="700sp"
+            android:layout_marginStart="65sp" />
 
+    <!--PREFERITI-->
         <ImageView
             android:id="@+id/imageView_favourites"
             style="@style/CustomStarImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="670dp"
-            android:layout_marginStart="188dp"/>
+            android:layout_marginTop="670sp"
+            android:layout_marginStart="195sp" />
 
         <TextView
             android:id="@+id/textView_favourites_menu"
             style="@style/CustomTextViewFavouritesMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="705dp"
-            android:layout_marginStart="170dp"/>
+            android:layout_marginTop="700sp"
+            android:layout_marginStart="180sp" />
 
+    <!--IMPOSTAZIONI-->
         <ImageView
             android:id="@+id/imageView_settings"
             style="@style/CustomSettingsImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="670dp"
-            android:layout_marginStart="322dp"/>
+            android:layout_marginTop="670sp"
+            android:layout_marginStart="330sp" />
 
         <TextView
             android:id="@+id/textView_settings_menu"
             style="@style/CustomTextViewMenuSettings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="705dp"
-            android:layout_marginStart="310dp"/>
-
-
-
-
-
-
-    </FrameLayout>
+            android:layout_marginTop="700sp"
+            android:layout_marginStart="320sp" />
+        </FrameLayout>

@@ -101,4 +101,8 @@
 
     <string name="button_changepss">Cambia Password  </string>
 
+    <string name="old_password"> Inserisci vecchia Password</string>
+
+    <string name="new_password"> Inserisci nuova Password</string>
+
 </resources>
