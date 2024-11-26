@@ -631,4 +631,30 @@
         <item name="android:background">@drawable/nonotifiche</item>
     </style>
 
+    <style name="Suono">
+        <item name="android:text">@string/suono_notifiche</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name= "Vibra">
+        <item name="android:text">@string/vibra_notifiche</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textView_Sinner">
+        <item name="android:text">@string/Sinner_</item>
+        <item name="android:background">@color/dark_blue</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

@@ -121,6 +121,56 @@
         android:layout_marginTop="405dp"
         android:layout_marginStart="300dp"/>
 
+    <TextView
+        android:id="@+id/suono_set"
+        style="@style/Suono"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="50dp"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/Not_img"
+        style="@style/NotImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="505dp"
+        android:layout_marginStart="250dp"/>
+
+    <ImageView
+        android:id="@+id/SitImg_"
+        style="@style/SitImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="505dp"
+        android:layout_marginStart="300dp"/>
+
+    <TextView
+        android:id="@+id/vibra_set"
+        style="@style/Vibra"
+        android:layout_width="300sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="50dp"
+        android:background="@color/white"/>
+
+    <ImageView
+        android:id="@+id/Not_img"
+        style="@style/NotImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="605dp"
+        android:layout_marginStart="250dp"/>
+
+    <ImageView
+        android:id="@+id/SitImg_"
+        style="@style/SitImg."
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="605dp"
+        android:layout_marginStart="300dp"/>
+
 
     <LinearLayout
         android:id="@+id/horizontal_layout_menu_bottom"
