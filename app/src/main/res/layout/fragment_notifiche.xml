@@ -16,8 +16,8 @@
     <TextView
         android:id="@+id/title_notifiche"
         style="@style/title_notifiche"
-        android:layout_width="414sp"
-        android:layout_height="60sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="150sp"
         android:layout_marginTop="15sp"/>
 

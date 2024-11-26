@@ -141,6 +141,10 @@
         <item name="android:background">@drawable/search</item>
     </style>
 
+    <style name="CustomArrowBottomImage">
+        <item name="android:background">@drawable/arrow_bottom</item>
+    </style>
+
     //posse
 
     <style name="textView_HomeLogin">
