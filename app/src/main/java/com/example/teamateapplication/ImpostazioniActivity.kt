@@ -1,4 +1,4 @@
 package com.example.teamateapplication
 
-class LoginHome {
+class ImpostazioniActivity {
 }

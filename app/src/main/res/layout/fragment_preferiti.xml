@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".preferiti"
+    tools:context=".PreferitiFragment"
     android:background="@color/medium_high_blue">
 
     <TextView
@@ -27,9 +27,9 @@
     <ImageView
         android:id="@+id/SinnerImg"
         style="@style/SinnerImg."
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:layout_marginStart="60sp"
+        android:layout_width="45sp"
+        android:layout_height="45sp"
+        android:layout_marginStart="70sp"
         android:layout_marginTop="160sp" />
 
     <ImageView
@@ -51,9 +51,9 @@
     <ImageView
         android:id="@+id/ZverevImg"
         style="@style/ZverevImg."
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:layout_marginStart="60sp"
+        android:layout_width="45sp"
+        android:layout_height="45sp"
+        android:layout_marginStart="70sp"
         android:layout_marginTop="260sp" />
 
     <ImageView
@@ -75,9 +75,9 @@
     <ImageView
         android:id="@+id/AlcarazImg"
         style="@style/AlcarazImg."
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:layout_marginStart="60sp"
+        android:layout_width="45sp"
+        android:layout_height="45sp"
+        android:layout_marginStart="70sp"
         android:layout_marginTop="360sp" />
 
     <ImageView
@@ -99,18 +99,18 @@
     <ImageView
         android:id="@+id/FritzImg"
         style="@style/FritzImg."
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:layout_marginStart="60sp"
+        android:layout_width="45sp"
+        android:layout_height="45sp"
+        android:layout_marginStart="70sp"
         android:layout_marginTop="460sp" />
 
     <ImageView
         android:id="@+id/UsaImg"
         style="@style/UsaImg."
-        android:layout_width="35sp"
-        android:layout_height="35sp"
+        android:layout_width="33sp"
+        android:layout_height="25sp"
         android:layout_marginStart="320sp"
-        android:layout_marginTop="465sp" />
+        android:layout_marginTop="470sp" />
 
     <Button
         android:id="@+id/button_medvedv"
@@ -123,9 +123,9 @@
     <ImageView
         android:id="@+id/MedvedevImg"
         style="@style/MedvedevImg."
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:layout_marginStart="60sp"
+        android:layout_width="45sp"
+        android:layout_height="45sp"
+        android:layout_marginStart="70sp"
         android:layout_marginTop="560sp" />
 
     <ImageView
@@ -135,7 +135,6 @@
         android:layout_height="35sp"
         android:layout_marginStart="320sp"
         android:layout_marginTop="565sp" />
-
 
 
     <LinearLayout

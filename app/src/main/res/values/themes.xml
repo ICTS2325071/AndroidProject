@@ -35,6 +35,16 @@
         <item name="android:background">@color/dark_blue</item>
     </style>
 
+    <style name="CustomTitlePlayerInformations">
+        <item name="android:text">@string/button_sinner</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+
     <style name="CustomButtonStatistics">
         <item name="android:backgroundTint">@color/medium_low_blue</item>
         <item name="android:text">@string/string_statistics</item>
@@ -62,7 +72,7 @@
     </style>
 
     <style name="CustomStarImage">
-        <item name="android:background">@drawable/star</item>
+        <item name="android:background">@drawable/star_white</item>
     </style>
 
     <style name="CustomTextViewFavouritesMenu">
@@ -259,7 +269,11 @@
     </style>
 
     <style name="backImg">
-        <item name="android:background">@drawable/back</item>
+        <item name="android:background">@drawable/back_blue</item>
+    </style>
+
+    <style name="backImgWhite">
+        <item name="android:background">@drawable/back_white</item>
     </style>
 
     <style name="left_login">

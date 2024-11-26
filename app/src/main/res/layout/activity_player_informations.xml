@@ -1,56 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".AccountFragment"
     android:background="@color/medium_high_blue">
 
     <TextView
-        android:id="@+id/textView_account"
-        style="@style/textView_account"
-        android:layout_width="374sp"
+        android:id="@+id/title_player_informations"
+        style="@style/CustomTitlePlayerInformations"
+        android:layout_width="match_parent"
         android:layout_height="75sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginTop="50sp"
-        android:layout_marginEnd="20sp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/bottomBackground"
-        style="@style/CustomTextViewLogin"
-        android:layout_width="414sp"
-        android:layout_height="520sp"
-        android:layout_marginTop="215sp" />
+    <ImageView
+        android:id="@+id/ItaliaImg"
+        style="@style/ItaImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_player_informations"
+        app:layout_constraintEnd_toEndOf="@+id/title_player_informations"
+        app:layout_constraintTop_toTopOf="@+id/title_player_informations" />
 
-    <!-- FARE DUE ACTIVITY PER I DUE PULSANTI -->
-    <Button
-        android:id="@+id/button_changeuser"
-        style="@style/CustomButtonUser"
+    <ImageView
+        android:id="@+id/back_right"
+        style="@style/backImgWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_player_informations"
+        app:layout_constraintStart_toStartOf="@+id/title_player_informations"
+        app:layout_constraintTop_toTopOf="@+id/title_player_informations" />
+
+    <ImageView
+        android:id="@+id/SinnerImg"
+        style="@style/SinnerImg."
         android:layout_width="120sp"
-        android:layout_height="60sp"
-        android:layout_marginTop="450sp"
-        android:layout_marginStart="50sp" />
+        android:layout_height="100sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
-    <Button
-        android:id="@+id/button_changepss"
-        style="@style/CustomButtonPss"
-        android:layout_width="120sp"
-        android:layout_height="60sp"
-        android:layout_marginTop="450sp"
-        android:layout_marginStart="240sp"/>
 
     <LinearLayout
         android:id="@+id/horizontal_layout_menu_bottom"
         style="@style/CustomLayoutMenuBottom"
         android:layout_width="match_parent"
         android:layout_height="70sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginEnd="20sp"
-        android:layout_marginTop="645sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         android:gravity="center">
 
-        <!--HOME-->
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="wrap_content"
@@ -72,7 +82,6 @@
 
         </LinearLayout>
 
-        <!--PREFERITI-->
         <LinearLayout
             android:id="@+id/linearLayout3"
             android:layout_width="wrap_content"
@@ -95,7 +104,6 @@
 
         </LinearLayout>
 
-        <!--IMPOSTAZIONI-->
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="wrap_content"
@@ -119,4 +127,4 @@
 
     </LinearLayout>
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

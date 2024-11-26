@@ -44,7 +44,7 @@
         android:layout_width="300sp"
         android:layout_height="40sp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_container_statistics" />
 
@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         app:layout_constraintStart_toEndOf="@+id/editText_search"
         app:layout_constraintTop_toBottomOf="@+id/textView_container_statistics" />
 
@@ -68,6 +68,152 @@
         app:layout_constraintStart_toStartOf="@+id/editText_search"
         app:layout_constraintTop_toTopOf="@+id/editText_search" />
 
+    <Button
+        android:id="@+id/button_sinner"
+        style="@style/CustomButtonSinner"
+        android:layout_width="350sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_search" />
+
+    <ImageView
+        android:id="@+id/ItaliaImg"
+        style="@style/ItaImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
+        app:layout_constraintStart_toStartOf="@+id/button_sinner"
+        app:layout_constraintTop_toTopOf="@+id/button_sinner" />
+
+    <ImageButton
+        android:id="@+id/imageButton_star_empty"
+        style="@style/CustomStarImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_sinner"
+        app:layout_constraintEnd_toEndOf="@+id/button_sinner"
+        app:layout_constraintTop_toTopOf="@+id/button_sinner" />
+
+    <Button
+        android:id="@+id/button_zverev"
+        style="@style/CustomButtonZverev"
+        android:layout_width="350sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sinner" />
+
+    <ImageView
+        android:id="@+id/GerImg"
+        style="@style/GerImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_zverev"
+        app:layout_constraintStart_toStartOf="@+id/button_zverev"
+        app:layout_constraintTop_toTopOf="@+id/button_zverev" />
+
+    <ImageButton
+        style="@style/CustomStarImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_zverev"
+        app:layout_constraintEnd_toEndOf="@+id/button_zverev"
+        app:layout_constraintTop_toTopOf="@+id/button_zverev" />
+
+    <Button
+        android:id="@+id/button_alcaraz"
+        style="@style/CustomButtonAlcaraz"
+        android:layout_width="350sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_zverev" />
+
+    <ImageView
+        android:id="@+id/SpaImg"
+        style="@style/SpaImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_alcaraz"
+        app:layout_constraintStart_toStartOf="@+id/button_alcaraz"
+        app:layout_constraintTop_toTopOf="@+id/button_alcaraz" />
+
+    <ImageButton
+        style="@style/CustomStarImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_alcaraz"
+        app:layout_constraintEnd_toEndOf="@+id/button_alcaraz"
+        app:layout_constraintTop_toTopOf="@+id/button_alcaraz" />
+
+    <Button
+        android:id="@+id/button_fritz"
+        style="@style/CustomButtonFritz"
+        android:layout_width="350sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_alcaraz" />
+
+
+    <ImageView
+        android:id="@+id/UsaImg"
+        style="@style/UsaImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_fritz"
+        app:layout_constraintStart_toStartOf="@+id/button_fritz"
+        app:layout_constraintTop_toTopOf="@+id/button_fritz" />
+
+    <ImageButton
+        style="@style/CustomStarImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_fritz"
+        app:layout_constraintEnd_toEndOf="@+id/button_fritz"
+        app:layout_constraintTop_toTopOf="@+id/button_fritz" />
+
+    <Button
+        android:id="@+id/button_medvedv"
+        style="@style/CustomButtonMedvedev"
+        android:layout_width="350sp"
+        android:layout_height="65sp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_fritz" />
+
+    <ImageView
+        android:id="@+id/RussImg"
+        style="@style/RussImg."
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_medvedv"
+        app:layout_constraintStart_toStartOf="@+id/button_medvedv"
+        app:layout_constraintTop_toTopOf="@+id/button_medvedv" />
+
+    <ImageButton
+        style="@style/CustomStarImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_medvedv"
+        app:layout_constraintEnd_toEndOf="@+id/button_medvedv"
+        app:layout_constraintTop_toTopOf="@+id/button_medvedv" />
 
 
     <LinearLayout

@@ -1,4 +1,4 @@
 package com.example.teamateapplication
 
-class StatisticsPage {
+class HomeLoginActivity {
 }
