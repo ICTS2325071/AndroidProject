@@ -7,7 +7,6 @@
     tools:context=".preferiti"
     android:background="@color/medium_high_blue">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textView_preferiti"
         style="@style/textView_preferiti"
@@ -214,22 +213,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </FrameLayout>

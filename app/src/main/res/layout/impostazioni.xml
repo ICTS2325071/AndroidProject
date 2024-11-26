@@ -117,8 +117,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100sp"
-            android:layout_marginStart="20sp"
+            android:layout_marginTop="200sp"
+            android:layout_marginStart="10sp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -133,11 +133,10 @@
                 style="@style/CustomButtonElimina"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp" />
+                android:layout_marginStart="10sp" />
 
         </LinearLayout>
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
