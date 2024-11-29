@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/medium_high_blue">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_blue">
 
     <TextView
-        android:id="@+id/textView_home"
-        style="@style/CustomTextViewHome"
+        android:id="@+id/title_player_informations"
+        style="@style/CustomTitlePlayerInformations"
         android:layout_width="match_parent"
         android:layout_height="75sp"
         android:layout_marginStart="20dp"
@@ -17,69 +17,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_statistics"
-        style="@style/CustomButtonStatistics"
-        android:layout_width="348sp"
-        android:layout_height="75sp"
-        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+    <ImageView
+        android:id="@+id/SinnerImg"
+        style="@style/SinnerImg."
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_home"
-        app:layout_constraintVertical_bias="0.516" />
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
-    <HorizontalScrollView
-        android:id="@+id/horizontalScrollView"
-        style="@style/CustomHorizontalScrollView"
-        android:layout_width="match_parent"
-        android:layout_height="329sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="50dp"
+    <Button
+        android:id="@+id/hard_court_"
+        style="@style/Hard_Court"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SinnerImg"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <TextView
+        android:id="@+id/bottomBackground"
+        style="@style/CustomTextViewLogin"
+        android:layout_width="334sp"
+        android:layout_height="320sp"
         app:layout_constraintBottom_toTopOf="@+id/horizontal_layout_menu_bottom"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        style="@style/CustomImageButtonScrollView"
-        android:layout_width="250sp"
-        android:layout_height="148sp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="@+id/horizontalScrollView"
-        app:layout_constraintStart_toStartOf="@+id/horizontalScrollView"
-        app:layout_constraintTop_toBottomOf="@+id/textView_title_scrollView" />
-
-    <TextView
-        android:id="@+id/textView_scrollView"
-        style="@style/CustomTextViewScrollView"
-        android:layout_width="342sp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/horizontalScrollView"
-        app:layout_constraintEnd_toEndOf="@+id/horizontalScrollView"
-        app:layout_constraintStart_toStartOf="@+id/horizontalScrollView"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
-
-    <ImageView
-        android:id="@+id/imageView_title_image"
-        style="@style/CustomFireImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="@+id/horizontalScrollView"
-        app:layout_constraintTop_toTopOf="@+id/horizontalScrollView" />
-
-    <TextView
-        android:id="@+id/textView_title_scrollView"
-        style="@style/CustomTextViewTitleScrollView"
-        android:layout_width="257sp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView_title_image"
-        app:layout_constraintTop_toTopOf="@+id/horizontalScrollView" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SinnerImg" />
 
     <LinearLayout
         android:id="@+id/horizontal_layout_menu_bottom"
@@ -159,5 +126,11 @@
         </LinearLayout>
 
     </LinearLayout>
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
