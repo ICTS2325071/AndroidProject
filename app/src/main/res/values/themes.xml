@@ -191,6 +191,12 @@
     </style>
 
     <style name="CustomTextViewLogin">
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/title_not</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:background">@color/white</item>
     </style>
 
@@ -449,7 +455,7 @@
     </style>
 
     <style name="SinnerImg.">
-        <item name="android:background">@drawable/Sinner</item>
+        <item name="android:background">@drawable/sinner</item>
     </style>
 
     <style name="ItaImg.">
@@ -465,7 +471,7 @@
     </style>
 
     <style name="ZverevImg.">
-        <item name="android:background">@drawable/Zverev</item>
+        <item name="android:background">@drawable/zverev</item>
     </style>
 
     <style name="GerImg.">
@@ -481,11 +487,11 @@
     </style>
 
     <style name="AlcarazImg.">
-        <item name="android:background">@drawable/Alcaraz</item>
+        <item name="android:background">@drawable/alcaraz</item>
     </style>
 
     <style name="SpaImg.">
-        <item name="android:background">@drawable/Spagna</item>
+        <item name="android:background">@drawable/spagna</item>
     </style>
 
     <style name="CustomButtonMedvedev">
@@ -497,7 +503,7 @@
     </style>
 
     <style name="MedvedevImg.">
-        <item name="android:background">@drawable/Medvedev</item>
+        <item name="android:background">@drawable/medvedev</item>
     </style>
 
     <style name="RussImg.">
@@ -513,7 +519,7 @@
     </style>
 
     <style name="FritzImg.">
-        <item name="android:background">@drawable/Fritz</item>
+        <item name="android:background">@drawable/fritz</item>
     </style>
 
     <style name="UsaImg.">
@@ -598,67 +604,20 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="title_notifiche">
-        <item name="android:text">@string/title_not</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomNot">
-        <item name="android:text">@string/not</item>
+    <style name="CustomNotifiche">
+        <item name="android:background">@color/medium_low_blue</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CustomInizio">
-        <item name="android:text">@string/Inizio_notifiche</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
+    <style name="NotificheSi">
+        <item name="android:background">@drawable/notifiche_attive</item>
     </style>
 
-    <style name="CustomFine">
-        <item name="android:text">@string/Fine_notifiche</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomSet">
-        <item name="android:text">@string/Fine_Set</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="NotImg.">
-        <item name="android:background">@drawable/sinotifiche</item>
-    </style>
-
-    <style name="SitImg.">
-        <item name="android:background">@drawable/nonotifiche</item>
-    </style>
-
-    <style name="Suono">
-        <item name="android:text">@string/suono_notifiche</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name= "Vibra">
-        <item name="android:text">@string/vibra_notifiche</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
+    <style name="NotificheNo">
+        <item name="android:background">@drawable/notifiche_disattivate</item>
     </style>
 
     <style name="textView_Sinner">
