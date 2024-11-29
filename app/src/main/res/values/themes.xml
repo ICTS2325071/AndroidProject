@@ -36,7 +36,7 @@
     </style>
 
     <style name="CustomTitlePlayerInformations">
-        <item name="android:text">@string/button_sinner</item>
+        <item name="android:text">@string/Sinner_</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
@@ -670,5 +670,59 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="name_utente_">
+        <item name="android:text">@string/Utente</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="name_email_">
+        <item name="android:text">@string/Email</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Informazioni_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Informazioni2_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/dark_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Statistiche_">
+        <item name="android:text">@string/Stat_player</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Carriera_">
+        <item name="android:text">@string/Stat_Carri</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Ultime_news_">
+        <item name="android:text">@string/News</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
 
 </resources>

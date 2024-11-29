@@ -85,7 +85,7 @@
 
     <string name="title_prefe">Preferiti</string>
 
-    <string name="button_sinner">1. JANNICK SINNER</string>
+    <string name="button_sinner">1. JANNIK SINNER</string>
 
     <string name="button_zverev">2. ALEXANDER ZVEREV</string>
 
@@ -123,6 +123,18 @@
 
     <string name="vibra_notifiche"> Vibrazione </string>
 
-    <string name="Sinner_"> JANNICK SINNER  </string>
+    <string name="Sinner_"> JANNIK SINNER  </string>
+
+    <string name="Utente"> Nome Utente  </string>
+
+    <string name="Email"> E-mail</string>
+
+    <string name="Info_player"> Informazioni Giocatore </string>
+
+    <string name="Stat_player"> Statistiche Giocatore </string>
+
+    <string name="Stat_Carri"> Statistiche Carriera </string>
+
+    <string name="News"> Ultime News </string>
 
 </resources>
