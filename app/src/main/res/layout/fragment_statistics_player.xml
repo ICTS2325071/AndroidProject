@@ -3,74 +3,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".AccountFragment"
+    tools:context=".info_player"
     android:background="@color/medium_high_blue">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/textView_account"
-        style="@style/textView_account"
+        android:id="@+id/title_player_informations"
+        style="@style/CustomTitlePlayerInformations"
         android:layout_width="374sp"
         android:layout_height="75sp"
         android:layout_marginStart="20sp"
         android:layout_marginTop="50sp"
         android:layout_marginEnd="20sp" />
 
-    <TextView
-        android:id="@+id/bottomBackground"
-        style="@style/CustomTextViewLogin"
-        android:layout_width="414sp"
-        android:layout_height="520sp"
-        android:layout_marginTop="215sp" />
-
-    <TextView
-        android:id="@+id/utente_"
-        style="@style/name_utente_"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150sp"
-        android:layout_marginTop="250sp" />
-
-   <TextView
-       android:layout_width="50sp"
-       android:layout_height="50sp"
-       android:background="@color/black"
-       android:layout_marginStart="170sp"
-       android:layout_marginTop="290sp"/>
-
-    <TextView
-        android:id="@+id/email_"
-        style="@style/name_email_"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="170sp"
-        android:layout_marginTop="400sp" />
-
-    <TextView
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:background="@color/black"
-        android:layout_marginStart="170sp"
-        android:layout_marginTop="440sp"/>
-
-
-
-    <!-- FARE DUE ACTIVITY PER I DUE PULSANTI -->
-    <Button
-        android:id="@+id/button_changeuser"
-        style="@style/CustomButtonUser"
+    <ImageView
+        android:id="@+id/SinnerImg"
+        style="@style/SinnerImg."
         android:layout_width="120sp"
-        android:layout_height="60sp"
-        android:layout_marginTop="550sp"
-        android:layout_marginStart="50sp" />
+        android:layout_height="100sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="160sp"/>
 
     <Button
-        android:id="@+id/button_changepss"
-        style="@style/CustomButtonPss"
+        android:id="@+id/info_"
+        style="@style/Informazioni_"
+        android:text="@string/Info_player"
         android:layout_width="120sp"
-        android:layout_height="60sp"
-        android:layout_marginTop="550sp"
-        android:layout_marginStart="240sp"/>
+        android:layout_height="80sp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="135dp"/>
+
+    <Button
+        android:id="@+id/stat_"
+        style="@style/Informazioni2_"
+        android:text="@string/Stat_player"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="135dp"/>
+
+    <Button
+        android:id="@+id/carriera_"
+        style="@style/Carriera_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="225dp" />
+
+    <Button
+        android:id="@+id/news_"
+        style="@style/Ultime_news_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="225dp" />
+
+    <ScrollView
+        android:layout_width="350sp"
+        android:layout_height="300sp"
+        android:background="@color/white"
+        android:layout_marginTop="325sp"
+        android:layout_marginStart="30dp"/>
+
 
     <LinearLayout
         android:id="@+id/horizontal_layout_menu_bottom"
@@ -150,5 +144,10 @@
         </LinearLayout>
 
     </LinearLayout>
+
+
+
+
+
 
 </FrameLayout>

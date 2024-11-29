@@ -17,6 +17,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/info_"
+        style="@style/Informazioni2_"
+        android:text="@string/Info_player"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/SinnerImg"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <Button
+        android:id="@+id/stat_"
+        style="@style/Statistiche_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/info_"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <Button
+        android:id="@+id/carriera_"
+        style="@style/Carriera_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/SinnerImg"
+        app:layout_constraintTop_toBottomOf="@+id/info_" />
+
+    <Button
+        android:id="@+id/news_"
+        style="@style/Ultime_news_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/carriera_"
+        app:layout_constraintTop_toBottomOf="@+id/stat_" />
+
+    <ScrollView
+        android:layout_width="350sp"
+        android:layout_height="300sp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_layout_menu_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carriera_" />
+
+
+
     <ImageView
         android:id="@+id/ItaliaImg"
         style="@style/ItaImg."
@@ -43,7 +95,7 @@
         android:layout_width="120sp"
         android:layout_height="100sp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="35dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
