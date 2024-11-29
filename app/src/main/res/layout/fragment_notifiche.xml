@@ -9,7 +9,7 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/title_notifiche"
-        style="@style/CustomTextViewLogin"
+        style="@style/CustomNotificheTitle"
         android:layout_width="412sp"
         android:layout_height="60sp" />
 
@@ -31,7 +31,7 @@
         android:layout_marginStart="250sp"/>
 
     <ImageButton
-        android:id="@+id/mostra_notifiche_balck"
+        android:id="@+id/mostra_notifiche_black"
         style="@style/NotificheNo"
         android:layout_width="30sp"
         android:layout_height="30sp"

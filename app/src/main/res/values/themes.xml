@@ -190,13 +190,16 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CustomTextViewLogin">
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">center</item>
+    <style name="CustomBackgroundWhite">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="CustomNotificheTitle">
         <item name="android:text">@string/title_not</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:background">@color/white</item>
     </style>
 
@@ -519,7 +522,7 @@
     </style>
 
     <style name="FritzImg.">
-        <item name="background">@drawable/fritz</item>
+        <item name="android:background">@drawable/fritz</item>
     </style>
 
     <style name="UsaImg.">
