@@ -519,7 +519,7 @@
     </style>
 
     <style name="FritzImg.">
-        <item name="android:background">@drawable/fritz</item>
+        <item name="background">@drawable/fritz</item>
     </style>
 
     <style name="UsaImg.">

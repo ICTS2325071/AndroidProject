@@ -39,7 +39,7 @@
         android:layout_marginStart="300sp"/>
 
     <TextView
-        android:id="@+id/inizio_notifiche"
+        android:id="@+id/inizio_match"
         style="@style/CustomNotifiche"
         android:layout_width="300sp"
         android:layout_height="40sp"
@@ -48,7 +48,7 @@
         android:layout_marginStart="50sp" />
 
     <ImageView
-        android:id="@+id/inizio_notifiche_white"
+        android:id="@+id/inizio_match_white"
         style="@style/NotificheSi"
         android:layout_width="30sp"
         android:layout_height="30sp"
@@ -56,7 +56,7 @@
         android:layout_marginStart="250sp"/>
 
     <ImageView
-        android:id="@+id/inizio_notifiche_black"
+        android:id="@+id/inizio_match_black"
         style="@style/NotificheNo"
         android:layout_width="30sp"
         android:layout_height="30sp"
@@ -73,7 +73,7 @@
         android:layout_marginStart="50dp" />
 
     <ImageView
-        android:id="@+id/Not_img"
+        android:id="@+id/fine_match_white"
         style="@style/NotificheSi"
         android:layout_width="30sp"
         android:layout_height="30sp"
@@ -81,7 +81,7 @@
         android:layout_marginStart="250sp"/>
 
     <ImageView
-        android:id="@+id/SitImg_"
+        android:id="@+id/fine_match_black"
         style="@style/NotificheNo"
         android:layout_width="30sp"
         android:layout_height="30sp"
@@ -89,7 +89,7 @@
         android:layout_marginStart="300sp"/>
 
     <TextView
-        android:id="@+id/Fine_set"
+        android:id="@+id/fine_set"
         style="@style/CustomNotifiche"
         android:layout_width="300sp"
         android:layout_height="40sp"
@@ -98,7 +98,7 @@
         android:layout_marginStart="50sp" />
 
     <ImageView
-        android:id="@+id/Not_img"
+        android:id="@+id/fine_set_white"
         style="@style/NotificheSi"
         android:layout_width="30sp"
         android:layout_height="30sp"
@@ -106,61 +106,11 @@
         android:layout_marginStart="250sp"/>
 
     <ImageView
-        android:id="@+id/SitImg_"
+        android:id="@+id/fine_set_black"
         style="@style/NotificheNo"
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="385sp"
-        android:layout_marginStart="300sp"/>
-
-    <TextView
-        android:id="@+id/suono_set"
-        style="@style/CustomNotifiche"
-        android:layout_width="300sp"
-        android:layout_height="40sp"
-        android:text="@string/suono_notifiche"
-        android:layout_marginTop="470sp"
-        android:layout_marginStart="50sp" />
-
-    <ImageView
-        android:id="@+id/Not_img"
-        style="@style/NotificheSi"
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:layout_marginTop="475sp"
-        android:layout_marginStart="250sp"/>
-
-    <ImageView
-        android:id="@+id/SitImg_"
-        style="@style/NotificheNo"
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:layout_marginTop="475sp"
-        android:layout_marginStart="300sp"/>
-
-    <TextView
-        android:id="@+id/vibra_set"
-        style="@style/CustomNotifiche"
-        android:layout_width="300sp"
-        android:layout_height="40sp"
-        android:text="@string/vibra_notifiche"
-        android:layout_marginTop="560sp"
-        android:layout_marginStart="50sp" />
-
-    <ImageView
-        android:id="@+id/Not_img"
-        style="@style/NotificheSi"
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:layout_marginTop="565sp"
-        android:layout_marginStart="250sp"/>
-
-    <ImageView
-        android:id="@+id/SitImg_"
-        style="@style/NotificheNo"
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:layout_marginTop="565sp"
         android:layout_marginStart="300sp"/>
 
 
