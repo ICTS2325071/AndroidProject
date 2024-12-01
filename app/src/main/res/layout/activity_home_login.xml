@@ -20,7 +20,7 @@
 
     <TextView
         android:id="@+id/bottomBackground"
-        style="@style/CustomTextViewLogin"
+        style="@style/CustomBackgroundWhite"
         android:layout_width="0dp"
         android:layout_height="520sp"
         app:layout_constraintBottom_toBottomOf="parent"

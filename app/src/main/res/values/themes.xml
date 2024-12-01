@@ -8,7 +8,6 @@
     <style name="Theme.TeamateApplication" parent="Base.Theme.TeamateApplication" />
 
     //temi pagina di avvio
-
     <style name="CustomImageViewLogo">
         <item name="android:background">@drawable/logo_app</item>
     </style>
@@ -249,10 +248,10 @@
     </style>
 
     <style name="enter_phone_">
-        <item name="android:text">@string/enter</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
+    <item name="android:text">@string/enter</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/dark_blue</item>
+    <item name="android:textStyle">bold</item>
     </style>
 
     <style name="enter_password_">
@@ -432,14 +431,14 @@
     </style>
 
     <style name="textView_preferiti">
-        <item name="android:text">@string/title_prefe</item>
-        <item name="android:background">@color/dark_blue</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:textSize">32sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textStyle">bold</item>
-    </style>
+            <item name="android:text">@string/title_prefe</item>
+            <item name="android:background">@color/dark_blue</item>
+            <item name="android:textAlignment">center</item>
+            <item name="android:gravity">center_vertical</item>
+            <item name="android:textSize">32sp</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:textStyle">bold</item>
+        </style>
 
     <style name="CustomButtonSinner">
         <item name="android:text">@string/button_sinner</item>
@@ -654,7 +653,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Vibra">
+    <style name= "Vibra">
         <item name="android:text">@string/vibra_notifiche</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/white</item>
@@ -724,13 +723,6 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Hard_Court">
-        <item name="android:text">@string/Hard</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
 
 
 </resources>

@@ -111,13 +111,13 @@
 
     <string name="title_not"> NOTIFICHE </string>
 
-    <string name="not"> Mostra Notifiche </string>
+    <string name="mostra_notifiche"> Mostra Notifiche </string>
 
-    <string name="Inizio_notifiche"> Notifiche Inizio Match </string>
+    <string name="inizio_notifiche"> Notifiche Inizio Match </string>
 
-    <string name="Fine_notifiche"> Notifiche Fine Match </string>
+    <string name="fine_notifiche"> Notifiche Fine Match </string>
 
-    <string name="Fine_Set"> Notifiche Fine Set </string>
+    <string name="fine_set"> Notifiche Fine Set </string>
 
     <string name="suono_notifiche"> Suono </string>
 
