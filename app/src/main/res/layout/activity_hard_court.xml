@@ -3,11 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/light_blue">
+    android:background="@color/opacity_blue">
 
     <TextView
         android:id="@+id/title_player_informations"
-        style="@style/CustomTitlePlayerInformations"
+        style="@style/CustomTitleHardCourt"
         android:layout_width="match_parent"
         android:layout_height="75sp"
         android:layout_marginStart="20dp"
@@ -50,7 +50,6 @@
 
     <LinearLayout
         android:id="@+id/horizontal_layout_menu_bottom"
-        style="@style/CustomLayoutMenuBottom"
         android:layout_width="match_parent"
         android:layout_height="70sp"
         android:layout_marginStart="20dp"
@@ -59,6 +58,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/medium_high_blue"
         android:gravity="center">
 
         <LinearLayout
@@ -126,11 +126,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

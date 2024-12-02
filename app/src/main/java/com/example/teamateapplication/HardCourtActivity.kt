@@ -9,7 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.teamateapplication.databinding.ActivityHardCourtBinding
 
-class hard_court : AppCompatActivity() {
+class HardCourtActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityHardCourtBinding
