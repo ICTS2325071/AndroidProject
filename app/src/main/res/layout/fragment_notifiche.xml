@@ -24,7 +24,7 @@
 
     <ImageButton
         android:id="@+id/mostra_notifiche_white"
-        style="@style/NotificheSi"
+        style="@style/SImg."
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="115sp"
@@ -32,7 +32,7 @@
 
     <ImageButton
         android:id="@+id/mostra_notifiche_black"
-        style="@style/NotificheNo"
+        style="@style/NImg."
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="115sp"
@@ -49,7 +49,7 @@
 
     <ImageView
         android:id="@+id/inizio_match_white"
-        style="@style/NotificheSi"
+        style="@style/SImg."
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="205sp"
@@ -57,7 +57,7 @@
 
     <ImageView
         android:id="@+id/inizio_match_black"
-        style="@style/NotificheNo"
+        style="@style/NImg."
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="205sp"
@@ -74,7 +74,7 @@
 
     <ImageView
         android:id="@+id/fine_match_white"
-        style="@style/NotificheSi"
+        style="@style/SImg."
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="295sp"
@@ -82,7 +82,7 @@
 
     <ImageView
         android:id="@+id/fine_match_black"
-        style="@style/NotificheNo"
+        style="@style/NImg."
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="295sp"
@@ -99,7 +99,7 @@
 
     <ImageView
         android:id="@+id/fine_set_white"
-        style="@style/NotificheSi"
+        style="@style/SImg."
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="385sp"
@@ -107,7 +107,7 @@
 
     <ImageView
         android:id="@+id/fine_set_black"
-        style="@style/NotificheNo"
+        style="@style/NImg."
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:layout_marginTop="385sp"

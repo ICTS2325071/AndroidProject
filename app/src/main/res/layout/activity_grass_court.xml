@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/yellow">
+
+    <TextView
+        android:id="@+id/title_player_informations"
+        style="@style/CustomTitlePlayerInformations"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/SinnerImg"
+        style="@style/SinnerImg."
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <Button
+        android:id="@+id/Grass_court_"
+        style="@style/Grass_Court"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SinnerImg"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <TextView
+        android:id="@+id/bottomBackground"
+        style="@style/CustomTextViewLogin"
+        android:layout_width="334sp"
+        android:layout_height="320sp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_layout_menu_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SinnerImg" />
+
+    <LinearLayout
+        android:id="@+id/horizontal_layout_menu_bottom"
+        style="@style/CustomLayoutMenuBottom"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_home"
+                style="@style/CustomHomeImageWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_home_menu"
+                style="@style/CustomTextViewHomeMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="88sp">
+
+            <ImageView
+                android:id="@+id/imageView_favourites"
+                style="@style/CustomStarImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_favourites_menu"
+                style="@style/CustomTextViewFavouritesMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="75sp">
+
+            <ImageView
+                android:id="@+id/imageView_settings"
+                style="@style/CustomSettingsImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_settings_menu"
+                style="@style/CustomTextViewMenuSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

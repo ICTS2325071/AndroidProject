@@ -449,7 +449,7 @@
     </style>
 
     <style name="SinnerImg.">
-        <item name="android:background">@drawable/Sinner</item>
+        <item name="android:background">@drawable/sinner</item>
     </style>
 
     <style name="ItaImg.">
@@ -465,7 +465,7 @@
     </style>
 
     <style name="ZverevImg.">
-        <item name="android:background">@drawable/Zverev</item>
+        <item name="android:background">@drawable/zverev</item>
     </style>
 
     <style name="GerImg.">
@@ -481,11 +481,11 @@
     </style>
 
     <style name="AlcarazImg.">
-        <item name="android:background">@drawable/Alcaraz</item>
+        <item name="android:background">@drawable/alcaraz</item>
     </style>
 
     <style name="SpaImg.">
-        <item name="android:background">@drawable/Spagna</item>
+        <item name="android:background">@drawable/spagna</item>
     </style>
 
     <style name="CustomButtonMedvedev">
@@ -497,7 +497,7 @@
     </style>
 
     <style name="MedvedevImg.">
-        <item name="android:background">@drawable/Medvedev</item>
+        <item name="android:background">@drawable/medvedev</item>
     </style>
 
     <style name="RussImg.">
@@ -513,7 +513,7 @@
     </style>
 
     <style name="FritzImg.">
-        <item name="android:background">@drawable/Fritz</item>
+        <item name="android:background">@drawable/fritz</item>
     </style>
 
     <style name="UsaImg.">
@@ -614,7 +614,7 @@
     </style>
 
     <style name="CustomInizio">
-        <item name="android:text">@string/Inizio_notifiche</item>
+        <item name="android:text">@string/inizio_notifiche</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/opacity_blue</item>
@@ -622,7 +622,7 @@
     </style>
 
     <style name="CustomFine">
-        <item name="android:text">@string/Fine_notifiche</item>
+        <item name="android:text">@string/fine_notifiche</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/opacity_blue</item>
@@ -630,19 +630,19 @@
     </style>
 
     <style name="CustomSet">
-        <item name="android:text">@string/Fine_Set</item>
+        <item name="android:text">@string/fine_set</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/opacity_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="NotImg.">
-        <item name="android:background">@drawable/sinotifiche</item>
+    <style name="SImg.">
+        <item name="android:background">@drawable/notifiche_attive</item>
     </style>
 
-    <style name="SitImg.">
-        <item name="android:background">@drawable/nonotifiche</item>
+    <style name="NImg.">
+        <item name="android:background">@drawable/notifiche_disattivate</item>
     </style>
 
     <style name="Suono">
@@ -723,6 +723,28 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="Hard_Court">
+        <item name="android:text">@string/Hard</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
+    <style name="Grass_Court">
+        <item name="android:text">@string/Grass</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Clay_Court">
+        <item name="android:text">@string/Clay</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
 </resources>

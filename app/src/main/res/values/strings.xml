@@ -139,4 +139,9 @@
 
     <string name="Hard"> Cemento </string>
 
+    <string name="Grass"> Erba </string>
+
+    <string name="Clay"> Terra </string>
+
+
 </resources>
