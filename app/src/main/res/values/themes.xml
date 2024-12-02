@@ -722,4 +722,11 @@
         <item name="android:background">@drawable/notifiche_disattivate</item>
     </style>
 
+    <style name="CustomTextViewSurface">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

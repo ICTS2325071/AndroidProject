@@ -27,16 +27,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
-    <Button
+    <TextView
         android:id="@+id/Clay_court_"
-        style="@style/Clay_Court"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
+        style="@style/CustomTextViewSurface"
+        android:layout_width="100sp"
+        android:layout_height="60sp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/SinnerImg"
-        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations"
+        android:text="@string/Clay"
+        android:background="@color/medium_high_blue" />
 
     <TextView
         android:id="@+id/bottomBackground"
