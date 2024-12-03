@@ -78,7 +78,7 @@
 
             <ImageView
                 android:id="@+id/Account_img"
-                style="@style/Account_Img."
+                style="@style/Account_Img"
                 android:layout_width="30sp"
                 android:layout_height="30sp" />
 
@@ -102,7 +102,7 @@
 
             <ImageView
                 android:id="@+id/Preferitimg"
-                style="@style/Preferitimg."
+                style="@style/Preferitimg"
                 android:layout_width="30sp"
                 android:layout_height="30sp" />
 
@@ -126,7 +126,7 @@
 
             <ImageView
                 android:id="@+id/EliminaImg"
-                style="@style/EliminaImg."
+                style="@style/EliminaImg"
                 android:layout_width="30sp"
                 android:layout_height="30sp" />
 

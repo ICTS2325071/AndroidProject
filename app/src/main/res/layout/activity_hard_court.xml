@@ -22,7 +22,7 @@
 
     <ImageView
         android:id="@+id/SinnerImg"
-        style="@style/SinnerImg."
+        style="@style/SinnerImg"
         android:layout_width="120sp"
         android:layout_height="100sp"
         android:layout_marginStart="10dp"

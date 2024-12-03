@@ -26,7 +26,7 @@
 
     <ImageView
         android:id="@+id/sinner_img"
-        style="@style/SinnerImg."
+        style="@style/SinnerImg"
         android:layout_width="45sp"
         android:layout_height="45sp"
         android:layout_marginStart="70sp"
@@ -34,7 +34,7 @@
 
     <ImageView
         android:id="@+id/italia_img"
-        style="@style/ItaImg."
+        style="@style/ItaImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="320sp"
@@ -50,7 +50,7 @@
 
     <ImageView
         android:id="@+id/zverev_img"
-        style="@style/ZverevImg."
+        style="@style/ZverevImg"
         android:layout_width="45sp"
         android:layout_height="45sp"
         android:layout_marginStart="70sp"
@@ -58,7 +58,7 @@
 
     <ImageView
         android:id="@+id/germany_img"
-        style="@style/GerImg."
+        style="@style/GerImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="320sp"
@@ -74,7 +74,7 @@
 
     <ImageView
         android:id="@+id/alcaraz_img"
-        style="@style/AlcarazImg."
+        style="@style/AlcarazImg"
         android:layout_width="45sp"
         android:layout_height="45sp"
         android:layout_marginStart="70sp"
@@ -82,7 +82,7 @@
 
     <ImageView
         android:id="@+id/spain_img"
-        style="@style/SpaImg."
+        style="@style/SpaImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="320sp"
@@ -98,7 +98,7 @@
 
     <ImageView
         android:id="@+id/fritz_img"
-        style="@style/FritzImg."
+        style="@style/FritzImg"
         android:layout_width="45sp"
         android:layout_height="45sp"
         android:layout_marginStart="70sp"
@@ -106,7 +106,7 @@
 
     <ImageView
         android:id="@+id/usa_img"
-        style="@style/UsaImg."
+        style="@style/UsaImg"
         android:layout_width="33sp"
         android:layout_height="25sp"
         android:layout_marginStart="320sp"
@@ -122,7 +122,7 @@
 
     <ImageView
         android:id="@+id/medvedev_img"
-        style="@style/MedvedevImg."
+        style="@style/MedvedevImg"
         android:layout_width="45sp"
         android:layout_height="45sp"
         android:layout_marginStart="70sp"
@@ -130,7 +130,7 @@
 
     <ImageView
         android:id="@+id/world_img"
-        style="@style/RussImg."
+        style="@style/RussImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="320sp"
