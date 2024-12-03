@@ -404,7 +404,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Account_Img.">
+    <style name="Account_Img">
         <item name="android:background">@drawable/account</item>
     </style>
 
@@ -416,7 +416,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Preferitimg.">
+    <style name="Preferitimg">
         <item name="android:background">@drawable/preferiti</item>
     </style>
 
@@ -428,7 +428,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="EliminaImg.">
+    <style name="EliminaImg">
         <item name="android:background">@drawable/elimina</item>
     </style>
 
@@ -458,11 +458,11 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="SinnerImg.">
+    <style name="SinnerImg">
         <item name="android:background">@drawable/sinner</item>
     </style>
 
-    <style name="ItaImg.">
+    <style name="ItaImg">
         <item name="android:background">@drawable/italia</item>
     </style>
 
@@ -474,11 +474,11 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="ZverevImg.">
+    <style name="ZverevImg">
         <item name="android:background">@drawable/zverev</item>
     </style>
 
-    <style name="GerImg.">
+    <style name="GerImg">
         <item name="android:background">@drawable/germania</item>
     </style>
 
@@ -490,11 +490,11 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="AlcarazImg.">
+    <style name="AlcarazImg">
         <item name="android:background">@drawable/alcaraz</item>
     </style>
 
-    <style name="SpaImg.">
+    <style name="SpaImg">
         <item name="android:background">@drawable/spagna</item>
     </style>
 
@@ -506,11 +506,11 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="MedvedevImg.">
+    <style name="MedvedevImg">
         <item name="android:background">@drawable/medvedev</item>
     </style>
 
-    <style name="RussImg.">
+    <style name="RussImg">
         <item name="android:background">@drawable/russia</item>
     </style>
 
@@ -522,11 +522,11 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="FritzImg.">
+    <style name="FritzImg">
         <item name="android:background">@drawable/fritz</item>
     </style>
 
-    <style name="UsaImg.">
+    <style name="UsaImg">
         <item name="android:background">@drawable/usa</item>
     </style>
 

@@ -80,7 +80,7 @@
 
     <ImageView
         android:id="@+id/ItaliaImg"
-        style="@style/ItaImg."
+        style="@style/ItaImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="30dp"
@@ -110,7 +110,7 @@
 
     <ImageView
         android:id="@+id/GerImg"
-        style="@style/GerImg."
+        style="@style/GerImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="30dp"
@@ -139,7 +139,7 @@
 
     <ImageView
         android:id="@+id/SpaImg"
-        style="@style/SpaImg."
+        style="@style/SpaImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="30dp"
@@ -169,7 +169,7 @@
 
     <ImageView
         android:id="@+id/UsaImg"
-        style="@style/UsaImg."
+        style="@style/UsaImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="30dp"
@@ -198,7 +198,7 @@
 
     <ImageView
         android:id="@+id/RussImg"
-        style="@style/RussImg."
+        style="@style/RussImg"
         android:layout_width="35sp"
         android:layout_height="35sp"
         android:layout_marginStart="30dp"

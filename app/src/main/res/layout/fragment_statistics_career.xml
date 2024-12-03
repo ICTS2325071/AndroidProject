@@ -18,7 +18,7 @@
 
     <ImageView
         android:id="@+id/SinnerImg"
-        style="@style/SinnerImg."
+        style="@style/SinnerImg"
         android:layout_width="120sp"
         android:layout_height="100sp"
         android:layout_marginStart="10sp"
@@ -59,12 +59,35 @@
         android:layout_marginStart="270dp"
         android:layout_marginTop="225dp" />
 
-    <ScrollView
+<Button
+    android:id="@+id/hard_court_"
+    style="@style/CustomTextViewSurface"
+    android:layout_width="350sp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="35dp"
+    android:layout_marginTop="355dp"
+    android:text="@string/Hard"
+    android:backgroundTint="@color/opacity_blue"/>
+
+    <Button
+        android:id="@+id/Grass_court_"
+        style="@style/CustomTextViewSurface"
         android:layout_width="350sp"
-        android:layout_height="300sp"
-        android:background="@color/white"
-        android:layout_marginTop="325sp"
-        android:layout_marginStart="30dp"/>
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="455dp"
+        android:text="@string/Grass"
+        android:backgroundTint="@color/green"/>
+
+    <Button
+        android:id="@+id/Clay_court_"
+        style="@style/CustomTextViewSurface"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="555dp"
+        android:text="@string/Clay"
+        android:backgroundTint="@color/orange"/>
 
 
     <LinearLayout
