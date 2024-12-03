@@ -1,4 +1,12 @@
 package com.example.teamateapplication
 
-class StatisticsPageActivity {
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
+class StatisticsPageActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_statistics_page)
+    }
 }
