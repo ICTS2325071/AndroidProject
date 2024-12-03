@@ -14,10 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TeamateApplication"
         tools:targetApi="31" >
-        <activity
-            android:name=".grass_court"
-            android:exported="false"
-            android:theme="@style/Theme.TeamateApplication" />
+
         <activity
             android:name=".HardCourtActivity"
             android:exported="false"
