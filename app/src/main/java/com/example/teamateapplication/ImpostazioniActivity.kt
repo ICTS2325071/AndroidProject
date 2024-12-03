@@ -10,7 +10,9 @@ class ImpostazioniActivity : AppCompatActivity() {
         setContentView(R.layout.activity_impostazioni)
 
         supportFragmentManager.beginTransaction()
+            .replace(R.id.notifiche, NotificheFragment())
             .replace(R.id.account, AccountFragment())
+            .replace(R.id.preferiti, PreferitiFragment())
             .commit()
     }
 }

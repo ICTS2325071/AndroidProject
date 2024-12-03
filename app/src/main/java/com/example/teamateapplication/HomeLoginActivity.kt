@@ -43,6 +43,13 @@ class HomeLoginActivity: AppCompatActivity() {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
+
+        /*supportFragmentManager.beginTransaction()
+            .replace(R.id.phone_email_username, PhoneEmailUsernameFragment())
+            .replace(R.id.apple, AppleFragment())
+            .replace(R.id.facebook, FacebookFragment())
+            .replace(R.id.google, GoogleFragment())
+            .commit()*/
     }
 }
 
