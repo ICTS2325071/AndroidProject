@@ -3,31 +3,37 @@
 
     <string name="teamate_title">TEAMATE</string>
 
-    <string name="teamate_subtitle">Tap to continue</string>
+    <string name="teamate_subtitle">Tocca per continuare</string>
 
     <string name="string_home_title">HOME</string>
 
-    <string name="string_statistics">STATISTICS</string>
+    <string name="string_statistics_title">STATISTICHE</string>
+
+    <string name="string_favourites_title">PREFERITI</string>
+
+    <string name="string_settings_title">IMPOSTAZIONI</string>
 
     <string name="string_home">Home</string>
 
-    <string name="string_favourites">Favourites</string>
+    <string name="string_statistics">Statistiche</string>
 
-    <string name="string_settings">Settings</string>
+    <string name="string_favourites">Preferiti</string>
+
+    <string name="string_settings">Impostazioni</string>
 
     <string name="string_title_scrollView">Breaking news</string>
 
     <string name="string_text_scrollView">Sarà Jannik Sinner contro Carlos Alcaraz la finale per il primo posto al Six Kings Slam, mentre Novak Djokovic sfiderà Rafa Nadal nella finale per il terzo posto, in programma entrambe sabato 19 ottobre</string>
 
-    <string name="string_placeholder_editText_search">search tennis player</string>
+    <string name="string_placeholder_editText_search">cerca il tuo tennista</string>
 
     //posse
 
-    <string name="title">Login To Teamate</string>
+    <string name="title">Teamate</string>
 
     <string name="titlelogin">Accedi con</string>
 
-    <string name="button_one">Use phone/email/username</string>
+    <string name="button_one">Continua con telefono/email/username</string>
 
     <string name="button_apple">Continua con Apple</string>
 
@@ -39,51 +45,33 @@
 
     <string name="last_registrati">Registrati</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
-    <string name="phone_email_username">Accedi con telefono/email/username</string>
-
-    <string name="enter">Entra con telefono, email o username</string>
+    <string name="enter">Inserisci telefono, email o username</string>
 
     <string name="password">Inserisci la password</string>
 
-    <string name="back">BACK</string>
+    <string name="back">INDIETRO</string>
 
-    <string name="login">LOGIN</string>
-
-    <string name="accedi_apple">Accedi con Apple</string>
+    <string name="login">ACCEDI</string>
 
     <string name="enter_apple">Inserisci il tuo Id Apple</string>
 
-    <string name="accedi_google">Accedi con Google</string>
-
     <string name="enter_google">Inserisci la tua email di Google</string>
 
-    <string name="accedi_facebook">Accedi con Facebook</string>
-
-    <string name="enter_facebook">Inserisci la tua mail di Facebook</string>
-
-    <string name="register">Registrati su Teamate</string>
+    <string name="enter_facebook">Inserisci la tua email di Facebook</string>
 
     <string name="registrati">Registrazione</string>
 
-    <string name="enter_user">Inserisci Username</string>
+    <string name="enter_user">Inserisci username</string>
 
-    <string name="enter_email">Inserisci Email</string>
+    <string name="enter_email">Inserisci email</string>
 
-    <string name="enter_pass">Inserisci Password</string>
-
-    <string name="title_impo">Impostazioni</string>
+    <string name="enter_pass">Inserisci password</string>
 
     <string name="button_notifiche">Notifiche</string>
 
     <string name="button_account">Account</string>
 
-    <string name="button_preferiti">Preferiti</string>
-
     <string name="button_elimina">Elimina Account</string>
-
-    <string name="title_prefe">Preferiti</string>
 
     <string name="button_sinner">1. JANNIK SINNER</string>
 
@@ -91,57 +79,56 @@
 
     <string name="button_alcaraz">3. CARLOS ALCARAZ</string>
 
-    <string name="button_medvedev">5. DANIIL MEDVEDEV</string>
-
     <string name="button_fritz">4. TAYLOR FRITZ</string>
 
-    <string name="title_account">Account</string>
+    <string name="button_medvedev">5. DANIIL MEDVEDEV</string>
 
-    <string name="button_changeuser">Cambia Username  </string>
+    <string name="button_changeuser">Cambia username</string>
 
-    <string name="button_changepss">Cambia Password  </string>
+    <string name="button_changepss">Cambia password</string>
 
-    <string name="old_password"> Inserisci vecchia Password</string>
+    <string name="old_password">Inserisci la vecchia password</string>
 
-    <string name="new_password"> Inserisci nuova Password</string>
+    <string name="new_password">Inserisci la nuova password</string>
 
-    <string name="old_username"> Inserisci vecchio Username</string>
+    <string name="old_username">Inserisci il vecchio username</string>
 
-    <string name="new_username"> Inserisci nuovo Username</string>
+    <string name="new_username">Inserisci il nuovo username</string>
 
-    <string name="title_not"> NOTIFICHE </string>
+    <string name="title_not">Notifiche</string>
 
-    <string name="mostra_notifiche"> Mostra Notifiche </string>
+    <string name="mostra_notifiche">Mostra notifiche</string>
 
-    <string name="inizio_notifiche"> Notifiche Inizio Match </string>
+    <string name="inizio_notifiche">Notifiche inizio match</string>
 
-    <string name="fine_notifiche"> Notifiche Fine Match </string>
+    <string name="fine_notifiche">Notifiche fine match</string>
 
-    <string name="fine_set"> Notifiche Fine Set </string>
+    <string name="fine_set">Notifiche fine set</string>
 
-    <string name="suono_notifiche"> Suono </string>
+    <string name="suono_notifiche">Suono</string>
 
-    <string name="vibra_notifiche"> Vibrazione </string>
+    <string name="vibra_notifiche">Vibrazione</string>
 
-    <string name="Sinner_"> JANNIK SINNER  </string>
+    <string name="Sinner_">Jannik Sinner</string>
 
-    <string name="Utente"> Nome Utente  </string>
+    <string name="Utente">Username</string>
 
-    <string name="Email"> E-mail</string>
+    <string name="Email">Email</string>
 
-    <string name="Info_player"> Informazioni Giocatore </string>
+    <string name="Info_player">Informazioni giocatore</string>
 
-    <string name="Stat_player"> Statistiche Giocatore </string>
+    <string name="Stat_player">Statistiche giocatore</string>
 
-    <string name="Stat_Carri"> Statistiche Carriera </string>
+    <string name="Stat_Carri">Statistiche carriera</string>
 
-    <string name="News"> Ultime News </string>
+    <string name="News">Ultime news</string>
 
-    <string name="Hard"> Cemento </string>
+    <string name="Hard">Cemento</string>
 
-    <string name="Grass"> Erba </string>
+    <string name="Grass">Erba</string>
 
-    <string name="Clay"> Terra </string>
+    <string name="Clay">Terra</string>
+
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
 

@@ -26,7 +26,7 @@
     </style>
 
     <style name="CustomTextViewHome">
-        <item name="android:text">@string/string_home_title</item>
+        <item name="android:text">@string/string_home</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
@@ -73,7 +73,7 @@
     </style>
 
     <style name="CustomTextViewHomeMenu">
-        <item name="android:text">@string/string_home</item>
+        <item name="android:text">@string/string_home_title</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
@@ -86,7 +86,7 @@
     </style>
 
     <style name="CustomTextViewFavouritesMenu">
-        <item name="android:text">@string/string_favourites</item>
+        <item name="android:text">@string/string_favourites_title</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
@@ -99,7 +99,7 @@
     </style>
 
     <style name="CustomTextViewMenuSettings">
-        <item name="android:text">@string/string_settings</item>
+        <item name="android:text">@string/string_settings_title</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAlignment">center</item>
@@ -250,8 +250,8 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="phone_email_user_">
-        <item name="android:text">@string/phone_email_username</item>
+    <style name="accedi_phone_email_username">
+        <item name="android:text">@string/button_one</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
@@ -298,7 +298,7 @@
     </style>
 
     <style name="accedi_apple">
-        <item name="android:text">@string/accedi_apple</item>
+        <item name="android:text">@string/button_apple</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
@@ -312,7 +312,7 @@
     </style>
 
     <style name="accedi_google">
-        <item name="android:text">@string/accedi_google</item>
+        <item name="android:text">@string/button_google</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
@@ -326,7 +326,7 @@
     </style>
 
     <style name="accedi_facebook">
-        <item name="android:text">@string/accedi_facebook</item>
+        <item name="android:text">@string/button_facebook</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
@@ -340,7 +340,7 @@
     </style>
 
     <style name="textview_register">
-        <item name="android:text">@string/register</item>
+        <item name="android:text">@string/title</item>
         <item name="android:background">@color/dark_blue</item>
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">center_vertical</item>
@@ -382,7 +382,7 @@
     </style>
 
     <style name="textView_Impo">
-        <item name="android:text">@string/title_impo</item>
+        <item name="android:text">@string/string_settings</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
@@ -421,7 +421,7 @@
     </style>
 
     <style name="CustomButtonPreferiti">
-        <item name="android:text">@string/button_preferiti</item>
+        <item name="android:text">@string/string_favourites</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="backgroundTint">@color/white</item>
@@ -441,7 +441,7 @@
     </style>
 
     <style name="textView_preferiti">
-            <item name="android:text">@string/title_prefe</item>
+            <item name="android:text">@string/string_favourites</item>
             <item name="android:background">@color/dark_blue</item>
             <item name="android:textAlignment">center</item>
             <item name="android:gravity">center_vertical</item>
@@ -531,7 +531,7 @@
     </style>
 
     <style name="textView_account">
-        <item name="android:text">@string/title_account</item>
+        <item name="android:text">@string/button_account</item>
         <item name="android:background">@color/dark_blue</item>
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">center_vertical</item>
