@@ -57,7 +57,10 @@
 
     <style name="CustomButtonStatistics">
         <item name="android:backgroundTint">@color/medium_low_blue</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:text">@string/string_statistics</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
     </style>
 
     <style name="CustomLayoutMenuBottom">

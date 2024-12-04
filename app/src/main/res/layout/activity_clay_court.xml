@@ -48,90 +48,52 @@
         style="@style/CustomTextViewLogin"
         android:layout_width="334sp"
         android:layout_height="320sp"
-        app:layout_constraintBottom_toTopOf="@+id/horizontal_layout_menu_bottom"
+        app:layout_constraintBottom_toTopOf="@+id/textView_menu_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SinnerImg" />
 
-    <LinearLayout
-        android:id="@+id/horizontal_layout_menu_bottom"
+    <TextView
+        android:id="@+id/textView_menu_bottom"
         style="@style/CustomLayoutMenuBottom"
         android:layout_width="match_parent"
-        android:layout_height="70sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_height="60sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:gravity="center">
+        android:gravity="center" />
 
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/imageButton_home"
+        style="@style/CustomHomeImageWhite"
+        android:layout_width="37sp"
+        android:layout_height="37sp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_menu_bottom"
+        app:layout_constraintStart_toStartOf="@+id/textView_menu_bottom"
+        app:layout_constraintTop_toTopOf="@+id/textView_menu_bottom" />
 
-            <ImageView
-                android:id="@+id/imageView_home"
-                style="@style/CustomHomeImageWhite"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/imageButton_favourites"
+        style="@style/CustomStarImage"
+        android:layout_width="37sp"
+        android:layout_height="37sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_menu_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_settings"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_home"
+        app:layout_constraintTop_toTopOf="@+id/textView_menu_bottom" />
 
-            <TextView
-                android:id="@+id/textView_home_menu"
-                style="@style/CustomTextViewHomeMenu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/linearLayout3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:layout_marginStart="88sp">
-
-            <ImageView
-                android:id="@+id/imageView_favourites"
-                style="@style/CustomStarImage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/textView_favourites_menu"
-                style="@style/CustomTextViewFavouritesMenu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/linearLayout2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:layout_marginStart="75sp">
-
-            <ImageView
-                android:id="@+id/imageView_settings"
-                style="@style/CustomSettingsImage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:id="@+id/textView_settings_menu"
-                style="@style/CustomTextViewMenuSettings"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-
-    </LinearLayout>
-
-
+    <ImageButton
+        android:id="@+id/imageButton_settings"
+        style="@style/CustomSettingsImage"
+        android:layout_width="37sp"
+        android:layout_height="37sp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_menu_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/textView_menu_bottom"
+        app:layout_constraintTop_toTopOf="@+id/textView_menu_bottom" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
