@@ -13,11 +13,10 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(R.layout.activity_register)
 
         val linearLayoutBack = findViewById<LinearLayout>(R.id.back)
-        val linearLayoutLogin: TextView = findViewById(R.id.login)
+        val linearLayoutLogin = findViewById<LinearLayout>(R.id.login)
 
         linearLayoutBack.setOnClickListener {
-            val intent = Intent(this, HomePageActivity::class.java)
-            startActivity(intent)
+            finish()
         }
 
         linearLayoutLogin.setOnClickListener {

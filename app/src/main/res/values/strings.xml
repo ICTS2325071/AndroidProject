@@ -129,6 +129,10 @@
 
     <string name="Clay">Terra</string>
 
+    <string name="ViewPassword">Password</string>
+
+    <string name="ChangeEmail">Cambia email</string>
+
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
 

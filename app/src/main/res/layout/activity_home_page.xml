@@ -25,7 +25,7 @@
         style="@style/CustomButtonStatistics"
         android:layout_width="348sp"
         android:layout_height="75sp"
-        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_home" />
@@ -37,10 +37,10 @@
         android:layout_height="329sp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
         app:layout_constraintBottom_toTopOf="@+id/textView_menu_bottom"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_statistics" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -97,7 +97,7 @@
 
     <ImageButton
         android:id="@+id/imageButton_home"
-        style="@style/CustomHomeImageWhite"
+        style="@style/CustomHomeImageBlue"
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="20sp"
@@ -107,7 +107,7 @@
 
     <ImageButton
         android:id="@+id/imageButton_favourites"
-        style="@style/CustomStarImage"
+        style="@style/CustomStarImageWhite"
         android:layout_width="37sp"
         android:layout_height="37sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView_menu_bottom"
@@ -117,7 +117,7 @@
 
     <ImageButton
         android:id="@+id/imageButton_settings"
-        style="@style/CustomSettingsImage"
+        style="@style/CustomSettingsImageWhite"
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginEnd="20sp"

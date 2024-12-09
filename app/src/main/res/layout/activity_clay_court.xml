@@ -6,26 +6,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ClayCourtActivity"
-    android:background="@color/orange">
+    android:background="@drawable/clay">
 
     <TextView
         android:id="@+id/title_player_informations"
         style="@style/CustomTitlePlayerInformations"
         android:layout_width="match_parent"
         android:layout_height="75sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/orange"/>
 
     <ImageView
         android:id="@+id/SinnerImg"
         style="@style/SinnerImg"
         android:layout_width="120sp"
         android:layout_height="100sp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="20sp"
         android:layout_marginTop="35dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
@@ -41,7 +42,7 @@
         app:layout_constraintStart_toEndOf="@+id/SinnerImg"
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations"
         android:text="@string/Clay"
-        android:background="@color/medium_high_blue" />
+        android:background="@color/orange" />
 
     <TextView
         android:id="@+id/bottomBackground"
@@ -55,7 +56,6 @@
 
     <TextView
         android:id="@+id/textView_menu_bottom"
-        style="@style/CustomLayoutMenuBottom"
         android:layout_width="match_parent"
         android:layout_height="60sp"
         android:layout_marginStart="20sp"
@@ -64,7 +64,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:gravity="center" />
+        android:gravity="center"
+        android:background="@color/orange"/>
 
     <ImageButton
         android:id="@+id/imageButton_home"
@@ -78,7 +79,7 @@
 
     <ImageButton
         android:id="@+id/imageButton_favourites"
-        style="@style/CustomStarImage"
+        style="@style/CustomStarImageWhite"
         android:layout_width="37sp"
         android:layout_height="37sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView_menu_bottom"
@@ -88,7 +89,7 @@
 
     <ImageButton
         android:id="@+id/imageButton_settings"
-        style="@style/CustomSettingsImage"
+        style="@style/CustomSettingsImageWhite"
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginEnd="20dp"

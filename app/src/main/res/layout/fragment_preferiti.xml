@@ -157,7 +157,7 @@
 
     <ImageButton
         android:id="@+id/imageButton_favourites"
-        style="@style/CustomStarImage"
+        style="@style/CustomStarImageBlue"
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="187sp"
@@ -165,7 +165,7 @@
 
     <ImageButton
         android:id="@+id/imageButton_settings"
-        style="@style/CustomSettingsImage"
+        style="@style/CustomSettingsImageWhite"
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="330sp"
