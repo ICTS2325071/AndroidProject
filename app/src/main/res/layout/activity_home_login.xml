@@ -23,7 +23,7 @@
     <TextView
         android:id="@+id/bottomBackground"
         style="@style/CustomBackgroundWhite"
-        android:layout_width="0dp"
+        android:layout_width="0sp"
         android:layout_height="520sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -135,7 +135,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button_google" />
 
     <TextView
-        android:id="@+id/textViewRegistrati"
+        android:id="@+id/textView_registered"
         style="@style/textView_reg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -145,5 +145,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewAccount"
         app:layout_constraintTop_toBottomOf="@+id/button_google" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0sp"
+        android:layout_height="520sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

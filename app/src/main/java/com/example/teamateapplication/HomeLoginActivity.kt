@@ -2,9 +2,12 @@ package com.example.teamateapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
+import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 
 class HomeLoginActivity: AppCompatActivity() {
 
@@ -12,19 +15,56 @@ class HomeLoginActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_login)
 
-        val button_one: Button = findViewById(R.id.button_one)
-        val button_apple: Button = findViewById(R.id.button_apple)
-        val button_facebook: Button = findViewById(R.id.button_facebook)
-        val button_google: Button = findViewById(R.id.button_google)
-        val textViewRegistrati: TextView = findViewById(R.id.textViewRegistrati)
+        val buttonOne: Button = findViewById(R.id.button_one)
+        val buttonApple: Button = findViewById(R.id.button_apple)
+        val buttonFacebook: Button = findViewById(R.id.button_facebook)
+        val buttonGoogle: Button = findViewById(R.id.button_google)
+        val textViewRegistered: TextView = findViewById(R.id.textView_registered)
 
 
-        button_one.setOnClickListener {
-            val intent = Intent(this, PhoneEmailUsernameFragment::class.java)
-            startActivity(intent)
+        buttonOne.setOnClickListener {
+            loadFragment(PhoneEmailUsernameFragment())
         }
 
-        button_apple.setOnClickListener {
+        buttonApple.setOnClickListener {
+            loadFragment(AppleFragment())
+        }
+
+        buttonFacebook.setOnClickListener {
+            loadFragment(FacebookFragment())
+        }
+
+        buttonGoogle.setOnClickListener {
+            loadFragment(GoogleFragment())
+        }
+
+        textViewRegistered.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun loadFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .addToBackStack(null)
+            .commit()
+    }
+}
+
+        /*buttonApple.setOnClickListener {
+            val bottom2 = AppleFragment()
+
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, bottom2)
+                .commit()
+
+            findViewById<FrameLayout>(R.id.fragment_container).visibility = View.VISIBLE
+        }
+    }
+}
+
+            button_apple.setOnClickListener {
             val intent = Intent(this, AppleFragment::class.java)
             startActivity(intent)
         }
@@ -44,14 +84,10 @@ class HomeLoginActivity: AppCompatActivity() {
             startActivity(intent)
         }
 
-        /*supportFragmentManager.beginTransaction()
-            .replace(R.id.phone_email_username, PhoneEmailUsernameFragment())
+
             .replace(R.id.apple, AppleFragment())
             .replace(R.id.facebook, FacebookFragment())
-            .replace(R.id.google, GoogleFragment())
-            .commit()*/
-    }
-}
+            .replace(R.id.google, GoogleFragment())*/
 
 
 

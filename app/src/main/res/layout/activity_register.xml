@@ -110,7 +110,7 @@
         app:layout_constraintTop_toBottomOf="@+id/enter_pass" />
 
     <LinearLayout
-        android:id="@+id/linearLayout5"
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -121,7 +121,6 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
-            android:id="@+id/back_right"
             style="@style/backImg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -130,7 +129,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/back"
             style="@style/right_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -139,7 +137,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout4"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
@@ -150,19 +148,16 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
-            android:id="@+id/login"
             style="@style/left_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10sp" />
 
         <ImageView
-            android:id="@+id/backImg"
             style="@style/loginImg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
