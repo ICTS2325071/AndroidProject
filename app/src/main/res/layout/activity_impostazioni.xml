@@ -12,7 +12,7 @@
         android:id="@+id/vertical_background"
         style="@style/CustomBackgroundWhite"
         android:layout_width="260sp"
-        android:layout_height="730sp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -68,6 +68,7 @@
 
 
         <LinearLayout
+            android:id="@+id/account_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100sp"
@@ -77,13 +78,11 @@
 
 
             <ImageView
-                android:id="@+id/Account_img"
                 style="@style/Account_Img"
                 android:layout_width="30sp"
                 android:layout_height="30sp" />
 
             <TextView
-                android:id="@+id/button_account"
                 style="@style/CustomButtonAccount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -159,5 +158,14 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView_menu_bottom"
         app:layout_constraintEnd_toEndOf="@+id/textView_menu_bottom"
         app:layout_constraintTop_toTopOf="@+id/textView_menu_bottom" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

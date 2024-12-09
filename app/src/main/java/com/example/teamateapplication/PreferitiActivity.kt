@@ -5,23 +5,17 @@ import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 
-class PlayerInformationsActivity : AppCompatActivity() {
+class PreferitiActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_player_informations)
+        setContentView(R.layout.activity_preferiti)
 
         val buttonHome = findViewById<ImageButton>(R.id.imageButton_home)
-        val buttonStar = findViewById<ImageButton>(R.id.imageButton_favourites)
         val buttonSettings = findViewById<ImageButton>(R.id.imageButton_settings)
 
         buttonHome.setOnClickListener {
             val intent = Intent(this, HomePageActivity::class.java)
-            startActivity(intent)
-        }
-
-        buttonStar.setOnClickListener {
-            val intent = Intent(this, PreferitiActivity::class.java)
             startActivity(intent)
         }
 

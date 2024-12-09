@@ -21,7 +21,7 @@
         style="@style/CustomBackgroundWhite"
         android:layout_width="414sp"
         android:layout_height="520sp"
-        android:layout_marginTop="215sp" />
+        android:layout_marginTop="345sp" />
 
     <TextView
         android:id="@+id/utente_"
@@ -29,14 +29,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30sp"
-        android:layout_marginTop="250sp" />
+        android:layout_marginTop="395sp" />
 
     <TextView
        android:layout_width="250sp"
        android:layout_height="40sp"
        android:background="@color/opacity_blue"
        android:layout_marginStart="30sp"
-       android:layout_marginTop="290sp"/>
+       android:layout_marginTop="425sp"/>
 
     <Button
         android:id="@+id/button_changeuser"
@@ -44,7 +44,7 @@
         android:layout_width="120sp"
         android:layout_height="60sp"
         android:layout_marginStart="285sp"
-        android:layout_marginTop="270sp" />
+        android:layout_marginTop="405sp" />
 
     <TextView
         android:id="@+id/email_"
@@ -52,21 +52,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30sp"
-        android:layout_marginTop="380sp" />
+        android:layout_marginTop="515sp" />
 
     <TextView
         android:layout_width="250sp"
         android:layout_height="40sp"
         android:background="@color/opacity_blue"
         android:layout_marginStart="30sp"
-        android:layout_marginTop="420sp"/>
+        android:layout_marginTop="545sp"/>
 
     <Button
         android:id="@+id/button_changeemail"
         style="@style/CustomButtonEmail_"
         android:layout_width="120sp"
         android:layout_height="60sp"
-        android:layout_marginTop="400sp"
+        android:layout_marginTop="525sp"
         android:layout_marginStart="285sp"/>
 
     <TextView
@@ -75,21 +75,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30sp"
-        android:layout_marginTop="510sp" />
+        android:layout_marginTop="635sp" />
 
     <TextView
         android:layout_width="250sp"
         android:layout_height="40sp"
         android:background="@color/opacity_blue"
         android:layout_marginStart="30sp"
-        android:layout_marginTop="550sp"/>
+        android:layout_marginTop="665sp"/>
 
     <Button
         android:id="@+id/button_changepss"
         style="@style/CustomButtonPss"
         android:layout_width="120sp"
         android:layout_height="60sp"
-        android:layout_marginTop="530sp"
+        android:layout_marginTop="645sp"
         android:layout_marginStart="285sp"/>
 
     <!-- FARE DUE ACTIVITY PER I DUE PULSANTI -->
@@ -101,7 +101,7 @@
         android:layout_height="60sp"
         android:layout_marginStart="20sp"
         android:layout_marginEnd="20sp"
-        android:layout_marginTop="650sp"
+        android:layout_marginTop="785sp"
         android:gravity="center" />
 
     <ImageButton
@@ -110,7 +110,7 @@
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="40sp"
-        android:layout_marginTop="661sp"/>
+        android:layout_marginTop="795sp"/>
 
     <ImageButton
         android:id="@+id/imageButton_favourites"
@@ -118,14 +118,14 @@
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="187sp"
-        android:layout_marginTop="661sp" />
+        android:layout_marginTop="795sp" />
 
     <ImageButton
         android:id="@+id/imageButton_settings"
-        style="@style/CustomSettingsImageWhite"
+        style="@style/CustomSettingsImageBlue"
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="330sp"
-        android:layout_marginTop="661sp" />
+        android:layout_marginTop="795sp" />
 
 </FrameLayout>
