@@ -122,7 +122,7 @@
         android:layout_height="60sp"
         android:layout_marginStart="20sp"
         android:layout_marginEnd="20sp"
-        android:layout_marginTop="655sp"
+        android:layout_marginTop="650sp"
         android:gravity="center" />
 
     <ImageButton
@@ -131,15 +131,15 @@
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="40sp"
-        android:layout_marginTop="665sp"/>
+        android:layout_marginTop="661sp"/>
 
     <ImageButton
         android:id="@+id/imageButton_favourites"
         style="@style/CustomStarImage"
         android:layout_width="37sp"
         android:layout_height="37sp"
-        android:layout_marginStart="185sp"
-        android:layout_marginTop="665sp" />
+        android:layout_marginStart="187sp"
+        android:layout_marginTop="661sp" />
 
     <ImageButton
         android:id="@+id/imageButton_settings"
@@ -147,6 +147,6 @@
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="330sp"
-        android:layout_marginTop="665sp" />
+        android:layout_marginTop="661sp" />
 
 </FrameLayout>
