@@ -569,7 +569,7 @@
     </style>
 
     <style name="CustomButtonEmail_">
-        <item name="android:text">@string/ChangeEmail</item>
+        <item name="android:text">@string/button_change_mail</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/light_blue</item>
@@ -757,7 +757,7 @@
     </style>
 
     <style name="cambia_email">
-        <item name="android:text">@string/button_changemail</item>
+        <item name="android:text">@string/change_mail</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>

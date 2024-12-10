@@ -131,15 +131,18 @@
 
     <string name="ViewPassword">Password</string>
 
-    <string name="button_changemail">Cambia Email</string>
+    <string name="change_mail">Cambia Email</string>
 
-    <string name="old_email">Inserisci la nuova email</string>
+    <string name="button_change_mail">Cambia email</string>
+
+    <string name="old_email">Inserisci la vecchia email</string>
 
     <string name="new_email">Inserisci la nuova email</string>
 
     <string name="button_esci">Esci dall account</string>
 
     <string name="first_fragment_label">First Fragment</string>
+
     <string name="second_fragment_label">Second Fragment</string>
 
 
