@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">TeamateApplication</string>
 
     <string name="teamate_title">TEAMATE</string>
@@ -132,6 +132,8 @@
     <string name="ViewPassword">Password</string>
 
     <string name="ChangeEmail">Cambia email</string>
+
+    <string name="button_esci">Esci dall account</string>
 
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

@@ -39,7 +39,7 @@
        android:layout_marginTop="425sp"/>
 
     <Button
-        android:id="@+id/button_changeuser"
+        android:id="@+id/button_change_user"
         style="@style/CustomButtonUser"
         android:layout_width="120sp"
         android:layout_height="60sp"
@@ -62,7 +62,7 @@
         android:layout_marginTop="545sp"/>
 
     <Button
-        android:id="@+id/button_changeemail"
+        android:id="@+id/button_change_email"
         style="@style/CustomButtonEmail_"
         android:layout_width="120sp"
         android:layout_height="60sp"
@@ -85,7 +85,7 @@
         android:layout_marginTop="665sp"/>
 
     <Button
-        android:id="@+id/button_changepss"
+        android:id="@+id/button_change_psw"
         style="@style/CustomButtonPss"
         android:layout_width="120sp"
         android:layout_height="60sp"

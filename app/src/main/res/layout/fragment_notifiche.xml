@@ -12,7 +12,7 @@
         android:id="@+id/title_notifiche"
         style="@style/CustomNotificheTitle"
         android:layout_width="412sp"
-        android:layout_height="60sp" />
+        android:layout_height="100sp" />
 
     <TextView
         android:id="@+id/mostra_notifiche"
@@ -20,7 +20,7 @@
         android:layout_width="300sp"
         android:layout_height="40sp"
         android:text="@string/mostra_notifiche"
-        android:layout_marginTop="110sp"
+        android:layout_marginTop="200sp"
         android:layout_marginStart="50sp" />
 
     <ImageButton
@@ -28,7 +28,7 @@
         style="@style/NotificheSi"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_marginTop="115sp"
+        android:layout_marginTop="205sp"
         android:layout_marginStart="250sp"/>
 
     <ImageButton
@@ -36,7 +36,7 @@
         style="@style/NotificheNo"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_marginTop="115sp"
+        android:layout_marginTop="205sp"
         android:layout_marginStart="300sp"/>
 
     <TextView
@@ -45,7 +45,7 @@
         android:layout_width="300sp"
         android:layout_height="40sp"
         android:text="@string/inizio_notifiche"
-        android:layout_marginTop="200sp"
+        android:layout_marginTop="290sp"
         android:layout_marginStart="50sp" />
 
     <ImageView
@@ -53,7 +53,7 @@
         style="@style/NotificheSi"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_marginTop="205sp"
+        android:layout_marginTop="295sp"
         android:layout_marginStart="250sp"/>
 
     <ImageView
@@ -61,7 +61,7 @@
         style="@style/NotificheNo"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_marginTop="205sp"
+        android:layout_marginTop="295sp"
         android:layout_marginStart="300dp"/>
 
     <TextView
@@ -70,7 +70,7 @@
         android:layout_width="300sp"
         android:layout_height="40sp"
         android:text="@string/fine_notifiche"
-        android:layout_marginTop="290sp"
+        android:layout_marginTop="380sp"
         android:layout_marginStart="50dp" />
 
     <ImageView
@@ -78,7 +78,7 @@
         style="@style/NotificheSi"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_marginTop="295sp"
+        android:layout_marginTop="385sp"
         android:layout_marginStart="250sp"/>
 
     <ImageView
@@ -86,7 +86,7 @@
         style="@style/NotificheNo"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_marginTop="295sp"
+        android:layout_marginTop="385sp"
         android:layout_marginStart="300sp"/>
 
     <TextView
@@ -95,7 +95,7 @@
         android:layout_width="300sp"
         android:layout_height="40sp"
         android:text="@string/fine_set"
-        android:layout_marginTop="380sp"
+        android:layout_marginTop="470sp"
         android:layout_marginStart="50sp" />
 
     <ImageView
@@ -103,7 +103,7 @@
         style="@style/NotificheSi"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_marginTop="385sp"
+        android:layout_marginTop="475sp"
         android:layout_marginStart="250sp"/>
 
     <ImageView
@@ -111,7 +111,7 @@
         style="@style/NotificheNo"
         android:layout_width="30sp"
         android:layout_height="30sp"
-        android:layout_marginTop="385sp"
+        android:layout_marginTop="475sp"
         android:layout_marginStart="300sp"/>
 
 
@@ -122,7 +122,7 @@
         android:layout_height="60sp"
         android:layout_marginStart="20sp"
         android:layout_marginEnd="20sp"
-        android:layout_marginTop="650sp"
+        android:layout_marginTop="785sp"
         android:gravity="center" />
 
     <ImageButton
@@ -131,7 +131,7 @@
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="40sp"
-        android:layout_marginTop="661sp"/>
+        android:layout_marginTop="795sp"/>
 
     <ImageButton
         android:id="@+id/imageButton_favourites"
@@ -139,7 +139,7 @@
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="187sp"
-        android:layout_marginTop="661sp" />
+        android:layout_marginTop="795sp" />
 
     <ImageButton
         android:id="@+id/imageButton_settings"
@@ -147,6 +147,6 @@
         android:layout_width="37sp"
         android:layout_height="37sp"
         android:layout_marginStart="330sp"
-        android:layout_marginTop="661sp" />
+        android:layout_marginTop="795sp" />
 
 </FrameLayout>

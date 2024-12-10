@@ -428,8 +428,20 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="EsciImg">
+        <item name="android:background">@drawable/baseline_exit_to_app_24</item>
+    </style>
+
     <style name="EliminaImg">
         <item name="android:background">@drawable/elimina</item>
+    </style>
+
+    <style name="CustomButtonEsci">
+        <item name="android:text">@string/button_esci</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="CustomButtonElimina">
