@@ -131,7 +131,11 @@
 
     <string name="ViewPassword">Password</string>
 
-    <string name="ChangeEmail">Cambia email</string>
+    <string name="button_changemail">Cambia Email</string>
+
+    <string name="old_email">Inserisci la nuova email</string>
+
+    <string name="new_email">Inserisci la nuova email</string>
 
     <string name="button_esci">Esci dall account</string>
 
