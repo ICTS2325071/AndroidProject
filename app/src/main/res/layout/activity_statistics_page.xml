@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView_container_statistics"
-        style="@style/CustomContainerTextViewStatistics"
+        style="@style/CustomTextViewStatistics"
         android:layout_width="match_parent"
         android:layout_height="75sp"
         android:layout_marginStart="20dp"
@@ -20,45 +20,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/textView_title_image_statistics"
-        style="@style/CustomTennisImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView_container_statistics"
-        app:layout_constraintStart_toStartOf="@+id/textView_container_statistics"
-        app:layout_constraintTop_toTopOf="@+id/textView_container_statistics" />
-
-    <TextView
-        android:id="@+id/textView_statistics"
-        style="@style/CustomTextViewStatistics"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="120dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView_container_statistics"
-        app:layout_constraintEnd_toEndOf="@+id/textView_container_statistics"
-        app:layout_constraintTop_toTopOf="@+id/textView_container_statistics" />
-
     <EditText
         android:id="@+id/editText_search"
         style="@style/CustomEditTextSearch"
-        android:layout_width="300sp"
+        android:layout_width="match_parent"
         android:layout_height="40sp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_container_statistics" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_container_statistics"
+        android:inputType="text" />
 
-    <ImageButton
-        android:id="@+id/imageButton_arrowBottom"
-        style="@style/CustomArrowBottomImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="25dp"
-        app:layout_constraintStart_toEndOf="@+id/editText_search"
-        app:layout_constraintTop_toBottomOf="@+id/textView_container_statistics" />
 
     <ImageView
         android:id="@+id/imageView_search"
@@ -69,6 +43,17 @@
         app:layout_constraintBottom_toBottomOf="@+id/editText_search"
         app:layout_constraintStart_toStartOf="@+id/editText_search"
         app:layout_constraintTop_toTopOf="@+id/editText_search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_players"
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_menu_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_search" />
 
     <TextView
         android:id="@+id/textView_menu_bottom"
