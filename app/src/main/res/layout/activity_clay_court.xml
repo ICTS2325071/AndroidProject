@@ -48,7 +48,7 @@
         android:id="@+id/bottomBackground"
         style="@style/CustomTextViewLogin"
         android:layout_width="334sp"
-        android:layout_height="320sp"
+        android:layout_height="500sp"
         app:layout_constraintBottom_toTopOf="@+id/textView_menu_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

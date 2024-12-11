@@ -80,6 +80,7 @@
         app:layout_constraintTop_toBottomOf="@+id/new_username" />
 
     <LinearLayout
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -90,7 +91,6 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
-            android:id="@+id/back_right"
             style="@style/backImg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -99,7 +99,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/back"
             style="@style/right_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
