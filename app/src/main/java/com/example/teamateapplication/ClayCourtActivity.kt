@@ -15,6 +15,12 @@ class ClayCourtActivity : AppCompatActivity() {
         val buttonStar = findViewById<ImageButton>(R.id.imageButton_favourites)
         val buttonSettings = findViewById<ImageButton>(R.id.imageButton_settings)
 
+        val buttonBack = findViewById<ImageButton>(R.id.back)
+
+        buttonBack.setOnClickListener {
+            finish()
+        }
+
         buttonHome.setOnClickListener {
             val intent = Intent(this, HomePageActivity::class.java)
             startActivity(intent)

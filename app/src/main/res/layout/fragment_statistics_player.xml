@@ -7,46 +7,11 @@
     tools:context=".StatisticsPlayerFragment"
     android:background="@color/medium_high_blue">
 
-    <ImageView
-        android:id="@+id/player_img"
-        android:layout_width="120sp"
-        android:layout_height="170sp"
-        android:layout_marginStart="10sp"
-        android:layout_marginTop="20sp"/>
-
-    <Button
-        android:id="@+id/info_player2"
-        style="@style/Informazioni_"
-        android:text="@string/Info_player"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="20sp"/>
-
-    <Button
-        android:id="@+id/stats_player2"
-        style="@style/Informazioni2_"
-        android:text="@string/Stat_player"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="20sp"/>
-
-    <Button
-        android:id="@+id/stats_career2"
-        style="@style/Carriera_"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="110sp" />
-
-    <Button
-        android:id="@+id/button_last_news2"
-        style="@style/Ultime_news_"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="110sp" />
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_players_informations"
+        android:layout_width="match_parent"
+        android:layout_height="450sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
 
 </FrameLayout>

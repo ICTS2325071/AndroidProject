@@ -7,101 +7,12 @@
     tools:context=".LastNewsFragment"
     android:background="@color/medium_high_blue">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/title_player_informations"
-        style="@style/CustomTitlePlayerInformations"
-        android:layout_width="374sp"
-        android:layout_height="75sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginTop="50sp"
-        android:layout_marginEnd="20sp"
-        android:background="@color/dark_blue"/>
-
-    <ImageView
-        android:id="@+id/SinnerImg"
-        android:layout_width="120sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="10sp"
-        android:layout_marginTop="160sp"/>
-
-    <Button
-        android:id="@+id/info_player4"
-        style="@style/Informazioni_"
-        android:text="@string/Info_player"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="135dp"/>
-
-    <Button
-        android:id="@+id/stats_player4"
-        style="@style/Informazioni_"
-        android:text="@string/Stat_player"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="270dp"
-        android:layout_marginTop="135dp"/>
-
-    <Button
-        android:id="@+id/stats_career4"
-        style="@style/Informazioni_"
-        android:text="@string/Stat_Carri"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="225dp" />
-
-    <Button
-        android:id="@+id/button_last_news4"
-        style="@style/Informazioni2_"
-        android:text="@string/News"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="270dp"
-        android:layout_marginTop="225dp" />
-
-    <ScrollView
-        android:layout_width="350sp"
-        android:layout_height="300sp"
-        android:background="@color/white"
-        android:layout_marginTop="325sp"
-        android:layout_marginStart="30dp"/>
-
-
-    <TextView
-        android:id="@+id/textView_menu_bottom"
-        style="@style/CustomLayoutMenuBottom"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_last_news"
         android:layout_width="match_parent"
-        android:layout_height="60sp"
-        android:layout_marginStart="20sp"
-        android:layout_marginEnd="20sp"
-        android:layout_marginTop="650sp"
-        android:gravity="center" />
-
-    <ImageButton
-        android:id="@+id/imageButton_home"
-        style="@style/CustomHomeImageWhite"
-        android:layout_width="37sp"
-        android:layout_height="37sp"
-        android:layout_marginStart="40sp"
-        android:layout_marginTop="661sp"/>
-
-    <ImageButton
-        android:id="@+id/imageButton_favourites"
-        style="@style/CustomStarImageWhite"
-        android:layout_width="37sp"
-        android:layout_height="37sp"
-        android:layout_marginStart="187sp"
-        android:layout_marginTop="661sp" />
-
-    <ImageButton
-        android:id="@+id/imageButton_settings"
-        style="@style/CustomSettingsImageWhite"
-        android:layout_width="37sp"
-        android:layout_height="37sp"
-        android:layout_marginStart="330sp"
-        android:layout_marginTop="661sp" />
+        android:layout_height="450sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
 
 </FrameLayout>
 

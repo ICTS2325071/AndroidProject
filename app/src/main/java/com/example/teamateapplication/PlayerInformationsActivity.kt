@@ -8,9 +8,16 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 
 class PlayerInformationsActivity : AppCompatActivity() {
+
+    private lateinit var buttonInfoPlayer: Button
+    private lateinit var buttonStatsPlayer: Button
+    private lateinit var buttonStatsCareer: Button
+    private lateinit var buttonLastNews: Button
+    private lateinit var buttonList: List<Button>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,22 +36,35 @@ class PlayerInformationsActivity : AppCompatActivity() {
         imageViewCountry.setImageResource(playerCountry)
         imageViewPlayer.setImageResource(playerImageResId)
 
-        val buttonStatsPlayer = findViewById<Button>(R.id.stats_player1)
+        // Riferimenti ai bottoni
+        buttonInfoPlayer = findViewById(R.id.info_player)
+        buttonStatsPlayer = findViewById(R.id.stats_player)
+        buttonStatsCareer = findViewById(R.id.stats_career)
+        buttonLastNews = findViewById(R.id.button_last_news)
+
+        // Lista dei bottoni per facilitarne la gestione
+        buttonList = listOf(buttonInfoPlayer, buttonStatsPlayer, buttonStatsCareer, buttonLastNews)
+
+        // Imposta i listener per i bottoni
+        buttonInfoPlayer.setOnClickListener {
+            resetButtonBackgrounds()
+            buttonInfoPlayer.setBackgroundColor(getColor(R.color.dark_blue)) // Colore speciale
+            clearFragmentContainer()
+        }
 
         buttonStatsPlayer.setOnClickListener {
             loadFragment(StatisticsPlayerFragment())
+            updateButtonBackground(buttonStatsPlayer)
         }
-
-        val buttonStatsCareer = findViewById<Button>(R.id.stats_career1)
 
         buttonStatsCareer.setOnClickListener {
             loadFragment(StatisticsCareerFragment())
+            updateButtonBackground(buttonStatsCareer)
         }
-
-        val buttonLastNews = findViewById<Button>(R.id.button_last_news1)
 
         buttonLastNews.setOnClickListener {
             loadFragment(LastNewsFragment())
+            updateButtonBackground(buttonLastNews)
         }
 
         val buttonHome = findViewById<ImageButton>(R.id.imageButton_home)
@@ -80,7 +100,28 @@ class PlayerInformationsActivity : AppCompatActivity() {
     private fun loadFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragment_container, fragment)
-            .addToBackStack(null)
+            .commit()
+    }
+
+    // Funzione per aggiornare lo sfondo dei bottoni
+    private fun updateButtonBackground(selectedButton: Button) {
+        // Resetta gli sfondi dei bottoni
+        resetButtonBackgrounds()
+        // Imposta uno sfondo diverso per il bottone selezionato
+        selectedButton.setBackgroundColor(getColor(R.color.dark_blue))
+    }
+
+    // Funzione per resettare gli sfondi di tutti i bottoni
+    private fun resetButtonBackgrounds() {
+        for (button in buttonList) {
+            button.setBackgroundColor(getColor(R.color.light_blue)) // Colore di default
+        }
+    }
+
+    // Funzione per rimuovere i fragment
+    private fun clearFragmentContainer() {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, Fragment()) // Fragment vuoto
             .commit()
     }
 }

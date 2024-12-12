@@ -16,6 +16,7 @@ class PlayerAdapter(
     // ViewHolder per gestire ogni elemento della lista
     class PlayerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val buttonPlayer: Button = itemView.findViewById(R.id.button_player)
+        val buttonHardCourt: Button = itemView.findViewById(R.id.hard_court_button)
         val imageViewPlayer: ImageView = itemView.findViewById(R.id.player_img)
     }
 
@@ -28,6 +29,7 @@ class PlayerAdapter(
     override fun onBindViewHolder(holder: PlayerViewHolder, position: Int) {
         val player = players[position]
         holder.buttonPlayer.text = player.name
+        holder.buttonHardCourt.text = player.name
         holder.imageViewPlayer.setImageResource(player.flagResId)
 
         // Assegna il listener per il click sulla TextView
@@ -39,6 +41,16 @@ class PlayerAdapter(
             intent.putExtra("player_country", player.flagResId)
             intent.putExtra("player_image", player.imageResId)
             context.startActivity(intent)
+        }
+
+        holder.buttonHardCourt.setOnClickListener {
+            val context = holder.itemView.context
+            val intent1 = Intent(context, HardCourtActivity::class.java)
+            // Passa i dati del giocatore all'altra Activity
+            intent1.putExtra("player_name", player.name)
+            intent1.putExtra("player_country", player.flagResId)
+            intent1.putExtra("player_image", player.imageResId)
+            context.startActivity(intent1)
         }
     }
 
