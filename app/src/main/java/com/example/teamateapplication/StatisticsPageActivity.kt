@@ -23,22 +23,29 @@ class StatisticsPageActivity : AppCompatActivity() {
 
         // Lista dei giocatori
         players = listOf(
-            Player("Jannik Sinner", R.drawable.italia),
-            Player("Alexander Zverev", R.drawable.germania),
-            Player("Carlos Alcaraz", R.drawable.spagna),
-            Player("Taylor Fritz", R.drawable.usa),
-            Player("Daniil Medvedev", R.drawable.russia),
-            Player("Novak Djokovic", R.drawable.serbia),
-            Player("Andrey Rublev", R.drawable.russia),
-            Player("Grigor Dimitrov", R.drawable.bulgaria),
-            Player("Alex Deminaur", R.drawable.australia),
-            Player("Casper Ruud", R.drawable.norvegia)
+            Player("Jannik Sinner", R.drawable.italia, R.drawable.jannik_sinner),
+            Player("Alexander Zverev", R.drawable.germania, R.drawable.alexander_zverev),
+            Player("Carlos Alcaraz", R.drawable.spagna, R.drawable.carlos_alcaraz),
+            Player("Taylor Fritz", R.drawable.usa, R.drawable.taylor_fritz),
+            Player("Daniil Medvedev", R.drawable.russia, R.drawable.daniil_medvedev),
+            Player("Novak Djokovic", R.drawable.serbia, R.drawable.novak_djokovic),
+            Player("Andrey Rublev", R.drawable.russia, R.drawable.andrey_rublev),
+            Player("Grigor Dimitrov", R.drawable.bulgaria, R.drawable.grigor_dimitrov),
+            Player("Alex Deminaur", R.drawable.australia, R.drawable.alex_deminaur),
+            Player("Casper Ruud", R.drawable.norvegia, R.drawable.casper_ruud)
         )
 
         // Configura la RecyclerView
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView_players)
         recyclerView.layoutManager = LinearLayoutManager(this)
-        adapter = PlayerAdapter(players)
+        adapter = PlayerAdapter(players) { player ->
+            // Apri l'altra Activity
+            val intent = Intent(this, PlayerInformationsActivity::class.java)
+            // Passa dati alla nuova Activity
+            intent.putExtra("player_name", player.name)
+            intent.putExtra("player_country", player.flagResId)
+            startActivity(intent)
+        }
         recyclerView.adapter = adapter
 
         // Configura il filtro sull'EditText

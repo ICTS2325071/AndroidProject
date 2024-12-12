@@ -20,7 +20,6 @@
 
     <ImageView
         android:id="@+id/SinnerImg"
-        style="@style/SinnerImg"
         android:layout_width="120sp"
         android:layout_height="100sp"
         android:layout_marginStart="10sp"
@@ -54,7 +53,7 @@
         android:layout_marginTop="225dp" />
 
     <Button
-        android:id="@+id/news_"
+        android:id="@+id/button_last_news"
         style="@style/Informazioni2_"
         android:text="@string/News"
         android:layout_width="120sp"
