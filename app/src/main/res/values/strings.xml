@@ -31,7 +31,7 @@
 
     <string name="title">Teamate</string>
 
-    <string name="titlelogin">Accedi con</string>
+    <string name="titlelogin">Accedi</string>
 
     <string name="button_one">Continua con telefono/email/username</string>
 
@@ -89,7 +89,7 @@
 
     <string name="old_password">Inserisci la vecchia password</string>
 
-    <string name="new_password">Inserisci la nuova password</string>
+    <string name="new_password">Inserisci password</string>
 
     <string name="old_username">Inserisci il vecchio username</string>
 
@@ -135,7 +135,7 @@
 
     <string name="button_change_mail">Cambia email</string>
 
-    <string name="old_email">Inserisci la vecchia email</string>
+    <string name="old_email">Inserisci  email</string>
 
     <string name="new_email">Inserisci la nuova email</string>
 
@@ -144,6 +144,17 @@
     <string name="first_fragment_label">First Fragment</string>
 
     <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="username_placeholder">Inserisci qui il nome utente</string>
+
+    <string name="password_placeholder">Inserisci qui la password</string>
+
+    <string name="login_button_label">Login</string>
+
+    <string name="login_error_message">Compilare tutti i campi</string>
+
+    <string name="login_notmatch_error">Il nome utente  o la password non sono corretti</string>
+
 
 
 </resources>
