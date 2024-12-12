@@ -26,7 +26,7 @@
         android:layout_marginTop="160sp"/>
 
     <Button
-        android:id="@+id/info_"
+        android:id="@+id/info_player4"
         style="@style/Informazioni_"
         android:text="@string/Info_player"
         android:layout_width="120sp"
@@ -35,7 +35,7 @@
         android:layout_marginTop="135dp"/>
 
     <Button
-        android:id="@+id/stat_"
+        android:id="@+id/stats_player4"
         style="@style/Informazioni_"
         android:text="@string/Stat_player"
         android:layout_width="120sp"
@@ -44,7 +44,7 @@
         android:layout_marginTop="135dp"/>
 
     <Button
-        android:id="@+id/carriera_"
+        android:id="@+id/stats_career4"
         style="@style/Informazioni_"
         android:text="@string/Stat_Carri"
         android:layout_width="120sp"
@@ -53,7 +53,7 @@
         android:layout_marginTop="225dp" />
 
     <Button
-        android:id="@+id/button_last_news"
+        android:id="@+id/button_last_news4"
         style="@style/Informazioni2_"
         android:text="@string/News"
         android:layout_width="120sp"

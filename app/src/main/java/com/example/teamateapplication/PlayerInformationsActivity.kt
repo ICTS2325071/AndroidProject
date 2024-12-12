@@ -29,19 +29,19 @@ class PlayerInformationsActivity : AppCompatActivity() {
         imageViewCountry.setImageResource(playerCountry)
         imageViewPlayer.setImageResource(playerImageResId)
 
-        val buttonStatsPlayer = findViewById<Button>(R.id.stats_player)
+        val buttonStatsPlayer = findViewById<Button>(R.id.stats_player1)
 
         buttonStatsPlayer.setOnClickListener {
             loadFragment(StatisticsPlayerFragment())
         }
 
-        val buttonStatsCareer = findViewById<Button>(R.id.stats_career)
+        val buttonStatsCareer = findViewById<Button>(R.id.stats_career1)
 
         buttonStatsCareer.setOnClickListener {
             loadFragment(StatisticsCareerFragment())
         }
 
-        val buttonLastNews = findViewById<Button>(R.id.button_last_news)
+        val buttonLastNews = findViewById<Button>(R.id.button_last_news1)
 
         buttonLastNews.setOnClickListener {
             loadFragment(LastNewsFragment())

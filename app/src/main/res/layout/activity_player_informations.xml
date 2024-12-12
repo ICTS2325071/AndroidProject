@@ -51,7 +51,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
     <Button
-        android:id="@+id/info_player"
+        android:id="@+id/info_player1"
         style="@style/Informazioni2_"
         android:layout_width="120sp"
         android:layout_height="80sp"
@@ -62,34 +62,34 @@
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
     <Button
-        android:id="@+id/stats_player"
+        android:id="@+id/stats_player1"
         style="@style/Statistiche_"
         android:layout_width="120sp"
         android:layout_height="80sp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/info_player"
+        app:layout_constraintStart_toEndOf="@+id/info_player1"
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
     <Button
-        android:id="@+id/stats_career"
+        android:id="@+id/stats_career1"
         style="@style/Carriera_"
         android:layout_width="120sp"
         android:layout_height="80sp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toEndOf="@+id/player_img"
-        app:layout_constraintTop_toBottomOf="@+id/info_player" />
+        app:layout_constraintTop_toBottomOf="@+id/info_player1" />
 
     <Button
-        android:id="@+id/button_last_news"
+        android:id="@+id/button_last_news1"
         style="@style/Ultime_news_"
         android:layout_width="120sp"
         android:layout_height="80sp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/stats_career"
-        app:layout_constraintTop_toBottomOf="@+id/stats_player" />
+        app:layout_constraintStart_toEndOf="@+id/stats_career1"
+        app:layout_constraintTop_toBottomOf="@+id/stats_player1" />
 
 
 

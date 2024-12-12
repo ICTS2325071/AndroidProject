@@ -17,7 +17,7 @@ class StatisticsPlayerFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_statistics_player, container, false)
 
-        val buttonInfoPlayer = view.findViewById<ImageButton>(R.id.info_player)
+        val buttonInfoPlayer = view.findViewById<ImageButton>(R.id.info_player2)
 
         buttonInfoPlayer.setOnClickListener {
             val intent = Intent(requireContext(), PlayerInformationsActivity::class.java)
