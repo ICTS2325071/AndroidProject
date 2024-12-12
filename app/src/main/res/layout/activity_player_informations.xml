@@ -14,75 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="75sp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="20dp"
+        android:background="@color/dark_blue"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/dark_blue"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/info_"
-        style="@style/Informazioni2_"
-        android:text="@string/Info_player"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/SinnerImg"
-        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
-
-    <Button
-        android:id="@+id/stat_"
-        style="@style/Statistiche_"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/info_"
-        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
-
-    <Button
-        android:id="@+id/carriera_"
-        style="@style/Carriera_"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/SinnerImg"
-        app:layout_constraintTop_toBottomOf="@+id/info_" />
-
-    <Button
-        android:id="@+id/news_"
-        style="@style/Ultime_news_"
-        android:layout_width="120sp"
-        android:layout_height="80sp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@+id/carriera_"
-        app:layout_constraintTop_toBottomOf="@+id/stat_" />
-
-    <ScrollView
-        android:layout_width="350sp"
-        android:layout_height="300sp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/textView_menu_bottom"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/carriera_" />
-
-    <ImageView
-        android:id="@+id/ItaliaImg"
-        style="@style/ItaImg"
-        android:layout_width="35sp"
-        android:layout_height="35sp"
-        android:layout_marginEnd="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/title_player_informations"
-        app:layout_constraintEnd_toEndOf="@+id/title_player_informations"
-        app:layout_constraintTop_toTopOf="@+id/title_player_informations" />
-
-    <ImageView
-        android:id="@+id/back_right"
+    <ImageButton
+        android:id="@+id/back"
         style="@style/backImgWhite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -92,14 +33,64 @@
         app:layout_constraintTop_toTopOf="@+id/title_player_informations" />
 
     <ImageView
-        android:id="@+id/SinnerImg"
-        style="@style/SinnerImg"
+        android:id="@+id/country_img"
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_player_informations"
+        app:layout_constraintEnd_toEndOf="@+id/title_player_informations"
+        app:layout_constraintTop_toTopOf="@+id/title_player_informations" />
+
+    <ImageView
+        android:id="@+id/player_img"
         android:layout_width="120sp"
-        android:layout_height="100sp"
+        android:layout_height="170sp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <Button
+        android:id="@+id/info_player1"
+        style="@style/Informazioni2_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/Info_player"
+        app:layout_constraintStart_toEndOf="@+id/player_img"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <Button
+        android:id="@+id/stats_player1"
+        style="@style/Statistiche_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/info_player1"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <Button
+        android:id="@+id/stats_career1"
+        style="@style/Carriera_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/player_img"
+        app:layout_constraintTop_toBottomOf="@+id/info_player1" />
+
+    <Button
+        android:id="@+id/button_last_news1"
+        style="@style/Ultime_news_"
+        android:layout_width="120sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/stats_career1"
+        app:layout_constraintTop_toBottomOf="@+id/stats_player1" />
+
 
 
     <TextView
@@ -144,5 +135,13 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView_menu_bottom"
         app:layout_constraintEnd_toEndOf="@+id/textView_menu_bottom"
         app:layout_constraintTop_toTopOf="@+id/textView_menu_bottom" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="650sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
