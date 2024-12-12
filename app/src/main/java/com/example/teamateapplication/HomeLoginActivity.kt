@@ -2,51 +2,77 @@ package com.example.teamateapplication
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
-import android.widget.FrameLayout
-import android.widget.TextView
+import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
+import androidx.core.widget.addTextChangedListener
+import com.google.android.material.snackbar.Snackbar
 
-class HomeLoginActivity: AppCompatActivity() {
+class HomeLoginActivity : AppCompatActivity() {
+
+    private var emailView: EditText? = null
+    private var passwordView: EditText? = null
+    private var loginButton: Button? = null
+
+    private val cUsername = "teamate@gmail.com"
+    private val cPassword = "Romada"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_login)
 
-        val textViewRegistered = findViewById<TextView>(R.id.textView_registered)
-        val buttonOne: Button = findViewById(R.id.button_one)
-        val buttonApple: Button = findViewById(R.id.button_apple)
-        val buttonFacebook: Button = findViewById(R.id.button_facebook)
-        val buttonGoogle: Button = findViewById(R.id.button_google)
+        emailView = findViewById(R.id._email)
+        passwordView = findViewById(R.id.new_password)
+        loginButton = findViewById(R.id.loginButton)
 
-        textViewRegistered.setOnClickListener {
-            val intent = Intent(this, RegisterActivity::class.java)
-            startActivity(intent)
+        setListener()
+    }
+
+    private fun setListener() {
+        // Listener per il click sul bottone di login
+        loginButton?.setOnClickListener {
+            checkFormLogin()  // Verifica prima le credenziali quando il bottone viene premuto
         }
 
-        buttonOne.setOnClickListener {
-            loadFragment(PhoneEmailUsernameFragment())
+        // Listener per le modifiche nei campi di username e password
+        emailView?.addTextChangedListener {
+            checkEmptyForm() // Disabilita il bottone se uno dei campi è vuoto
         }
 
-        buttonApple.setOnClickListener {
-            loadFragment(AppleFragment())
-        }
-
-        buttonFacebook.setOnClickListener {
-            loadFragment(FacebookFragment())
-        }
-
-        buttonGoogle.setOnClickListener {
-            loadFragment(GoogleFragment())
+        passwordView?.addTextChangedListener {
+            checkEmptyForm() // Disabilita il bottone se uno dei campi è vuoto
         }
     }
 
-    private fun loadFragment(fragment: Fragment) {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, fragment)
-            .addToBackStack(null)
-            .commit()
+    // Funzione per controllare se il bottone di login deve essere abilitato
+    private fun checkEmptyForm() {
+        val username = emailView?.text.toString()
+        val password = passwordView?.text.toString()
+        loginButton?.isEnabled = !(username.isEmpty() || password.isEmpty()) // Disabilita il login se vuoto
+    }
+
+    private fun checkFormLogin() {
+        val username = emailView?.text.toString()
+        val password = passwordView?.text.toString()
+
+        // Verifica se i campi sono vuoti
+        if (username.isEmpty() || password.isEmpty()) {
+            showError(getString(R.string.login_error_message))
+        } else if (username != cUsername || password != cPassword) {
+            // Verifica se username o password non corrispondono
+            showError(getString(R.string.login_notmatch_error))
+        } else {
+            // L'utente si è loggato correttamente, quindi avvia l'activity successiva
+            val intent = Intent(this, StatisticsPageActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun showError(errorMessage: String) {
+        Snackbar.make(
+            findViewById(R.id.home_login), // Usa il layout principale come riferimento per il Snackbar
+            errorMessage, // Il messaggio di errore
+            Snackbar.LENGTH_LONG // Durata del messaggio
+        ).show()
     }
 }

@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/textView_title_login"
         style="@style/textView_LoginWith"
         android:layout_width="wrap_content"
@@ -39,90 +39,57 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bottomBackground" />
 
-    <Button
-        android:id="@+id/button_one"
-        style="@style/CustomButtonEmail"
-        android:layout_width="300sp"
-        android:layout_height="40sp"
-        android:layout_marginTop="50sp"
-        android:background="@color/white"
+    <EditText
+        android:id="@+id/_email"
+        style="@style/old_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_title_login" />
 
-    <ImageView
-        android:id="@+id/button_img"
-        style="@style/CustomButtonImg"
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:layout_marginStart="5sp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_one"
-        app:layout_constraintStart_toStartOf="@+id/button_one"
-        app:layout_constraintTop_toTopOf="@+id/button_one" />
-
-    <Button
-        android:id="@+id/button_apple"
-        style="@style/CustomButtonApple"
-        android:layout_width="300sp"
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="335sp"
         android:layout_height="40sp"
-        android:layout_marginTop="50sp"
-        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:background="@color/opacity_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_one" />
+        app:layout_constraintTop_toBottomOf="@+id/_email" />
 
-    <ImageView
-        android:id="@+id/button_img2"
-        style="@style/CustomButtonImg2"
-        android:layout_width="25sp"
-        android:layout_height="30sp"
-        android:layout_marginStart="5sp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_apple"
-        app:layout_constraintStart_toStartOf="@+id/button_apple"
-        app:layout_constraintTop_toTopOf="@+id/button_apple" />
-
-    <Button
-        android:id="@+id/button_facebook"
-        style="@style/CustomButtonFacebook"
-        android:layout_width="300sp"
-        android:layout_height="40sp"
-        android:layout_marginTop="50sp"
-        android:background="@color/white"
+    <EditText
+        android:id="@+id/new_password"
+        style="@style/new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_apple" />
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
-
-    <ImageView
-        android:id="@+id/button_img3"
-        style="@style/CustomButtonImg3"
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:layout_marginStart="5sp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_facebook"
-        app:layout_constraintStart_toStartOf="@+id/button_facebook"
-        app:layout_constraintTop_toTopOf="@+id/button_facebook" />
-
-    <Button
-        android:id="@+id/button_google"
-        style="@style/CustomButtonGoogle"
-        android:layout_width="300sp"
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="335sp"
         android:layout_height="40sp"
-        android:layout_marginTop="50sp"
-        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:background="@color/opacity_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_facebook" />
+        app:layout_constraintTop_toBottomOf="@+id/new_password" />
 
-    <ImageView
-        android:id="@+id/button_img4"
-        style="@style/CustomButtonImg4"
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:layout_marginStart="5sp"
-        app:layout_constraintBottom_toBottomOf="@+id/button_google"
-        app:layout_constraintStart_toStartOf="@+id/button_google"
-        app:layout_constraintTop_toTopOf="@+id/button_google" />
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:enabled="false"
+        android:text="@string/login_button_label"
+        android:background="@color/light_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <TextView
         android:id="@+id/textViewAccount"
@@ -132,7 +99,7 @@
         android:layout_marginStart="125sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_google" />
+        />
 
     <TextView
         android:id="@+id/textView_registered"
@@ -144,7 +111,7 @@
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewAccount"
-        app:layout_constraintTop_toBottomOf="@+id/button_google" />
+         />
 
     <FrameLayout
         android:id="@+id/fragment_container"
@@ -152,6 +119,7 @@
         android:layout_height="520sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
