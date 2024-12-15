@@ -10,69 +10,79 @@ import com.google.android.material.snackbar.Snackbar
 
 class HomeLoginActivity : AppCompatActivity() {
 
-    private var emailView: EditText? = null
-    private var passwordView: EditText? = null
-    private var loginButton: Button? = null
+    private lateinit var emailView: EditText
+    private lateinit var passwordView: EditText
+    private lateinit var loginButton: Button
 
-    private val cUsername = "teamate@gmail.com"
+    private val cEmail = "teamate@gmail.com"
     private val cPassword = "Romada"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_login)
 
+        // Collegamento degli elementi UI ai loro ID
         emailView = findViewById(R.id._email)
         passwordView = findViewById(R.id.new_password)
         loginButton = findViewById(R.id.loginButton)
 
-        setListener()
+        // Imposta i listener
+        setListeners()
     }
 
-    private fun setListener() {
+    private fun setListeners() {
         // Listener per il click sul bottone di login
-        loginButton?.setOnClickListener {
-            checkFormLogin()  // Verifica prima le credenziali quando il bottone viene premuto
+        loginButton.setOnClickListener {
+            checkFormLogin() // Verifica le credenziali
         }
 
-        // Listener per le modifiche nei campi di username e password
-        emailView?.addTextChangedListener {
-            checkEmptyForm() // Disabilita il bottone se uno dei campi è vuoto
+        // Listener per abilitare/disabilitare il pulsante di login quando i campi cambiano
+        emailView.addTextChangedListener {
+            checkEmptyForm()
         }
 
-        passwordView?.addTextChangedListener {
-            checkEmptyForm() // Disabilita il bottone se uno dei campi è vuoto
+        passwordView.addTextChangedListener {
+            checkEmptyForm()
         }
     }
 
-    // Funzione per controllare se il bottone di login deve essere abilitato
     private fun checkEmptyForm() {
-        val username = emailView?.text.toString()
-        val password = passwordView?.text.toString()
-        loginButton?.isEnabled = !(username.isEmpty() || password.isEmpty()) // Disabilita il login se vuoto
+        val email = emailView.text.toString().trim()
+        val password = passwordView.text.toString().trim()
+
+        // Abilita il pulsante solo se entrambi i campi non sono vuoti
+        loginButton.isEnabled = email.isNotEmpty() && password.isNotEmpty()
     }
 
     private fun checkFormLogin() {
-        val username = emailView?.text.toString()
-        val password = passwordView?.text.toString()
+        val email = emailView.text.toString().trim()
+        val password = passwordView.text.toString().trim()
 
-        // Verifica se i campi sono vuoti
-        if (username.isEmpty() || password.isEmpty()) {
-            showError(getString(R.string.login_error_message))
-        } else if (username != cUsername || password != cPassword) {
-            // Verifica se username o password non corrispondono
-            showError(getString(R.string.login_notmatch_error))
-        } else {
-            // L'utente si è loggato correttamente, quindi avvia l'activity successiva
-            val intent = Intent(this, StatisticsPageActivity::class.java)
-            startActivity(intent)
+        // Log per il debug
+        println("Email inserita: $email, Password inserita: $password")
+
+        when {
+            email.isEmpty() || password.isEmpty() -> {
+                showError(getString(R.string.login_error_message))
+            }
+            email != cEmail || password != cPassword -> { // Usa cEmail
+                showError(getString(R.string.login_notmatch_error))
+            }
+            else -> {
+                // Login corretto, avvia l'activity successiva
+                val intent = Intent(this, StatisticsPageActivity::class.java)
+                startActivity(intent)
+            }
         }
     }
 
     private fun showError(errorMessage: String) {
+        // Mostra un messaggio di errore usando uno Snackbar
+        val rootView = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.home_login)
         Snackbar.make(
-            findViewById(R.id.home_login), // Usa il layout principale come riferimento per il Snackbar
-            errorMessage, // Il messaggio di errore
-            Snackbar.LENGTH_LONG // Durata del messaggio
+            rootView,
+            errorMessage,
+            Snackbar.LENGTH_LONG
         ).show()
     }
 }
