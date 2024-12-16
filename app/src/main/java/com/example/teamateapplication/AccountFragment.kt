@@ -20,7 +20,6 @@ class AccountFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_account, container, false)
 
         val buttonChangeUsername = view.findViewById<Button>(R.id.button_change_user)
-        val buttonChangeEmail = view.findViewById<Button>(R.id.button_change_email)
         val buttonChangePassword = view.findViewById<Button>(R.id.button_change_psw)
 
         val buttonHome = view.findViewById<ImageButton>(R.id.imageButton_home)
@@ -32,10 +31,7 @@ class AccountFragment : Fragment() {
             startActivity(intent)
         }
 
-        buttonChangeEmail.setOnClickListener {
-            val intent = Intent(requireContext(), EmailActivity::class.java)
-            startActivity(intent)
-        }
+
 
         buttonChangePassword.setOnClickListener {
             val intent = Intent(requireContext(), PasswordActivity::class.java)
