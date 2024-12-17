@@ -43,14 +43,6 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <style name="CustomButtonStatistics">
-        <item name="android:backgroundTint">@color/medium_low_blue</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:text">@string/string_statistics</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">15sp</item>
-    </style>
-
     <style name="CustomLayoutMenuBottom">
         <item name="android:background">@color/opacity_blue</item>
     </style>
@@ -80,14 +72,6 @@
         <item name="android:background">@drawable/star_white</item>
     </style>
 
-    <style name="CustomTextViewFavouritesMenu">
-        <item name="android:text">@string/string_favourites_title</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">bottom</item>
-        <item name="android:textSize">15sp</item>
-    </style>
 
     <style name="CustomSettingsImageBlue">
         <item name="android:background">@drawable/settings_blue</item>
@@ -95,23 +79,6 @@
 
     <style name="CustomSettingsImageWhite">
         <item name="android:background">@drawable/settings_white</item>
-    </style>
-
-    <style name="CustomTextViewMenuSettings">
-        <item name="android:text">@string/string_settings_title</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">bottom</item>
-        <item name="android:textSize">15sp</item>
-    </style>
-
-    <style name="CustomHorizontalScrollView">
-        <item name="android:background">@color/white</item>
-    </style>
-
-    <style name="CustomFireImage">
-        <item name="android:background">@drawable/fire</item>
     </style>
 
     <style name="CustomTextViewTitleScrollView">
@@ -142,9 +109,6 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <style name="CustomTennisImage">
-        <item name="android:background">@drawable/tennis</item>
-    </style>
 
     <style name="CustomEditTextSearch">
         <item name="android:hint">@string/string_placeholder_editText_search</item>
@@ -156,11 +120,6 @@
     <style name="CustomSearchImage">
         <item name="android:background">@drawable/search</item>
     </style>
-
-    <style name="CustomArrowBottomImage">
-        <item name="android:background">@drawable/arrow_bottom</item>
-    </style>
-
 
     <style name="textView_HomeLogin">
         <item name="android:text">@string/title</item>
@@ -179,41 +138,11 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CustomButtonEmail">
-        <item name="android:text">@string/button_one</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomButtonApple">
-        <item name="android:text">@string/button_apple</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
 
     <style name="CustomTextViewLogin">
         <item name="android:background">@color/white</item>
     </style>
 
-    <style name="CustomButtonFacebook">
-        <item name="android:text">@string/button_facebook</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomButtonGoogle">
-        <item name="android:text">@string/button_google</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
 
     <style name="CustomButtonImg">
         <item name="android:background">@drawable/email_opacity</item>
@@ -223,13 +152,6 @@
         <item name="android:background">@drawable/apple</item>
     </style>
 
-    <style name="CustomButtonImg3">
-        <item name="android:background">@drawable/facebook</item>
-    </style>
-
-    <style name="CustomButtonImg4">
-        <item name="android:background">@drawable/google</item>
-    </style>
 
     <style name="textView_last">
         <item name="android:text">@string/last_title</item>
@@ -290,48 +212,6 @@
 
     <style name="loginImg">
         <item name="android:background">@drawable/login</item>
-    </style>
-
-    <style name="accedi_apple">
-        <item name="android:text">@string/button_apple</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_apple_">
-        <item name="android:text">@string/enter_apple</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="accedi_google">
-        <item name="android:text">@string/button_google</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_google_">
-        <item name="android:text">@string/enter_google</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="accedi_facebook">
-        <item name="android:text">@string/button_facebook</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_facebook_">
-        <item name="android:text">@string/enter_facebook</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="textview_register">
@@ -479,37 +359,6 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CustomButtonZverev">
-        <item name="android:text">@string/button_zverev</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomButtonAlcaraz">
-        <item name="android:text">@string/button_alcaraz</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomButtonMedvedev">
-        <item name="android:text">@string/button_medvedev</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomButtonFritz">
-        <item name="android:text">@string/button_fritz</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
 
     <style name="textView_account">
         <item name="android:text">@string/button_account</item>
@@ -617,16 +466,6 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="textView_Sinner">
-        <item name="android:text">@string/Sinner_</item>
-        <item name="android:background">@color/dark_blue</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
 

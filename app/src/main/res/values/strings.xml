@@ -25,21 +25,11 @@
 
     <string name="string_text_scrollView">Sarà Jannik Sinner contro Carlos Alcaraz la finale per il primo posto al Six Kings Slam, mentre Novak Djokovic sfiderà Rafa Nadal nella finale per il terzo posto, in programma entrambe sabato 19 ottobre</string>
 
-    <string name="string_placeholder_editText_search">cerca il tuo tennista</string>
-
-
+    <string name="string_placeholder_editText_search">Cerca il tuo tennista</string>
 
     <string name="title">Teamate</string>
 
     <string name="titlelogin">Accedi</string>
-
-    <string name="button_one">Continua con telefono/email/username</string>
-
-    <string name="button_apple">Continua con Apple</string>
-
-    <string name="button_facebook">Continua con Facebook</string>
-
-    <string name="button_google">Continua con Google</string>
 
     <string name="last_title">Non hai un account?</string>
 
@@ -52,12 +42,6 @@
     <string name="back">INDIETRO</string>
 
     <string name="login">ACCEDI</string>
-
-    <string name="enter_apple">Inserisci il tuo Id Apple</string>
-
-    <string name="enter_google">Inserisci la tua email di Google</string>
-
-    <string name="enter_facebook">Inserisci la tua email di Facebook</string>
 
     <string name="registrati">Registrazione</string>
 
@@ -72,16 +56,6 @@
     <string name="button_account">Account</string>
 
     <string name="button_elimina">Elimina Account</string>
-
-    <string name="button_sinner">1. JANNIK SINNER</string>
-
-    <string name="button_zverev">2. ALEXANDER ZVEREV</string>
-
-    <string name="button_alcaraz">3. CARLOS ALCARAZ</string>
-
-    <string name="button_fritz">4. TAYLOR FRITZ</string>
-
-    <string name="button_medvedev">5. DANIIL MEDVEDEV</string>
 
     <string name="button_changeuser">Cambia username</string>
 
