@@ -20,7 +20,7 @@ class RegisterActivity : AppCompatActivity() {
         }
 
         linearLayoutLogin.setOnClickListener {
-            val intent = Intent(this, HomePageActivity::class.java)
+            val intent = Intent(this, StatisticsPageActivity::class.java)
             startActivity(intent)
         }
     }

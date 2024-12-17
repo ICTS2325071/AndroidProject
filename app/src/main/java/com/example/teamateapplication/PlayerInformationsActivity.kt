@@ -70,7 +70,7 @@ class PlayerInformationsActivity : AppCompatActivity() {
         val buttonHome = findViewById<ImageButton>(R.id.imageButton_home)
 
         buttonHome.setOnClickListener {
-            val intent = Intent(this, HomePageActivity::class.java)
+            val intent = Intent(this, StatisticsPageActivity::class.java)
             startActivity(intent)
         }
 

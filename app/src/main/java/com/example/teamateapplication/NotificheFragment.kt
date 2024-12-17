@@ -21,7 +21,7 @@ class NotificheFragment : Fragment() {
         val buttonSettings = view.findViewById<ImageButton>(R.id.imageButton_settings)
 
         buttonHome.setOnClickListener {
-            val intent = Intent(requireContext(), HomePageActivity::class.java)
+            val intent = Intent(requireContext(), StatisticsPageActivity::class.java)
             startActivity(intent)
         }
 

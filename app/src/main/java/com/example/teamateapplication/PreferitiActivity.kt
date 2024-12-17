@@ -15,7 +15,7 @@ class PreferitiActivity : AppCompatActivity() {
         val buttonSettings = findViewById<ImageButton>(R.id.imageButton_settings)
 
         buttonHome.setOnClickListener {
-            val intent = Intent(this, HomePageActivity::class.java)
+            val intent = Intent(this, StatisticsPageActivity::class.java)
             startActivity(intent)
         }
 

@@ -62,14 +62,10 @@ class StatisticsPageActivity : AppCompatActivity() {
             override fun afterTextChanged(s: Editable?) {}
         })
 
-        val buttonHome = findViewById<ImageButton>(R.id.imageButton_home)
+
         val buttonStar = findViewById<ImageButton>(R.id.imageButton_favourites)
         val buttonSettings = findViewById<ImageButton>(R.id.imageButton_settings)
 
-        buttonHome.setOnClickListener {
-            val intent = Intent(this, HomePageActivity::class.java)
-            startActivity(intent)
-        }
 
         buttonStar.setOnClickListener {
             val intent = Intent(this, PreferitiActivity::class.java)
