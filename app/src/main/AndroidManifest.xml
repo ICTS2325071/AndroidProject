@@ -29,10 +29,6 @@
             android:exported="true" />
 
         <activity
-            android:name=".PasswordActivity"
-            android:exported="true" />
-
-        <activity
             android:name=".PlayerInformationsActivity"
             android:exported="true" />
 
@@ -41,15 +37,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".RegisterActivity"
-            android:exported="true" />
-
-        <activity
             android:name=".StatisticsPageActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".UsernameActivity"
             android:exported="true" />
 
         <activity

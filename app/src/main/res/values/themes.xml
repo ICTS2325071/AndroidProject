@@ -84,10 +84,6 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CustomImageButtonScrollView">
-        <item name="android:background">@drawable/six_kings_slam</item>
-    </style>
-
     <style name="CustomTextViewScrollView">
         <item name="android:text">@string/string_text_scrollView</item>
         <item name="android:textColor">@color/black</item>
@@ -139,16 +135,6 @@
         <item name="android:background">@color/white</item>
     </style>
 
-
-    <style name="CustomButtonImg">
-        <item name="android:background">@drawable/email_opacity</item>
-    </style>
-
-    <style name="CustomButtonImg2">
-        <item name="android:background">@drawable/apple</item>
-    </style>
-
-
     <style name="textView_last">
         <item name="android:text">@string/last_title</item>
         <item name="android:textSize">13sp</item>
@@ -160,13 +146,6 @@
         <item name="android:text">@string/last_registrati</item>
         <item name="android:textSize">13sp</item>
         <item name="android:textColor">@color/light_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="accedi_phone_email_username">
-        <item name="android:text">@string/button_one</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -191,10 +170,6 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="backImg">
-        <item name="android:background">@drawable/back_blue</item>
-    </style>
-
     <style name="backImgWhite">
         <item name="android:background">@drawable/back_white</item>
     </style>
@@ -204,10 +179,6 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="loginImg">
-        <item name="android:background">@drawable/login</item>
     </style>
 
     <style name="textview_register">
@@ -248,10 +219,6 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="impostazioniImg">
-        <item name="android:background">@drawable/impostazione</item>
-    </style>
-
     <style name="textView_Impo">
         <item name="android:text">@string/string_settings</item>
         <item name="android:textSize">20sp</item>
@@ -261,10 +228,6 @@
 
     <style name="CustomSettings">
         <item name="android:background">@drawable/baseline_settings_24</item>
-    </style>
-
-    <style name="NotificheImg">
-        <item name="android:background">@drawable/notifiche</item>
     </style>
 
     <style name="CustomButtonNotifiche">
@@ -285,10 +248,6 @@
         <item name="android:textColor">@color/black</item>
         <item name="backgroundTint">@color/white</item>
         <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Preferitimg">
-        <item name="android:background">@drawable/preferiti</item>
     </style>
 
     <style name="CustomButtonPreferiti">
@@ -519,14 +478,6 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center_vertical</item>
-    </style>
-
-    <style name="NotificheSi">
-        <item name="android:background">@drawable/notifiche_attive</item>
-    </style>
-
-    <style name="NotificheNo">
-        <item name="android:background">@drawable/notifiche_disattivate</item>
     </style>
 
     <style name="CustomTextViewSurface">
