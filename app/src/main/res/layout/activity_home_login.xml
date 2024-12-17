@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bottomBackground" />
 
-    <EditText
+    <TextView
         android:id="@+id/_email"
         style="@style/old_email"
         android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/_email" />
 
-    <EditText
+    <TextView
         android:id="@+id/new_password"
         style="@style/new_password"
         android:layout_width="wrap_content"

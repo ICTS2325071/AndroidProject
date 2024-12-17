@@ -14,7 +14,7 @@ class HomeLoginActivity : AppCompatActivity() {
     private var passwordView: EditText? = null
     private var loginButton: Button? = null
 
-    private val cUsername = "teamate@gmail.com"
+    private val cEmail = "teamate@gmail.com"
     private val cPassword = "Romada"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,54 +25,55 @@ class HomeLoginActivity : AppCompatActivity() {
         passwordView = findViewById(R.id.new_password)
         loginButton = findViewById(R.id.loginButton)
 
-        setListener()
+        setListeners()
     }
 
-    private fun setListener() {
+    private fun setListeners() {
         // Listener per il click sul bottone di login
         loginButton?.setOnClickListener {
-            checkFormLogin()  // Verifica prima le credenziali quando il bottone viene premuto
+            checkFormLogin() // Verifica le credenziali
         }
 
-        // Listener per le modifiche nei campi di username e password
+        // Listener per abilitare/disabilitare il pulsante di login quando i campi cambiano
         emailView?.addTextChangedListener {
-            checkEmptyForm() // Disabilita il bottone se uno dei campi è vuoto
+            checkEmptyForm()
         }
 
         passwordView?.addTextChangedListener {
-            checkEmptyForm() // Disabilita il bottone se uno dei campi è vuoto
+            checkEmptyForm()
         }
     }
 
-    // Funzione per controllare se il bottone di login deve essere abilitato
     private fun checkEmptyForm() {
-        val username = emailView?.text.toString()
+        val email = emailView?.text.toString()
         val password = passwordView?.text.toString()
-        loginButton?.isEnabled = !(username.isEmpty() || password.isEmpty()) // Disabilita il login se vuoto
+
+        // Abilita il pulsante solo se entrambi i campi non sono vuoti
+        loginButton?.isEnabled = !(email.isEmpty() || password.isEmpty())
     }
 
     private fun checkFormLogin() {
-        val username = emailView?.text.toString()
+        val email = emailView?.text.toString()
         val password = passwordView?.text.toString()
 
-        // Verifica se i campi sono vuoti
-        if (username.isEmpty() || password.isEmpty()) {
+        if (email.isEmpty() || password.isEmpty()) {
             showError(getString(R.string.login_error_message))
-        } else if (username != cUsername || password != cPassword) {
-            // Verifica se username o password non corrispondono
+        } else if (email != cEmail || password != cPassword) {
             showError(getString(R.string.login_notmatch_error))
         } else {
-            // L'utente si è loggato correttamente, quindi avvia l'activity successiva
+            // Login corretto, avvia l'activity successiva
             val intent = Intent(this, StatisticsPageActivity::class.java)
             startActivity(intent)
         }
     }
 
     private fun showError(errorMessage: String) {
+        // Mostra un messaggio di errore usando uno Snackbar
+        val rootView = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.home_login)
         Snackbar.make(
-            findViewById(R.id.home_login), // Usa il layout principale come riferimento per il Snackbar
-            errorMessage, // Il messaggio di errore
-            Snackbar.LENGTH_LONG // Durata del messaggio
+            rootView,
+            errorMessage,
+            Snackbar.LENGTH_LONG
         ).show()
     }
 }
