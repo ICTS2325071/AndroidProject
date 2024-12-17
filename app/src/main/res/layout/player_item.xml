@@ -8,17 +8,17 @@
         android:id="@+id/button_player"
         style="@style/CustomButtonPlayer"
         android:layout_width="350sp"
-        android:layout_height="65sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="80sp"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/player_img"
-        android:layout_width="35sp"
-        android:layout_height="35sp"
-        android:layout_marginStart="20dp"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/button_player"
         app:layout_constraintStart_toStartOf="@+id/button_player"
         app:layout_constraintTop_toTopOf="@+id/button_player" />

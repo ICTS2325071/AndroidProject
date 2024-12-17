@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Jannik Sinner",
+    "flagResId": "italia",
+    "imageResId": "jannik_sinner",
+    "playerInfo": {
+      "age": 23,
+      "nationality": "Italia",
+      "height": 191,
+      "weight": 77
+    },
+    "playerStats": {
+      "ranking": 1,
+      "points": 11830,
+      "matchesWon": 73,
+      "matchesLost": 6,
+      "winRate": 92.4,
+      "tournamentsWon": 8
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 188,
+      "matchesLost": 49,
+      "winRate": 79.3,
+      "tournamentsWon": 16
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 21,
+      "matchesLost": 9,
+      "winRate": 70,
+      "tournamentsWon": 1
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 54,
+      "matchesLost": 22,
+      "winRate": 71.1,
+      "tournamentsWon": 1
+    }
+  },
+  {
+    "name": "Alexander Zverev",
+    "flagResId": "germania",
+    "imageResId": "alexander_zverev",
+    "playerInfo": {
+      "age": 27,
+      "nationality": "Germania",
+      "height": 198,
+      "weight": 90
+    },
+    "playerStats": {
+      "ranking": 2,
+      "points": 7915,
+      "matchesWon": 69,
+      "matchesLost": 21,
+      "winRate": 76.7,
+      "tournamentsWon": 2
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 273,
+      "matchesLost": 123,
+      "winRate": 68.9,
+      "tournamentsWon": 15
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 39,
+      "matchesLost": 20,
+      "winRate": 66.1,
+      "tournamentsWon": 0
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 151,
+      "matchesLost": 55,
+      "winRate": 73.3,
+      "tournamentsWon": 8
+    }
+  },
+  {
+    "name": "Carlos Alcaraz",
+    "flagResId": "spagna",
+    "imageResId": "carlos_alcaraz",
+    "playerInfo": {
+      "age": 21,
+      "nationality": "Spagna",
+      "height": 183,
+      "weight": 74
+    },
+    "playerStats": {
+      "ranking": 3,
+      "points": 7010,
+      "matchesWon": 54,
+      "matchesLost": 13,
+      "winRate": 80.6,
+      "tournamentsWon": 4
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 104,
+      "matchesLost": 35,
+      "winRate": 74.8,
+      "tournamentsWon": 5
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 24,
+      "matchesLost": 3,
+      "winRate": 88.9,
+      "tournamentsWon": 3
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 81,
+      "matchesLost": 18,
+      "winRate": 81.8,
+      "tournamentsWon": 8
+    }
+  },
+  {
+    "name": "Taylor Fritz",
+    "flagResId": "usa",
+    "imageResId": "taylor_fritz",
+    "playerInfo": {
+      "age": 27,
+      "nationality": "Stati Uniti",
+      "height": 196,
+      "weight": 86
+    },
+    "playerStats": {
+      "ranking": 4,
+      "points": 5100,
+      "matchesWon": 53,
+      "matchesLost": 23,
+      "winRate": 69.7,
+      "tournamentsWon": 2
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 200,
+      "matchesLost": 130,
+      "winRate": 60.6,
+      "tournamentsWon": 5
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 33,
+      "matchesLost": 23,
+      "winRate": 58.9,
+      "tournamentsWon": 3
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 51,
+      "matchesLost": 37,
+      "winRate": 58,
+      "tournamentsWon": 0
+    }
+  },
+  {
+    "name": "Daniil Medvedev",
+    "flagResId": "russia",
+    "imageResId": "daniil_medvedev",
+    "playerInfo": {
+      "age": 28,
+      "nationality": "Mondo",
+      "height": 198,
+      "weight": 83
+    },
+    "playerStats": {
+      "ranking": 5,
+      "points": 5030,
+      "matchesWon": 46,
+      "matchesLost": 21,
+      "winRate": 68.7,
+      "tournamentsWon": 0
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 294,
+      "matchesLost": 104,
+      "winRate": 73.9,
+      "tournamentsWon": 18
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 46,
+      "matchesLost": 22,
+      "winRate": 67.6,
+      "tournamentsWon": 1
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 39,
+      "matchesLost": 31,
+      "winRate": 55.7,
+      "tournamentsWon": 1
+    }
+  },
+  {
+    "name": "Casper Ruud",
+    "flagResId": "norvegia",
+    "imageResId": "casper_ruud",
+    "playerInfo": {
+      "age": 25,
+      "nationality": "Norvegia",
+      "height": 183,
+      "weight": 81
+    },
+    "playerStats": {
+      "ranking": 6,
+      "points": 4255,
+      "matchesWon": 51,
+      "matchesLost": 25,
+      "winRate": 67.1,
+      "tournamentsWon": 2
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 108,
+      "matchesLost": 81,
+      "winRate": 57.1,
+      "tournamentsWon": 1
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 5,
+      "matchesLost": 7,
+      "winRate": 41.7,
+      "tournamentsWon": 0
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 145,
+      "matchesLost": 52,
+      "winRate": 73.6,
+      "tournamentsWon": 11
+    }
+  },
+  {
+    "name": "Novak Djokovic",
+    "flagResId": "serbia",
+    "imageResId": "novak_djokovic",
+    "playerInfo": {
+      "age": 37,
+      "nationality": "Serbia",
+      "height": 188,
+      "weight": 77
+    },
+    "playerStats": {
+      "ranking": 7,
+      "points": 3910,
+      "matchesWon": 37,
+      "matchesLost": 9,
+      "winRate": 80.4,
+      "tournamentsWon": 1
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 709,
+      "matchesLost": 129,
+      "winRate": 84.6,
+      "tournamentsWon": 71
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 120,
+      "matchesLost": 20,
+      "winRate": 85.7,
+      "tournamentsWon": 8
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 286,
+      "matchesLost": 69,
+      "winRate": 80.6,
+      "tournamentsWon": 20
+    }
+  },
+  {
+    "name": "Andrey Rublev",
+    "flagResId": "russia",
+    "imageResId": "andrey_rublev",
+    "playerInfo": {
+      "age": 27,
+      "nationality": "Mondo",
+      "height": 188,
+      "weight": 75
+    },
+    "playerStats": {
+      "ranking": 8,
+      "points": 3760,
+      "matchesWon": 43,
+      "matchesLost": 26,
+      "winRate": 62.3,
+      "tournamentsWon": 2
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 238,
+      "matchesLost": 134,
+      "winRate": 64,
+      "tournamentsWon": 10
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 19,
+      "matchesLost": 10,
+      "winRate": 65.5,
+      "tournamentsWon": 0
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 78,
+      "matchesLost": 40,
+      "winRate": 66.1,
+      "tournamentsWon": 6
+    }
+  },
+  {
+    "name": "Alex Deminaur",
+    "flagResId": "australia",
+    "imageResId": "alex_deminaur",
+    "playerInfo": {
+      "age": 25,
+      "nationality": "Australia",
+      "height": 183,
+      "weight": 69
+    },
+    "playerStats": {
+      "ranking": 9,
+      "points": 3745,
+      "matchesWon": 47,
+      "matchesLost": 21,
+      "winRate": 69.1,
+      "tournamentsWon": 2
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 188,
+      "matchesLost": 106,
+      "winRate": 63.9,
+      "tournamentsWon": 7
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 32,
+      "matchesLost": 17,
+      "winRate": 65.3,
+      "tournamentsWon": 2
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 29,
+      "matchesLost": 32,
+      "winRate": 47.5,
+      "tournamentsWon": 0
+    }
+  },
+  {
+    "name": "Grigor Dimitrov",
+    "flagResId": "bulgaria",
+    "imageResId": "grigor_dimitrov",
+    "playerInfo": {
+      "age": 33,
+      "nationality": "Bulgaria",
+      "height": 191,
+      "weight": 81
+    },
+    "playerStats": {
+      "ranking": 10,
+      "points": 3350,
+      "matchesWon": 46,
+      "matchesLost": 18,
+      "winRate": 71.9,
+      "tournamentsWon": 1
+    },
+    "careerStatsHardCourt": {
+      "matchesWon": 309,
+      "matchesLost": 189,
+      "winRate": 62,
+      "tournamentsWon": 7
+    },
+    "careerStatsGrassCourt": {
+      "matchesWon": 46,
+      "matchesLost": 33,
+      "winRate": 58.2,
+      "tournamentsWon": 1
+    },
+    "careerStatsClayCourt": {
+      "matchesWon": 102,
+      "matchesLost": 69,
+      "winRate": 59.6,
+      "tournamentsWon": 1
+    }
+  }
+]

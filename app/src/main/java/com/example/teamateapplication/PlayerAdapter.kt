@@ -1,6 +1,8 @@
 package com.example.teamateapplication
 
+import android.content.Context
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,14 +11,14 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 
 class PlayerAdapter(
+    private val context: Context,
     private var players: List<Player>,
-    private val onItemClicked: (Player) -> Unit // Callback per il click
+    private val targetActivity: Class<*>, // Activity di destinazione
 ) : RecyclerView.Adapter<PlayerAdapter.PlayerViewHolder>() {
 
     // ViewHolder per gestire ogni elemento della lista
     class PlayerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val buttonPlayer: Button = itemView.findViewById(R.id.button_player)
-        val buttonHardCourt: Button = itemView.findViewById(R.id.hard_court_button)
         val imageViewPlayer: ImageView = itemView.findViewById(R.id.player_img)
     }
 
@@ -28,30 +30,27 @@ class PlayerAdapter(
 
     override fun onBindViewHolder(holder: PlayerViewHolder, position: Int) {
         val player = players[position]
+
+        // Imposta il nome e cognome nel bottone
         holder.buttonPlayer.text = player.name
-        holder.buttonHardCourt.text = player.name
-        holder.imageViewPlayer.setImageResource(player.flagResId)
+
+        // Log per verificare i dati del singolo giocatore
+        Log.d("PlayerAdapter", "Player: $player")
 
         // Assegna il listener per il click sulla TextView
         holder.buttonPlayer.setOnClickListener {
-            val context = holder.itemView.context
-            val intent = Intent(context, PlayerInformationsActivity::class.java)
-            // Passa i dati del giocatore all'altra Activity
+            val intent = Intent(holder.itemView.context, targetActivity)
             intent.putExtra("player_name", player.name)
-            intent.putExtra("player_country", player.flagResId)
-            intent.putExtra("player_image", player.imageResId)
-            context.startActivity(intent)
+            holder.itemView.context.startActivity(intent)
         }
 
-        holder.buttonHardCourt.setOnClickListener {
-            val context = holder.itemView.context
-            val intent1 = Intent(context, HardCourtActivity::class.java)
-            // Passa i dati del giocatore all'altra Activity
-            intent1.putExtra("player_name", player.name)
-            intent1.putExtra("player_country", player.flagResId)
-            intent1.putExtra("player_image", player.imageResId)
-            context.startActivity(intent1)
-        }
+        // Converti la stringa in un ID drawable
+        val context = holder.itemView.context
+        val flagDrawableId = context.resources.getIdentifier(player.flagResId, "drawable", context.packageName)
+        val playerDrawableId = context.resources.getIdentifier(player.imageResId, "drawable", context.packageName)
+
+        holder.imageViewPlayer.setImageResource(flagDrawableId)
+        holder.itemView.findViewById<ImageView>(R.id.player_img).setImageResource(playerDrawableId) // Giocatore
     }
 
     override fun getItemCount(): Int = players.size

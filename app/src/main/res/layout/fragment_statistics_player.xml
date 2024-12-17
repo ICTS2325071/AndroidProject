@@ -7,11 +7,52 @@
     tools:context=".StatisticsPlayerFragment"
     android:background="@color/medium_high_blue">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView_players_informations"
-        android:layout_width="match_parent"
-        android:layout_height="450sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp" />
+    <TextView
+        android:id="@+id/textViewRanking"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="30sp" />
+
+    <TextView
+        android:id="@+id/textViewPoints"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="90sp"
+        android:layout_marginStart="30sp" />
+
+    <TextView
+        android:id="@+id/textViewMatchesWon"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="160sp"
+        android:layout_marginStart="30sp" />
+
+    <TextView
+        android:id="@+id/textViewMatchesLost"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="230sp"
+        android:layout_marginStart="30sp" />
+
+    <TextView
+        android:id="@+id/textViewWinRate"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="300sp"
+        android:layout_marginStart="30sp" />
+
+    <TextView
+        android:id="@+id/textViewTournamentsWon"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="370sp"
+        android:layout_marginStart="30sp" />
 
 </FrameLayout>
