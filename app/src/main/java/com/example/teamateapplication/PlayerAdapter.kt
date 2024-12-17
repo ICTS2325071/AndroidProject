@@ -13,10 +13,10 @@ import androidx.recyclerview.widget.RecyclerView
 class PlayerAdapter(
     private val context: Context,
     private var players: List<Player>,
-    private val targetActivity: Class<*>, // Activity di destinazione
+    private val targetActivity: Class<*>,
 ) : RecyclerView.Adapter<PlayerAdapter.PlayerViewHolder>() {
 
-    // ViewHolder per gestire ogni elemento della lista
+    // ViewHolder dove gestisco ogni elemento della lista
     class PlayerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val buttonPlayer: Button = itemView.findViewById(R.id.button_player)
         val imageViewPlayer: ImageView = itemView.findViewById(R.id.player_img)
@@ -31,31 +31,31 @@ class PlayerAdapter(
     override fun onBindViewHolder(holder: PlayerViewHolder, position: Int) {
         val player = players[position]
 
-        // Imposta il nome e cognome nel bottone
+        // Imposto il nome e cognome nel bottone
         holder.buttonPlayer.text = player.name
 
-        // Log per verificare i dati del singolo giocatore
+        // verificaro i dati del singolo giocatore
         Log.d("PlayerAdapter", "Player: $player")
 
-        // Assegna il listener per il click sulla TextView
+        // Assegno il listener per il click sulla TextView
         holder.buttonPlayer.setOnClickListener {
             val intent = Intent(holder.itemView.context, targetActivity)
             intent.putExtra("player_name", player.name)
             holder.itemView.context.startActivity(intent)
         }
 
-        // Converti la stringa in un ID drawable
+        // Converto la stringa in un ID drawable
         val context = holder.itemView.context
         val flagDrawableId = context.resources.getIdentifier(player.flagResId, "drawable", context.packageName)
         val playerDrawableId = context.resources.getIdentifier(player.imageResId, "drawable", context.packageName)
 
         holder.imageViewPlayer.setImageResource(flagDrawableId)
-        holder.itemView.findViewById<ImageView>(R.id.player_img).setImageResource(playerDrawableId) // Giocatore
+        holder.itemView.findViewById<ImageView>(R.id.player_img).setImageResource(playerDrawableId)
     }
 
     override fun getItemCount(): Int = players.size
 
-    // Metodo per aggiornare la lista filtrata
+    // Metodo dove aggiorno la lista filtrata
     fun updateList(filteredPlayers: List<Player>) {
         players = filteredPlayers
         notifyDataSetChanged()

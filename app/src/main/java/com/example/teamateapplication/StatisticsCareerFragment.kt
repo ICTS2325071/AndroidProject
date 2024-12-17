@@ -19,12 +19,11 @@ class StatisticsCareerFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_statistics_career, container, false)
 
-        // Ricevi il giocatore selezionato (puoi passarlo come argomento al Fragment)
+        // Ricevo il giocatore selezionato
         selectedPlayer = arguments?.getParcelable("selected_player")
 
         val buttonHardCourt = view.findViewById<Button>(R.id.hard_court_button)
 
-        // Listener per ogni bottone
         buttonHardCourt.setOnClickListener {
             openCareerStatsActivity(
                 selectedPlayer?.careerStatsHardCourt,
@@ -66,7 +65,7 @@ class StatisticsCareerFragment : Fragment() {
             intent.putExtra("player_flag", player.flagResId)
             intent.putExtra("player_image", player.imageResId)
             intent.putExtra("career_stats", careerStats)
-            intent.putExtra("background_res_id", backgroundResId) // Passa lo sfondo
+            intent.putExtra("background_res_id", backgroundResId)
             intent.putExtra("text_view_color_res_id", textViewColorResId)
             intent.putExtra("text_to_display", textToDisplay)
             startActivity(intent)

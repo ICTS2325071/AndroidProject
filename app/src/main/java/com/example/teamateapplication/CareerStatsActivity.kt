@@ -2,7 +2,6 @@ package com.example.teamateapplication
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.ImageView
@@ -16,7 +15,7 @@ class CareerStatsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_career_stats)
 
-        // Ricevi i dati dall'Intent
+        // Ricevo i dati dall'Intent
         val playerName = intent.getStringExtra("player_name")
         val flagResId = intent.getStringExtra("player_flag")
         val playerImageResId = intent.getStringExtra("player_image")
@@ -25,19 +24,18 @@ class CareerStatsActivity : AppCompatActivity() {
         val textViewColorResId = intent.getIntExtra("text_view_color_res_id", R.color.medium_high_blue)
         val textToDisplay = intent.getStringExtra("text_to_display") ?: "Superficie"
 
-        // Ottieni gli ID drawable
+        // Ottiengo gli ID drawable
         val flagDrawableId = resources.getIdentifier(flagResId, "drawable", packageName)
         val playerDrawableId = resources.getIdentifier(playerImageResId, "drawable", packageName)
-        val rootLayout = findViewById<ViewGroup>(R.id.root_layout) // Assicurati che questo sia il contenitore principale del layout
+        val rootLayout = findViewById<ViewGroup>(R.id.root_layout)
         rootLayout.setBackgroundResource(backgroundResId)
         val textViewColor = ContextCompat.getColor(this, textViewColorResId)
 
-        // Imposta i dati nella UI
+        // Imposto i dati nella UI
         findViewById<TextView>(R.id.title_player_informations).text = playerName
         findViewById<ImageView>(R.id.country_img).setImageResource(flagDrawableId)
         findViewById<ImageView>(R.id.player_img).setImageResource(playerDrawableId)
         findViewById<TextView>(R.id.textView_surface).text = textToDisplay
-
 
         for (i in 0 until rootLayout.childCount) {
             val view = rootLayout.getChildAt(i)

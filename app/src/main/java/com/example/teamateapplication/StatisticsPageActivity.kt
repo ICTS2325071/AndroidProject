@@ -19,23 +19,23 @@ class StatisticsPageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_statistics_page)
 
-        val players = loadPlayersFromJson(this) // Funzione che carica i giocatori
+        val players = loadPlayersFromJson(this) // Funzione dove carico i giocatori
 
-        // Log per verificare che i giocatori siano stati caricati correttamente
+        // verifico che i giocatori siano stati caricati correttamente
         Log.d("JSON", players.toString())
 
-        // Configura la RecyclerView
+        // Configuro la RecyclerView
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView_players)
 
         val adapter = PlayerAdapter(
             this,
             players,
-            PlayerInformationsActivity::class.java // Activity di destinazione
+            PlayerInformationsActivity::class.java
         )
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        // Configura il filtro sull'EditText
+        // Configuro il filtro sull'EditText
         val editTextSearch = findViewById<EditText>(R.id.editText_search)
         editTextSearch.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}

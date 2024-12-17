@@ -27,7 +27,7 @@ class StatisticsPlayerFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_statistics_player, container, false)
 
-        // Popola le viste con i dati di playerStats
+        // Popolo le viste con i dati di playerStats
         playerStats?.let {
             view.findViewById<TextView>(R.id.textViewRanking).text = "Ranking: ${it.ranking}"
             view.findViewById<TextView>(R.id.textViewPoints).text = "Punti: ${it.points}"

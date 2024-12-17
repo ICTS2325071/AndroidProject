@@ -29,9 +29,8 @@ class HomeLoginActivity : AppCompatActivity() {
     }
 
     private fun setListeners() {
-        // Listener per il click sul bottone di login
         loginButton?.setOnClickListener {
-            checkFormLogin() // Verifica le credenziali
+            checkFormLogin() // Verifico le credenziali
         }
 
         // Listener per abilitare/disabilitare il pulsante di login quando i campi cambiano
@@ -48,7 +47,6 @@ class HomeLoginActivity : AppCompatActivity() {
         val email = emailView?.text.toString()
         val password = passwordView?.text.toString()
 
-        // Abilita il pulsante solo se entrambi i campi non sono vuoti
         loginButton?.isEnabled = !(email.isEmpty() || password.isEmpty())
     }
 
@@ -59,14 +57,13 @@ class HomeLoginActivity : AppCompatActivity() {
         if (email != cEmail || password != cPassword) {
             showError(getString(R.string.login_notmatch_error))
         } else {
-            // Login corretto, avvia l'activity successiva
             val intent = Intent(this, StatisticsPageActivity::class.java)
             startActivity(intent)
         }
     }
 
     private fun showError(errorMessage: String) {
-        // Mostra un messaggio di errore usando uno Snackbar
+        // Mostro un messaggio di errore con uno Snackbar
         val rootView = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.home_login)
         Snackbar.make(
             rootView,

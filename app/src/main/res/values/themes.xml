@@ -51,15 +51,6 @@
         <item name="android:background">@drawable/home_white</item>
     </style>
 
-    <style name="CustomTextViewHomeMenu">
-        <item name="android:text">@string/string_home_title</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">bottom</item>
-        <item name="android:textSize">15sp</item>
-    </style>
-
     <style name="CustomStarImageBlue">
         <item name="android:background">@drawable/star_blue</item>
     </style>
@@ -68,27 +59,12 @@
         <item name="android:background">@drawable/star_white</item>
     </style>
 
-
     <style name="CustomSettingsImageBlue">
         <item name="android:background">@drawable/settings_blue</item>
     </style>
 
     <style name="CustomSettingsImageWhite">
         <item name="android:background">@drawable/settings_white</item>
-    </style>
-
-    <style name="CustomTextViewTitleScrollView">
-        <item name="android:text">@string/string_title_scrollView</item>
-        <item name="android:textSize">22sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomTextViewScrollView">
-        <item name="android:text">@string/string_text_scrollView</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">11sp</item>
-        <item name="android:textAlignment">center</item>
     </style>
 
     <style name="CustomTextViewStatistics">
@@ -100,7 +76,6 @@
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">center_vertical</item>
     </style>
-
 
     <style name="CustomEditTextSearch">
         <item name="android:hint">@string/string_placeholder_editText_search</item>
@@ -130,93 +105,22 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-
-    <style name="CustomTextViewLogin">
-        <item name="android:background">@color/white</item>
-    </style>
-
     <style name="textView_last">
         <item name="android:text">@string/last_title</item>
-        <item name="android:textSize">13sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="textView_reg">
         <item name="android:text">@string/last_registrati</item>
-        <item name="android:textSize">13sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/light_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_phone_">
-    <item name="android:text">@string/enter</item>
-    <item name="android:textSize">16sp</item>
-    <item name="android:textColor">@color/dark_blue</item>
-    <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_password_">
-        <item name="android:text">@string/password</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="right_back">
-        <item name="android:text">@string/back</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="backImgWhite">
         <item name="android:background">@drawable/back_white</item>
-    </style>
-
-    <style name="left_login">
-        <item name="android:text">@string/login</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="textview_register">
-        <item name="android:text">@string/title</item>
-        <item name="android:background">@color/dark_blue</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:textSize">32sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_register">
-        <item name="android:text">@string/registrati</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_username_">
-        <item name="android:text">@string/enter_user</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_email_">
-        <item name="android:text">@string/enter_email</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="enter_passw_">
-        <item name="android:text">@string/enter_pass</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="textView_Impo">
@@ -230,28 +134,12 @@
         <item name="android:background">@drawable/baseline_settings_24</item>
     </style>
 
-    <style name="CustomButtonNotifiche">
-        <item name="android:text">@string/button_notifiche</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="backgroundTint">@color/white</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="Account_Img">
         <item name="android:background">@drawable/account</item>
     </style>
 
     <style name="CustomButtonAccount">
         <item name="android:text">@string/button_account</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="backgroundTint">@color/white</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomButtonPreferiti">
-        <item name="android:text">@string/string_favourites</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="backgroundTint">@color/white</item>
@@ -314,7 +202,6 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-
     <style name="textView_account">
         <item name="android:text">@string/button_account</item>
         <item name="android:background">@color/dark_blue</item>
@@ -325,107 +212,8 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CustomButtonUser">
-        <item name="android:text">@string/button_changeuser</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/light_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomButtonPss">
-        <item name="android:text">@string/button_changepss</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/light_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="CustomButtonEmail_">
-        <item name="android:text">@string/button_change_mail</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/light_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="textview_password">
-        <item name="android:text">@string/button_changepss</item>
-        <item name="android:background">@color/dark_blue</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:textSize">32sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="cambia_password">
-        <item name="android:text">@string/button_changepss</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="old_password">
-        <item name="android:text">@string/old_password</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="new_password">
-        <item name="android:text">@string/new_password</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="cambia_username">
-        <item name="android:text">@string/button_changeuser</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="old_username">
-        <item name="android:text">@string/old_username</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="new_username">
-        <item name="android:text">@string/new_username</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="title_notifiche">
-        <item name="android:text">@string/title_not</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="Suono">
-        <item name="android:text">@string/suono_notifiche</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name= "Vibra">
-        <item name="android:text">@string/vibra_notifiche</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/opacity_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="name_utente_">
-        <item name="android:text">@string/Utente</item>
+        <item name="android:text">@string/password</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
@@ -463,23 +251,6 @@
         <item name="android:background">@color/white</item>
     </style>
 
-    <style name="CustomNotificheTitle">
-        <item name="android:background">@color/white</item>
-        <item name="android:text">@string/title_not</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:gravity">center</item>
-    </style>
-
-    <style name="CustomNotifiche">
-        <item name="android:background">@color/medium_low_blue</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:gravity">center_vertical</item>
-    </style>
-
     <style name="CustomTextViewSurface">
         <item name="android:textSize">15sp</item>
         <item name="android:gravity">center</item>
@@ -487,22 +258,8 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="cambia_email">
-        <item name="android:text">@string/change_mail</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="old_email">
         <item name="android:text">@string/old_email</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/dark_blue</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="new_email">
-        <item name="android:text">@string/new_email</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/dark_blue</item>
         <item name="android:textStyle">bold</item>
