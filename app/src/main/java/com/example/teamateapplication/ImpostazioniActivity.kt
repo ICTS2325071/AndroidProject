@@ -16,7 +16,6 @@ class ImpostazioniActivity : AppCompatActivity() {
         val buttonHome = findViewById<ImageButton>(R.id.imageButton_home)
         val buttonStar = findViewById<ImageButton>(R.id.imageButton_favourites)
         val linearLayoutAccount = findViewById<LinearLayout>(R.id.account_layout)
-        val linearLayoutNotifiche = findViewById<LinearLayout>(R.id.notifiche_layout)
         val linearLayoutEsci = findViewById<LinearLayout>(R.id.esci_account)
         val linearLayoutElimina = findViewById<LinearLayout>(R.id.elimina_account)
 
@@ -32,10 +31,6 @@ class ImpostazioniActivity : AppCompatActivity() {
 
         linearLayoutAccount.setOnClickListener {
             loadFragment(AccountFragment())
-        }
-
-        linearLayoutNotifiche.setOnClickListener {
-            loadFragment(NotificheFragment())
         }
 
         linearLayoutEsci.setOnClickListener {

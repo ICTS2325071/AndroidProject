@@ -44,29 +44,6 @@
 
 
         <LinearLayout
-            android:id="@+id/notifiche_layout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100sp"
-            android:layout_marginStart="20sp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <ImageView
-                style="@style/NotificheImg"
-                android:layout_width="30sp"
-                android:layout_height="30sp" />
-
-            <TextView
-                style="@style/CustomButtonNotifiche"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30sp"/>
-
-        </LinearLayout>
-
-
-        <LinearLayout
             android:id="@+id/account_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -21,9 +21,9 @@ class HomeLoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_login)
 
-        emailView = findViewById(R.id._email)
-        passwordView = findViewById(R.id.new_password)
-        loginButton = findViewById(R.id.loginButton)
+        emailView = findViewById(R.id.editText_email)
+        passwordView = findViewById(R.id.editText_password)
+        loginButton = findViewById(R.id.login_button)
 
         setListeners()
     }
@@ -56,9 +56,7 @@ class HomeLoginActivity : AppCompatActivity() {
         val email = emailView?.text.toString()
         val password = passwordView?.text.toString()
 
-        if (email.isEmpty() || password.isEmpty()) {
-            showError(getString(R.string.login_error_message))
-        } else if (email != cEmail || password != cPassword) {
+        if (email != cEmail || password != cPassword) {
             showError(getString(R.string.login_notmatch_error))
         } else {
             // Login corretto, avvia l'activity successiva

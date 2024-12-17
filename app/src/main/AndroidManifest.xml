@@ -16,18 +16,6 @@
         tools:targetApi="31" >
 
         <activity
-            android:name=".ClayCourtActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".EmailActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".GrassCourtActivity"
-            android:exported="true" />
-
-        <activity
             android:name=".CareerStatsActivity"
             android:exported="true" />
 
@@ -36,15 +24,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".HomePageActivity"
-            android:exported="true" />
-
-        <activity
             android:name=".ImpostazioniActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".PasswordActivity"
             android:exported="true" />
 
         <activity
@@ -56,15 +36,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".RegisterActivity"
-            android:exported="true" />
-
-        <activity
             android:name=".StatisticsPageActivity"
-            android:exported="true" />
-
-        <activity
-            android:name=".UsernameActivity"
             android:exported="true" />
 
         <activity
