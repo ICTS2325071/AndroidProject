@@ -19,24 +19,9 @@ class AccountFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_account, container, false)
 
-        val buttonChangeUsername = view.findViewById<Button>(R.id.button_change_user)
-        val buttonChangePassword = view.findViewById<Button>(R.id.button_change_psw)
-
         val buttonHome = view.findViewById<ImageButton>(R.id.imageButton_home)
         val buttonStar = view.findViewById<ImageButton>(R.id.imageButton_favourites)
         val buttonSettings = view.findViewById<ImageButton>(R.id.imageButton_settings)
-
-        buttonChangeUsername.setOnClickListener {
-            val intent = Intent(requireContext(), UsernameActivity::class.java)
-            startActivity(intent)
-        }
-
-
-
-        buttonChangePassword.setOnClickListener {
-            val intent = Intent(requireContext(), PasswordActivity::class.java)
-            startActivity(intent)
-        }
 
 
         buttonHome.setOnClickListener {

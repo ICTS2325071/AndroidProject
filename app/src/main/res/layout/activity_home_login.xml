@@ -9,7 +9,7 @@
     android:background="@color/medium_high_blue">
 
     <TextView
-        android:id="@+id/textViewLoginTitle"
+        android:id="@+id/textView_title_app"
         style="@style/textView_HomeLogin"
         android:layout_width="374sp"
         android:layout_height="75sp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/bottomBackground"
+        android:id="@+id/bottom_background"
         style="@style/CustomBackgroundWhite"
         android:layout_width="0sp"
         android:layout_height="520sp"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/textView_title_login"
         style="@style/textView_LoginWith"
         android:layout_width="wrap_content"
@@ -37,10 +37,10 @@
         android:layout_marginTop="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bottomBackground" />
+        app:layout_constraintTop_toTopOf="@+id/bottom_background" />
 
     <TextView
-        android:id="@+id/_email"
+        android:id="@+id/insert_email"
         style="@style/old_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,46 +50,45 @@
         app:layout_constraintTop_toBottomOf="@+id/textView_title_login" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editText_email"
+        style="@style/CustomEditTextLogin"
         android:layout_width="335sp"
         android:layout_height="40sp"
         android:layout_marginTop="10dp"
-        android:background="@color/opacity_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/_email" />
+        app:layout_constraintTop_toBottomOf="@+id/insert_email" />
 
     <TextView
-        android:id="@+id/new_password"
+        android:id="@+id/insert_password"
         style="@style/new_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_email" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editText_password"
+        style="@style/CustomEditTextLogin"
         android:layout_width="335sp"
         android:layout_height="40sp"
         android:layout_marginTop="10dp"
-        android:background="@color/opacity_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/new_password" />
+        app:layout_constraintTop_toBottomOf="@+id/insert_password" />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:enabled="false"
         android:text="@string/login_button_label"
-        android:background="@color/light_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_password" />
 
     <TextView
         android:id="@+id/textViewAccount"
@@ -99,7 +98,7 @@
         android:layout_marginStart="125sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/login_button" />
 
     <TextView
         android:id="@+id/textView_registered"
@@ -111,7 +110,7 @@
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewAccount"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/login_button" />
 
     <FrameLayout
         android:id="@+id/fragment_container"

@@ -24,73 +24,34 @@
         android:layout_marginTop="345sp" />
 
     <TextView
-        android:id="@+id/utente_"
-        style="@style/name_utente_"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="395sp" />
-
-    <TextView
-       android:layout_width="250sp"
-       android:layout_height="40sp"
-       android:background="@color/opacity_blue"
-       android:layout_marginStart="30sp"
-       android:layout_marginTop="425sp"/>
-
-    <Button
-        android:id="@+id/button_change_user"
-        style="@style/CustomButtonUser"
-        android:layout_width="120sp"
-        android:layout_height="60sp"
-        android:layout_marginStart="285sp"
-        android:layout_marginTop="405sp" />
-
-    <TextView
         android:id="@+id/email_"
         style="@style/name_email_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="515sp" />
+        android:layout_marginStart="180sp"
+        android:layout_marginTop="450sp" />
 
     <TextView
-        android:layout_width="250sp"
+        android:layout_width="335sp"
         android:layout_height="40sp"
         android:background="@color/opacity_blue"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="545sp"/>
-
-    <Button
-        android:id="@+id/button_change_email"
-        style="@style/CustomButtonEmail_"
-        android:layout_width="120sp"
-        android:layout_height="60sp"
-        android:layout_marginTop="525sp"
-        android:layout_marginStart="285sp"/>
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="480sp"/>
 
     <TextView
         android:id="@+id/password_"
         style="@style/name_password_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="635sp" />
+        android:layout_marginStart="170sp"
+        android:layout_marginTop="570sp" />
 
     <TextView
-        android:layout_width="250sp"
+        android:layout_width="335sp"
         android:layout_height="40sp"
         android:background="@color/opacity_blue"
-        android:layout_marginStart="30sp"
-        android:layout_marginTop="665sp"/>
-
-    <Button
-        android:id="@+id/button_change_psw"
-        style="@style/CustomButtonPss"
-        android:layout_width="120sp"
-        android:layout_height="60sp"
-        android:layout_marginTop="645sp"
-        android:layout_marginStart="285sp"/>
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="600sp"/>
 
     <!-- FARE DUE ACTIVITY PER I DUE PULSANTI -->
 

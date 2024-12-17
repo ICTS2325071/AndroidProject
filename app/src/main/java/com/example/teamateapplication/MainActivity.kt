@@ -14,7 +14,7 @@ open class MainActivity : AppCompatActivity() {
         val textViewSubtitle: TextView = findViewById(R.id.textView_subtitle)
 
         textViewSubtitle.setOnClickListener {
-            val intent = Intent(this, StatisticsPageActivity::class.java)
+            val intent = Intent(this, HomeLoginActivity::class.java)
             startActivity(intent)
         }
     }
