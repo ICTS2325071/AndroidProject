@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
@@ -14,39 +15,25 @@ import androidx.recyclerview.widget.RecyclerView
 
 class StatisticsPageActivity : AppCompatActivity() {
 
-    private lateinit var adapter: PlayerAdapter
-    private lateinit var players: List<Player>
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_statistics_page)
 
-        // Lista dei giocatori
-        players = listOf(
-            Player("Jannik Sinner", R.drawable.italia, R.drawable.jannik_sinner),
-            Player("Alexander Zverev", R.drawable.germania, R.drawable.alexander_zverev),
-            Player("Carlos Alcaraz", R.drawable.spagna, R.drawable.carlos_alcaraz),
-            Player("Taylor Fritz", R.drawable.usa, R.drawable.taylor_fritz),
-            Player("Daniil Medvedev", R.drawable.russia, R.drawable.daniil_medvedev),
-            Player("Novak Djokovic", R.drawable.serbia, R.drawable.novak_djokovic),
-            Player("Andrey Rublev", R.drawable.russia, R.drawable.andrey_rublev),
-            Player("Grigor Dimitrov", R.drawable.bulgaria, R.drawable.grigor_dimitrov),
-            Player("Alex Deminaur", R.drawable.australia, R.drawable.alex_deminaur),
-            Player("Casper Ruud", R.drawable.norvegia, R.drawable.casper_ruud)
-        )
+        val players = loadPlayersFromJson(this) // Funzione che carica i giocatori
+
+        // Log per verificare che i giocatori siano stati caricati correttamente
+        Log.d("JSON", players.toString())
 
         // Configura la RecyclerView
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView_players)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        adapter = PlayerAdapter(players) { player ->
-            // Apri l'altra Activity
-            val intent = Intent(this, PlayerInformationsActivity::class.java)
-            // Passa dati alla nuova Activity
-            intent.putExtra("player_name", player.name)
-            intent.putExtra("player_country", player.flagResId)
-            startActivity(intent)
-        }
+
+        val adapter = PlayerAdapter(
+            this,
+            players,
+            PlayerInformationsActivity::class.java // Activity di destinazione
+        )
         recyclerView.adapter = adapter
+        recyclerView.layoutManager = LinearLayoutManager(this)
 
         // Configura il filtro sull'EditText
         val editTextSearch = findViewById<EditText>(R.id.editText_search)

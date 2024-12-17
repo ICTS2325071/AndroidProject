@@ -2,11 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/hard_court"
+    android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HardCourtActivity"
-    android:background="@drawable/hard">
+    tools:context=".CareerStatsActivity">
 
     <TextView
         android:id="@+id/title_player_informations"
@@ -18,8 +17,7 @@
         android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/medium_high_blue"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/back"
@@ -43,24 +41,66 @@
     <ImageView
         android:id="@+id/player_img"
         android:layout_width="120sp"
-        android:layout_height="100sp"
+        android:layout_height="170sp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
 
     <TextView
-        android:id="@+id/hard_court_textView"
+        android:id="@+id/textView_surface"
         style="@style/CustomTextViewSurface"
         android:layout_width="100sp"
         android:layout_height="60sp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/player_img"
-        app:layout_constraintTop_toBottomOf="@+id/title_player_informations"
-        android:text="@string/Hard"
-        android:background="@color/medium_high_blue" />
+        app:layout_constraintTop_toBottomOf="@+id/title_player_informations" />
+
+    <!-- Partite vinte -->
+    <TextView
+        android:id="@+id/textViewMatchesWon"
+        style="@style/CustomTextViewStatsCareer"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_img" />
+
+    <!-- Partite perse -->
+    <TextView
+        android:id="@+id/textViewMatchesLost"
+        style="@style/CustomTextViewStatsCareer"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMatchesWon" />
+
+    <!-- Altezza -->
+    <TextView
+        android:id="@+id/textViewWinRate"
+        style="@style/CustomTextViewStatsCareer"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMatchesLost" />
+
+    <!-- Peso -->
+    <TextView
+        android:id="@+id/textViewTournamentsWon"
+        style="@style/CustomTextViewStatsCareer"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWinRate" />
 
     <TextView
         android:id="@+id/textView_menu_bottom"
@@ -72,7 +112,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/medium_high_blue"
         android:gravity="center" />
 
     <ImageButton

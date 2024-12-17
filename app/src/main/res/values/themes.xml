@@ -458,9 +458,24 @@
         </style>
 
     <style name="CustomButtonPlayer">
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/opacity_blue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextViewStats">
+        <item name="android:background">@color/opacity_blue</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTextViewStatsCareer">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
 

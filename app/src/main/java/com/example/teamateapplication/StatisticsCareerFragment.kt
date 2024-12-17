@@ -7,9 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.LinearLayout
 
 class StatisticsCareerFragment : Fragment() {
+
+    private var selectedPlayer: Player? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -18,27 +19,57 @@ class StatisticsCareerFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_statistics_career, container, false)
 
+        // Ricevi il giocatore selezionato (puoi passarlo come argomento al Fragment)
+        selectedPlayer = arguments?.getParcelable("selected_player")
+
         val buttonHardCourt = view.findViewById<Button>(R.id.hard_court_button)
 
+        // Listener per ogni bottone
         buttonHardCourt.setOnClickListener {
-            val intent = Intent(requireContext(), HardCourtActivity::class.java)
-            startActivity(intent)
+            openCareerStatsActivity(
+                selectedPlayer?.careerStatsHardCourt,
+                R.drawable.hard,
+                R.color.medium_high_blue,
+                "Cemento"
+            )
         }
 
         val buttonGrassCourt = view.findViewById<Button>(R.id.grass_court_button)
 
         buttonGrassCourt.setOnClickListener {
-            val intent = Intent(requireContext(), GrassCourtActivity::class.java)
-            startActivity(intent)
+            openCareerStatsActivity(
+                selectedPlayer?.careerStatsGrassCourt,
+                R.drawable.grass,
+                R.color.green,
+                "Erba"
+            )
         }
 
         val buttonClayCourt = view.findViewById<Button>(R.id.clay_court_button)
 
         buttonClayCourt.setOnClickListener {
-            val intent = Intent(requireContext(), ClayCourtActivity::class.java)
-            startActivity(intent)
+            openCareerStatsActivity(
+                selectedPlayer?.careerStatsClayCourt,
+                R.drawable.clay,
+                R.color.orange,
+                "Terra rossa"
+            )
         }
 
         return view
+    }
+
+    private fun openCareerStatsActivity(careerStats: CareerStats?, backgroundResId: Int, textViewColorResId: Int, textToDisplay: String) {
+        selectedPlayer?.let { player ->
+            val intent = Intent(requireContext(), CareerStatsActivity::class.java)
+            intent.putExtra("player_name", player.name)
+            intent.putExtra("player_flag", player.flagResId)
+            intent.putExtra("player_image", player.imageResId)
+            intent.putExtra("career_stats", careerStats)
+            intent.putExtra("background_res_id", backgroundResId) // Passa lo sfondo
+            intent.putExtra("text_view_color_res_id", textViewColorResId)
+            intent.putExtra("text_to_display", textToDisplay)
+            startActivity(intent)
+        }
     }
 }

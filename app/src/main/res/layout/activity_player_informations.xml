@@ -93,7 +93,49 @@
         app:layout_constraintStart_toEndOf="@+id/stats_career"
         app:layout_constraintTop_toBottomOf="@+id/stats_player" />
 
+    <!-- Età -->
+    <TextView
+        android:id="@+id/player_age"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stats_career" />
 
+    <!-- Nazionalità -->
+    <TextView
+        android:id="@+id/player_nationality"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_age" />
+
+    <!-- Altezza -->
+    <TextView
+        android:id="@+id/player_height"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_nationality" />
+
+    <!-- Peso -->
+    <TextView
+        android:id="@+id/player_weight"
+        style="@style/CustomTextViewStats"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player_height" />
 
     <TextView
         android:id="@+id/textView_menu_bottom"
@@ -142,7 +184,7 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="450sp"
-        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_menu_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/stats_career" />

@@ -3,6 +3,7 @@ package com.example.teamateapplication
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
@@ -10,6 +11,12 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.teamateapplication.StatisticsPlayerFragment
+import com.example.teamateapplication.StatisticsCareerFragment
+import com.example.teamateapplication.LastNewsFragment
+
 
 class PlayerInformationsActivity : AppCompatActivity() {
 
@@ -23,18 +30,30 @@ class PlayerInformationsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_player_informations)
 
+        val selectedPlayerName = intent.getStringExtra("player_name")
+        // Carica i dati dal JSON
+        val players = loadPlayersFromJson(this) // Carica tutti i giocatori
+
+        val selectedPlayer = players.firstOrNull { it.name == selectedPlayerName }
+
+        if (selectedPlayer == null) {
+            Log.e("PlayerInfo", "Giocatore non trovato: $selectedPlayerName")
+            finish() // Torna indietro se non trova il giocatore
+            return
+        }
+
         // Ricevi i dati passati dall'Intent
-        val playerName = intent.getStringExtra("player_name")
-        val playerCountry = intent.getIntExtra("player_country", 0)
-        val playerImageResId = intent.getIntExtra("player_image", 0)
+        findViewById<TextView>(R.id.title_player_informations).text = selectedPlayer.name
+        val flagDrawableId = resources.getIdentifier(selectedPlayer.flagResId, "drawable", packageName)
+        val playerDrawableId = resources.getIdentifier(selectedPlayer.imageResId, "drawable", packageName)
         // Trova le viste nel layout
-        val textViewDetail = findViewById<TextView>(R.id.title_player_informations)
-        val imageViewCountry = findViewById<ImageView>(R.id.country_img)
-        val imageViewPlayer = findViewById<ImageView>(R.id.player_img)
-        // Imposta i valori nelle viste
-        textViewDetail.text = playerName
-        imageViewCountry.setImageResource(playerCountry)
-        imageViewPlayer.setImageResource(playerImageResId)
+        findViewById<ImageView>(R.id.country_img).setImageResource(flagDrawableId)
+        findViewById<ImageView>(R.id.player_img).setImageResource(playerDrawableId)
+
+        findViewById<TextView>(R.id.player_age).text = "Età: ${selectedPlayer.playerInfo.age}"
+        findViewById<TextView>(R.id.player_nationality).text = "Nazionalità: ${selectedPlayer.playerInfo.nationality}"
+        findViewById<TextView>(R.id.player_height).text = "Altezza: ${selectedPlayer.playerInfo.height} cm"
+        findViewById<TextView>(R.id.player_weight).text = "Peso: ${selectedPlayer.playerInfo.weight} kg"
 
         // Riferimenti ai bottoni
         buttonInfoPlayer = findViewById(R.id.info_player)
@@ -53,12 +72,30 @@ class PlayerInformationsActivity : AppCompatActivity() {
         }
 
         buttonStatsPlayer.setOnClickListener {
-            loadFragment(StatisticsPlayerFragment())
+            selectedPlayer?.let { player ->
+                // Crea il fragment con le playerStats
+                val fragment = StatisticsPlayerFragment.newInstance(player.playerStats)
+
+                // Sostituisci il fragment nel container
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, fragment)
+                    .commit()
+            } ?: run {
+                Log.e("PlayerInfo", "Giocatore non trovato")
+            }
             updateButtonBackground(buttonStatsPlayer)
         }
 
         buttonStatsCareer.setOnClickListener {
-            loadFragment(StatisticsCareerFragment())
+            val statsFragment = StatisticsCareerFragment().apply {
+                arguments = Bundle().apply {
+                    putParcelable("selected_player", selectedPlayer)
+                }
+            }
+
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, statsFragment)
+                .commit()
             updateButtonBackground(buttonStatsCareer)
         }
 
