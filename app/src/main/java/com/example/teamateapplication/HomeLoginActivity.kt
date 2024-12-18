@@ -47,7 +47,13 @@ class HomeLoginActivity : AppCompatActivity() {
         val email = emailView?.text.toString()
         val password = passwordView?.text.toString()
 
-        loginButton?.isEnabled = !(email.isEmpty() || password.isEmpty())
+        if (email.isNotEmpty() && password.isNotEmpty()) {
+            loginButton?.isEnabled = true
+            loginButton?.setBackgroundColor(getColor(R.color.light_blue)) // Colore per stato abilitato
+        } else {
+            loginButton?.isEnabled = false
+            loginButton?.setBackgroundColor(getColor(R.color.opacity_blue)) // Colore per stato disabilitato
+        }
     }
 
     private fun checkFormLogin() {
